@@ -1,23 +1,26 @@
-if (Meteor.isClient) {
-  // counter starts at 0
-  Session.setDefault('counter', 0);
+if(Meteor.isClient){
+	Template.editorPage.helpers({
 
-  Template.hello.helpers({
-    counter: function () {
-      return Session.get('counter');
-    }
-  });
+	    "editorOptions": function() {
+	    	console.log('jjhjhjhjh');
+	        return {
+	            lineNumbers: true,
+	            fixedGutter: true,
+	            mode: "text/x-c++src",
+	            lineWrapping: true,
+	            cursorHeight: 1.5,
+	        }
+	    },
 
-  Template.hello.events({
-    'click button': function () {
-      // increment the counter when button is clicked
-      Session.set('counter', Session.get('counter') + 1);
-    }
-  });
-}
+	    "editorCode": function() {
+	        return "Code to show in editor";
+	    },
 
-if (Meteor.isServer) {
-  Meteor.startup(function () {
-    // code to run on server at startup
-  });
+	    "getEditorText": function() {
+        	return Session.get("varName"); // "varName" is variable name you provided to reactiveVar 
+    	}
+
+	});
+
+
 }

@@ -1,14 +1,17 @@
 <head>
-  <title>editor2</title>
+ <title> Editor</title>
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
+ {{>editorPage}}
 </body>
 
-<template name="hello">
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
+<template name="editorPage">
+
+	{{> CodeMirror id="some-id" name="someName" options=editorOptions code=editorCode reactiveVar="varName"}}
+
+	<div>
+		<textarea id="output"></textarea>
+	</div>
+
 </template>
