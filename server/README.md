@@ -1,0 +1,1 @@
+Here should be the publish and meteor methods implementations.
