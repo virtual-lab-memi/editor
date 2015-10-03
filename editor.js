@@ -1,5 +1,5 @@
 if(Meteor.isClient){
-	Template.editorPage.helpers({
+	Template.EditorPage.helpers({
 
 	    "editorOptions": function() {
 	    	console.log('jjhjhjhjh');
