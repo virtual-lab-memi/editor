@@ -1,3 +1,9 @@
 <template name="Editor">
-    {{> CodeMirror id="some-id" name="someName" options=editorOptions code=editorCode reactiveVar="varName"}}
+    {{> CodeMirror id="id_codemirror" name="name_codemirror" options=editorOptions code=editorCode reactiveVar="varName"}}
+
+    <div>
+    	<button type="button" class="btn btn-primary" id="compile"> Compile </button>
+
+    	<button type="button" class="btn btn-success" id="run"> Run </button>
+    </div>
 </template>
