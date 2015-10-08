@@ -13,35 +13,27 @@ Template.Editor.helpers({
 
 });
 
-
 Template.Editor.events({
+    // This button click got property of editor and verify. if not empty after
+    // insert database then call method to server por send to request
     'click #compile':function(event, template){
         event.preventDefault();
-        // get property of editor
-        var text = template.find("#id_codemirror").value;
-        // verify text is no empty
+        var text = template.find("#idCodemirror").value;
         if( text !== ""){
-            // initialize object document
             var document = {
                 code: text,
                 language: "cpp"
             };
-            // insert row in database
             Documents.insert(document, function(error, documentId){
-                // verify any error
                 if(error){
-                    console.log('Document insert error', error);
-                    return;
+                    $("#error").append(error);
                 }else{
-                    console.log('Document insert success');
-                    // call method
                     Meteor.call("compile", documentId, document.language, function(error, reply){
-                        //
                         if(error){
-                            console.log(error.reason);
+                            $("#error").append(error.reason);
                         }else{
-                            var box_output = $('#output');
-                            box_output.val(reply);
+                            var textAreaOutput = $('#output');
+                            textAreaOutput.val(reply);
                             console.info(reply);
                         }
                     });
