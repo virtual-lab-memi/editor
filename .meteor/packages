@@ -23,3 +23,7 @@ less
 twbs:bootstrap
 iron:router
 ejson
+meteorhacks:npm
+
+
+npm-container

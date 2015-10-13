@@ -1,6 +1,6 @@
 Template.Editor.helpers({
 
-    "editorOptions": function() {
+    "editorOptions": function () {
         return {
             lineNumbers: true,
             fixedGutter: true,
@@ -13,38 +13,46 @@ Template.Editor.helpers({
 
 });
 
+
 Template.Editor.events({
     // This button click got property of editor and verify. if not empty after
     // insert database then call method to server por send to request
-    'click #compile':function(event, template){
+    'click #compile': function (event, template) {
         event.preventDefault();
+
         var text = template.find("#idCodemirror").value;
-        if( text !== ""){
+
+        if (text !== "") {
             var document = {
                 code: text,
                 language: "cpp"
             };
-            Documents.insert(document, function(error, documentId){
-                if(error){
+
+            Documents.insert(document, function (error, documentId) {
+                if (error) {
+                    $("#error").val('');
                     $("#error").append(error);
-                }else{
-                    Meteor.call("compile", documentId, document.language, function(error, reply){
-                        if(error){
-                            $("#error").append(error.reason);
-                        }else{
-                            var textAreaOutput = $('#output');
-                            textAreaOutput.val(reply);
-                            console.info(reply);
-                        }
-                    });
+                    return;
                 }
+
+                Meteor.call("compile", documentId, function (error, response) {
+                    if (error) {
+                        $("#error").val('');
+                        $("#error").append(error);
+                        return;
+                    }
+
+                    var textAreaOutput = $('#output');
+                    textAreaOutput.val(response);
+
+                });
+
             });
 
         }
 
     },
-    'click #run':function(event, template){
+    'click #run': function (event, template) {
         event.preventDefault();
-        console.log("run");
     }
 });
