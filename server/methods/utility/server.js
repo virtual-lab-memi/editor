@@ -6,46 +6,24 @@ if (Meteor.isServer) {
 
             var idTaskExecution;
 
-            var r = request.post('http://localhost:8888/api/compile', Meteor.bindEnvironment(function (err, httpResponse, body) {
+            var taskExecution = {
+                type: 'compile',
+                sourceCode: documentId
+            };
 
-                var taskExecution = {
-                    type: 'compile',
-                    sourceCode: documentId
-                };
-
-                if (err || httpResponse.statusCode !== 200) {
-
-                    taskExecution.status = 1; // fail
-
-                    TaskExecutions.insert(taskExecution, function (error, taskExecutionId) {
-                        if (error) {
-                            $("#error").val('');
-                            $("#error").append(error);
-                        }
-
-                        idTaskExecution = taskExecutionId;
-                    });
-
-                    console.error('error:', err || httpResponse.body);
-
-                } else {
-
-                    taskExecution.status = 0; //success
-
-                    TaskExecutions.insert(taskExecution, function(error, taskExecutionId){
-                        if (error) {
-                            $("#error").val('');
-                            $("#error").append(error);
-                        }
-
-                        idTaskExecution = taskExecutionId;
-                    });
-                }
-
-            }));
+            TaskExecutions.insert(taskExecution, function (error, taskExecutionId) {
+                idTaskExecution = taskExecutionId;
+                var r = request.post('http://localhost:8888/api/compile', Meteor.bindEnvironment(function (err, httpResponse, body) {
+                    if (err || httpResponse.statusCode !== 200) {
+                        console.error('error:', err || httpResponse.body);
+                    }
+                }));
+                var form = r.form();
+                form.append('taskExecution', taskExecutionId);
+            });
 
             return idTaskExecution;
-        },
+        }
 
     });
 }
