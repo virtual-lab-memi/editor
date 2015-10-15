@@ -1,16 +1,44 @@
-Template.Editor.helpers({
+Template.Editor.onCreated(function() {
+    var self = this;
+    var document = {
+        code: '',
+        language: "cpp"
+    };
 
-    "editorOptions": function () {
+    self.documentId = new ReactiveVar('');
+    self.taskExecutionId = new ReactiveVar('');
+
+    Documents.insert(document, function(error, documentId) {
+        if (error) {
+            $("#error").val('');
+            $("#error").append(error);
+            console.log(error);
+            return;
+        }
+
+        self.documentId.set(documentId);
+    });
+});
+
+Template.Editor.helpers({
+    editorOptions: function () {
         return {
             lineNumbers: true,
             fixedGutter: true,
             mode: "text/x-c++src",
             lineWrapping: true,
             cursorHeight: 1.5,
-            theme: "lesser-dark",
+            theme: "lesser-dark"
         }
     },
-
+    outputContent: function() {
+        if (Template.instance().taskExecutionId.get() !== '') {
+            var task = TaskExecutions.findOne({_id: Template.instance().taskExecutionId.get()});
+            return task.output;
+        } else {
+            return 'Nothing here';
+        }
+    }
 });
 
 
@@ -21,37 +49,49 @@ Template.Editor.events({
         event.preventDefault();
 
         var text = template.find("#idCodemirror").value;
+        var documentId = template.documentId.get();
 
-        if (text !== "") {
-            var document = {
-                code: text,
-                language: "cpp"
-            };
-
-            Documents.insert(document, function (error, documentId) {
+        if (text !== '') {
+            Documents.update({
+                _id: documentId
+            }, {
+                $set: {
+                    code: text
+                }
+            }, function (error, documentChanged) {
                 if (error) {
                     $("#error").val('');
                     $("#error").append(error);
                     return;
                 }
 
-                Meteor.call("compile", documentId, function (error, response) {
-                    if (error) {
-                        $("#error").val('');
-                        $("#error").append(error);
-                        return;
-                    }
+                if (documentChanged) {
+                    var task = {
+                        type: 'compile',
+                        sourceCode: documentId
+                    };
+                    TaskExecutions.insert(task, function(error, taskId) {
+                        if (error) {
+                            $("#error").val('');
+                            $("#error").append(error);
+                            return;
+                        }
 
-                    var textAreaOutput = $('#output');
-                    textAreaOutput.val(response);
+                        template.taskExecutionId.set(taskId);
 
-                });
-
+                        Meteor.call('compile', documentId, taskId, function (error, response) {
+                            if (error) {
+                                $("#error").val('');
+                                $("#error").append(error);
+                                return;
+                            }
+                        });
+                    });
+                }
             });
-
         }
-
     },
+
     'click #run': function (event, template) {
         event.preventDefault();
     }
