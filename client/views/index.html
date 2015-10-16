@@ -1,13 +1,31 @@
 <template name="Index">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        {{> Editor}}
+
+        {{> CodeMirror id="idCodemirror" name="nameCodemirror" options=editorOptions code=editorCode reactiveVar="varName"}}
+
+        <div id="error">
+        </div>
+
+        <div>
+            <button id="compile" type="button" class="btn btn-primary"> Compile </button>
+
+            <button id="run" type="button" class="btn btn-success"> Run </button>
+        </div>
+
+
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
         <div class="row">
-            {{> Input}}
+
+            <label for="input"> Input </label>
+            <textarea id="input">  </textarea>
+
         </div>
         <div class="row">
-            {{> Output}}
+
+            <label for="output"> Output </label>
+            <textarea id="output" > {{outputContent}} </textarea>
+
         </div>
     </div>
 </template>

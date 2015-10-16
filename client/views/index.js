@@ -1,4 +1,4 @@
-Template.Editor.onCreated(function() {
+Template.Index.onCreated(function() {
     var self = this;
     var document = {
         code: '',
@@ -20,7 +20,7 @@ Template.Editor.onCreated(function() {
     });
 });
 
-Template.Editor.helpers({
+Template.Index.helpers({
     editorOptions: function () {
         return {
             lineNumbers: true,
@@ -42,7 +42,7 @@ Template.Editor.helpers({
 });
 
 
-Template.Editor.events({
+Template.Index.events({
     // This button click got property of editor and verify. if not empty after
     // insert database then call method to server por send to request
     'click #compile': function (event, template) {
