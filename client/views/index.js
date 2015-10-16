@@ -1,4 +1,4 @@
-Template.Index.onCreated(function() {
+Template.Index.onCreated(function () {
     var self = this;
     var document = {
         code: '',
@@ -8,7 +8,7 @@ Template.Index.onCreated(function() {
     self.documentId = new ReactiveVar('');
     self.taskExecutionId = new ReactiveVar('');
 
-    Documents.insert(document, function(error, documentId) {
+    Documents.insert(document, function (error, documentId) {
         if (error) {
             $("#error").val('');
             $("#error").append(error);
@@ -31,7 +31,7 @@ Template.Index.helpers({
             theme: "lesser-dark"
         }
     },
-    outputContent: function() {
+    outputContent: function () {
         if (Template.instance().taskExecutionId.get() !== '') {
             var task = TaskExecutions.findOne({_id: Template.instance().taskExecutionId.get()});
             return task.output;
@@ -70,7 +70,7 @@ Template.Index.events({
                         type: 'compile',
                         sourceCode: documentId
                     };
-                    TaskExecutions.insert(task, function(error, taskId) {
+                    TaskExecutions.insert(task, function (error, taskId) {
                         if (error) {
                             $("#error").val('');
                             $("#error").append(error);
@@ -94,5 +94,58 @@ Template.Index.events({
 
     'click #run': function (event, template) {
         event.preventDefault();
+
+        var text = template.find("#idCodemirror").value;
+        var documentId = template.documentId.get();
+
+        if (text !== '') {
+            var textInput = template.find("#input").value;
+
+            if(textInput !== ''){
+                Documents.update(
+                    {
+                        _id: documentId
+                    },{
+                        $set:{
+                            code: text
+                        }
+                    }, function(error, documentChanged){
+                        if (error) {
+                            $("#error").val('');
+                            $("#error").append(error);
+                            return;
+                        }
+
+                        if(documentChanged){
+
+                            var task = {
+                                type: 'run',
+                                sourceCode: documentId,
+                                input: textInput
+                            };
+
+                            TaskExecutions.insert(task, function(error, taskExecutionId) {
+                                if (error) {
+                                    $("#error").val('');
+                                    $("#error").append(error);
+                                    return;
+                                }
+
+                                template.taskExecutionId.set(taskExecutionId);
+
+                                Meteor.call('run', documentId, taskExecutionId, function(error, response) {
+                                    if (error) {
+                                        $("#error").val('');
+                                        $("#error").append(error);
+                                        return;
+                                    }
+                                });
+                            });
+                        }
+                    });
+
+            }
+            }
     }
+
 });
