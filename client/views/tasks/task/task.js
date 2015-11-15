@@ -1,9 +1,7 @@
-Template.Task.onCreated(function() {
-    Template.instance().subscribe('aTask', FlowRouter.current().params.id);
-});
-
 Template.Task.helpers({
     task: function() {
+        var taskID = FlowRouter.getParam('_id');
+        Template.instance().subscribe('aTask', taskID);
         return Tasks.findOne();
     },
 
