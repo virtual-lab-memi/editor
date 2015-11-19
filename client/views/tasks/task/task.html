@@ -5,10 +5,10 @@
         {{#with task}}
             <div id="dashboard" class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
                 <h4>Tarea: {{title}}</h4>
-                {{#if hasProyect}}
-                    <a id="startProyect" class="btn btn-primary">Iniciar Proyecto</a>
+                {{#if project}}
+                    <a id="continueProject" class="btn btn-primary" href="{{pathFor 'project' id=project._id}}">Ir al Proyecto</a>
                 {{else}}
-                    <a id="continueProyect" class="btn btn-primary">Ir al Proyecto</a>
+                    <a id="startProject" class="btn btn-primary">Iniciar Proyecto</a>
                 {{/if}}
                 <h4>Descripcion</h4>
                 <p>{{description}}</p>

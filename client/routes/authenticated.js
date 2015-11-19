@@ -30,3 +30,17 @@ authenticatedRoutes.route('/tasks/:id', {
         BlazeLayout.render('Default', {yield: 'Task'});
     }
 });
+
+authenticatedRoutes.route('/projects', {
+    name: 'projects',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Projects'});
+    }
+});
+
+authenticatedRoutes.route('/project/:id/:currentFile?', {
+    name: 'project',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Project'});
+    }
+});
