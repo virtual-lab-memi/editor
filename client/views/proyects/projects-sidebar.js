@@ -1,5 +1,5 @@
 Template.ProjectsSidebar.onCreated(function() {
-    Template.instance().subscribe('myProjects');
+    Template.instance().subscribe('projects');
 });
 
 Template.ProjectsSidebar.helpers({

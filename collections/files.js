@@ -3,7 +3,7 @@ const FileSchema = new SimpleSchema({
         type: String
     },
     source: {
-        type: [String],
+        type: String,
         optional: true
     },
     parent: {
