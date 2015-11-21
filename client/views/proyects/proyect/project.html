@@ -21,7 +21,7 @@
                 <ul class="nav nav-tabs">
                     {{#each openedProjectFiles}}
                         <li class="{{#if isCurrentFile _id}}active{{/if}}">
-                            <a data-toggle="tab" href="#{{_id}}">{{name}}
+                            <a data-toggle="tab" href="#tab-{{_id}}">{{name}}
                                 <span data-file-id="{{_id}}" class="glyphicon glyphicon-remove close-tab"></span>
                             </a>
                         </li>
@@ -29,8 +29,8 @@
                 </ul>
                 <div class="tab-content">
                     {{#each openedProjectFiles}}
-                        <div id="{{_id}}" class="tab-pane {{#if isCurrentFile _id}}fade in active{{/if}}">
-                            {{source}}
+                        <div id="tab-{{_id}}" data-file-id="{{_id}}" class="tab-pane {{#if isCurrentFile _id}}fade in active{{/if}}">
+                            {{> CodeMirror id=_id name=_id options=editorOptions code=source}}
                         </div>
                     {{/each}}
                 </div>

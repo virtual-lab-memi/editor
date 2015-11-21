@@ -17,6 +17,15 @@ Template.Project.helpers({
     isCurrentFile: function(fileId) {
         var project = Projects.findOne();
         return project.currentFile === fileId;
+    },
+    editorOptions: function () {
+        return {
+            lineNumbers: true,
+            fixedGutter: true,
+            mode: "text/x-c++src",
+            lineWrapping: true,
+            cursorHeight: 1.5
+        }
     }
 });
 
@@ -32,7 +41,6 @@ Template.Project.events({
     },
 
     'click .open-tab': function(event, template) {
-        console.log('asdasd');
         var project = Projects.findOne();
         var fileId = event.target.dataset.fileId;
 
@@ -41,6 +49,14 @@ Template.Project.events({
         }
 
         Projects.update(project._id, {$set: {currentFile: fileId}});
+    },
+
+    'keydown .tab-pane': function(event, template) {
+        //TODO: Improve with blur instead of keydown.
+        var tabContent = event.target.parentNode.parentNode.parentElement;
+        var fileId = tabContent.dataset.fileId;
+        var content = $('#' + fileId).val();
+        var result = Files.update(fileId, {$set: {source: content}});
     }
 });
 
