@@ -5,6 +5,13 @@ const ProjectSchema = new SimpleSchema({
     files: {
         type: [String]
     },
+    currentFile: {
+        type: String,
+        optional: true
+    },
+    openedFiles: {
+        type: [String]
+    },
     parent: {
         //Task ID
         type: String
