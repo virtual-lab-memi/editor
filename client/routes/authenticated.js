@@ -38,6 +38,13 @@ authenticatedRoutes.route('/tasks/:id', {
     }
 });
 
+authenticatedRoutes.route('/create-test-case/:taskId', {
+    name: 'createTestCase',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'CreateTestCase'});
+    }
+});
+
 authenticatedRoutes.route('/projects', {
     name: 'projects',
     action: function() {

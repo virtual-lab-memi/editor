@@ -1,3 +1,18 @@
+const TestCasesSchema = new SimpleSchema({
+    input: {
+        type: String
+    },
+    output: {
+        type: String
+    },
+    feedback: {
+        type: String
+    },
+    tag: {
+        type: String
+    }
+});
+
 const TaskSchema = new SimpleSchema({
     title: {
         type: String
@@ -6,6 +21,13 @@ const TaskSchema = new SimpleSchema({
         type: String
     },
     initialFileContent: {
+        type: String
+    },
+    tests: {
+        type: [TestCasesSchema],
+        optional: true
+    },
+    type: {
         type: String
     },
     projects: {

@@ -1,0 +1,41 @@
+<template name="CreateTestCase">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <h4 class="page-header">Añadir Caso de Prueba</h4>
+
+            <div class="form-group">
+                <label for="input">Entrada</label>
+                {{#if input}}
+                    Already uploaded: {{input}}
+                {{else}}
+                    {{> upload_bootstrap callbacks=inputCallback}}
+                {{/if}}
+            </div>
+
+            <div class="form-group">
+                <label for="output">Salida</label>
+                {{#if output}}
+                    Already uploaded: {{output}}
+                {{else}}
+                    {{> upload_bootstrap callbacks=outputCallback}}
+                {{/if}}
+            </div>
+
+            <form id="test-case-form">
+                <div class="form-group">
+                    <label for="feedback">Retroalimentacion en error</label>
+                    <input type="text" name="feedback" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="tag">Tag</label>
+                    <input type="tag" name="tag" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Añadir" class="btn btn-primary"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</template>

@@ -19,11 +19,13 @@ Template.CreateTask.onRendered(function() {
         submitHandler: function() {
             var title    = $( '[name="title"]' ).val(),
                 description = $('[name="description"]').val();
+                type = $('[name="type"]').val();
 
             Tasks.insert({
                 title: title,
                 description: description,
-                initialFileContent: 'public class Main() {}'
+                initialFileContent: 'public class Main() {}',
+                type: type
             }, function(error, taskId) {
                 console.log(arguments);
                 if(error) {
@@ -32,7 +34,7 @@ Template.CreateTask.onRendered(function() {
                 }
 
                 Bert.alert('La tarea se creo exitosamente!', 'success');
-                FlowRouter.go('tasks');
+                FlowRouter.go('task', {id: taskId});
             })
         }
     });
