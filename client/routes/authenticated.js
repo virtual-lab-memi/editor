@@ -10,6 +10,13 @@ const authenticatedRoutes = FlowRouter.group({
     triggersEnter: [authenticatedRedirect]
 });
 
+authenticatedRoutes.route('/settings', {
+    name: 'settings',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Settings'});
+    }
+});
+
 authenticatedRoutes.route('/tasks', {
     name: 'tasks',
     action: function() {
