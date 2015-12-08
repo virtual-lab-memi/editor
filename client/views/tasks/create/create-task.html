@@ -13,6 +13,12 @@
                     <input type="description" name="description" class="form-control">
                 </div>
                 <div class="form-group">
+                    <label for="testCases">Casos de Prueba</label>
+                </div>
+                {{> TestCase id="easy" title="Facil"}}
+                {{> TestCase id="average" title="Intermedio"}}
+                {{> TestCase id="hard" title="Dificil"}}
+                <div class="form-group">
                     <input type="submit" value="Crear Tarea" class="btn btn-primary"/>
                 </div>
             </form>
