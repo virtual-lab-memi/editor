@@ -6,7 +6,7 @@ Meteor.methods({
                 testCase.input = inputID;
                 testCase.output = outputID;
 
-                Task.update(taskId, {$push: {testCases: testCase}});
+                Tasks.update(taskId, {$push: {testCases: testCase}});
             });
         });
     }

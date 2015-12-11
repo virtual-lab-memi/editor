@@ -23,7 +23,7 @@ const TaskSchema = new SimpleSchema({
     initialFileContent: {
         type: String
     },
-    tests: {
+    testCases: {
         type: [TestCasesSchema],
         optional: true
     },

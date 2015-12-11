@@ -14,7 +14,7 @@ Template.Task.helpers({
         var taskId = FlowRouter.getParam('id');
         var task = Tasks.findOne(taskId);
 
-        if (task.testCases.length) {
+        if (task.testCases && task.testCases.length) {
             return true;
         }
 
