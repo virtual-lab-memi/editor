@@ -57,7 +57,18 @@ Template.Project.events({
         var fileId = tabContent.dataset.fileId;
         var content = $('#' + fileId).val();
         var result = Files.update(fileId, {$set: {source: content}});
+    },
+
+    'click #compile': function (event, template) {
+        event.preventDefault();
+        console.log('compile');
+    },
+
+    'click #run': function (event, template) {
+        event.preventDefault();
+        console.log('run');
     }
+
 });
 
 Template.CreateFile.events({

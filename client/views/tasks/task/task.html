@@ -3,20 +3,24 @@
         {{> TasksSidebar}}
 
         {{#with task}}
-            <div id="dashboard" class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
+            <div id="dashboard" class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
                 <h4>Tarea: {{title}}</h4>
-                {{#if project}}
-                    <a id="continueProject" class="btn btn-primary" href="{{pathFor 'project' id=project._id}}">Ir al Proyecto</a>
-                {{else}}
-                    {{#if isValidTask}}
-                        <a id="startProject" class="btn btn-primary">Iniciar Proyecto</a>
+
+                {{#unless isValidTask}}
+                    <div class="alert alert-danger" role="alert">Agregue al menos un caso de prueba para iniciar esta tarea.</div>
+                {{/unless}}
+
+                <div class="btn-group" role="group">
+                    {{#if project}}
+                        <a id="continueProject" class="btn btn-primary" href="{{pathFor 'project' id=project._id}}">Ir al Proyecto</a>
                     {{else}}
-                        <div class="alert alert-danger" role="alert">No existen casos de prueba para esta tarea, por tanto no se puede iniciar.</div>
-                        <div>
-                            <a id="addTestCase" class="btn btn-primary" href="{{pathFor 'createTestCase' taskId=_id}}">Añadir caso de prueba</a>
-                        </div>
+                        {{#if isValidTask}}
+                            <a id="startProject" class="btn btn-primary">Iniciar Proyecto</a>
+                        {{/if}}
+                        <a id="addTestCase" class="btn btn-primary" href="{{pathFor 'createTestCase' taskId=_id}}">Añadir caso de prueba</a>
                     {{/if}}
-                {{/if}}
+                </div>
+
                 <h4>Descripcion</h4>
                 <p>{{description}}</p>
                 {{#if task.testCases}}
