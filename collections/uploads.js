@@ -1,0 +1,1 @@
+Uploads = new Meteor.Collection('uploads');

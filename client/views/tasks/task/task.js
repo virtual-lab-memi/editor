@@ -8,6 +8,17 @@ Template.Task.helpers({
     project: function() {
         var taskId = FlowRouter.getParam('id');
         return Projects.findOne({parent: taskId});
+    },
+
+    isValidTask: function() {
+        var taskId = FlowRouter.getParam('id');
+        var task = Tasks.findOne(taskId);
+
+        if (task.testCases && task.testCases.length) {
+            return true;
+        }
+
+        return false;
     }
 });
 Template.Task.events({

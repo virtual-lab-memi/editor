@@ -10,6 +10,13 @@ const authenticatedRoutes = FlowRouter.group({
     triggersEnter: [authenticatedRedirect]
 });
 
+authenticatedRoutes.route('/settings', {
+    name: 'settings',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Settings'});
+    }
+});
+
 authenticatedRoutes.route('/tasks', {
     name: 'tasks',
     action: function() {
@@ -28,6 +35,13 @@ authenticatedRoutes.route('/tasks/:id', {
     name: 'task',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Task'});
+    }
+});
+
+authenticatedRoutes.route('/create-test-case/:taskId', {
+    name: 'createTestCase',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'CreateTestCase'});
     }
 });
 

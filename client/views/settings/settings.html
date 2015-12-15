@@ -1,0 +1,22 @@
+<template name="Settings">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h4 class="page-header">Configuracion</h4>
+      {{#with settings}}
+      <form id="settings-form">
+        <div class="form-group">
+          <label for="saveTimeout">Intervalo de espera para guardado [min]</label>
+          <input type="number" name="saveTimeout" class="form-control" value="{{saveTimeout}}">
+        </div>
+        <div class="form-group">
+          <label for="keystrokes">Keystrokes</label>
+          <input type="number" name="keystrokes" class="form-control" value="{{keystrokes}}">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Actualizar" class="btn btn-primary"/>
+        </div>
+      </form>
+      {{/with}}
+    </div>
+  </div>
+</template>
