@@ -16,11 +16,13 @@
             </div>
 
             <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="/tasks">Tareas</a></li>
-                    <li><a href="/projects">Proyectos</a></li>
-                    <li><a href="/settings">Configuracion</a></li>
-                </ul>
+                {{#if currentUser}}
+                    {{> AuthenticatedNavigation}}
+                {{else}}
+                    <ul class="nav navbar-nav">
+                        <li><a class="brand" href="{{pathFor 'Login'}}"> Login </a></li>
+                    </ul>
+                {{/if}}
             </div>
         </div>
     </nav>

@@ -1,0 +1,49 @@
+<template name="Invites">
+{{#if isInRole 'admin'}}
+    <div class="panel panel-default">
+        <div class="panel-heading">Invitaciones</div>
+        <div class="panel-body">
+
+            <div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#email" aria-controls="email" role="tab" data-toggle="tab">Usando Email</a></li>
+                    <li role="presentation"><a href="#bulk" aria-controls="bulk" role="tab" data-toggle="tab">Desde Archivo CSV</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="email">
+                        {{> SendInvite}}
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="bulk">
+                        {{> CreateUserFile}}
+                    </div>
+                </div>
+            </div>
+
+            {{#if hasInvitations}}
+                <table class="table table-bordered">
+                    <thead>
+                    <tr>
+                        <th>Correo Electrónico o Nombre de Usuario</th>
+                        <th class="text-center">Tipo</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{#each invitations}}
+                        <tr>
+                            <td class="text-left text-middle">{{email}} {{username}}</td>
+                            <td class="text-center text-middle">{{role}}</td>
+                            <td class="text-center">
+                                <button type="button" class="btn btn-danger revoke-invite">Revocar Invitación</button>
+                            </td>
+                        </tr>
+                    {{/each}}
+                    </tbody>
+                </table>
+            {{else}}
+                <p class="alert alert-warning">No exiten invitaciones pendientes.</p>
+            {{/if}}
+        </div>
+    </div>
+{{/if}}
+</template>

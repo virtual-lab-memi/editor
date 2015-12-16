@@ -1,8 +1,7 @@
 const authenticatedRedirect = function() {
-    //TODO: Uncomment when auth ready
-    /*if (!Meteor.loggingIn() && !Meteor.userId()) {
+    if (!Meteor.loggingIn() && !Meteor.userId()) {
       FlowRouter.go('login');
-    }*/
+    }
 };
 
 const authenticatedRoutes = FlowRouter.group({
@@ -56,5 +55,19 @@ authenticatedRoutes.route('/project/:id/:currentFile?', {
     name: 'project',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Project'});
+    }
+});
+
+authenticatedRoutes.route( '/users', {
+    name: 'users',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Users' } );
+    }
+});
+
+authenticatedRoutes.route( '/invites', {
+    name: 'invites',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Invites' } );
     }
 });

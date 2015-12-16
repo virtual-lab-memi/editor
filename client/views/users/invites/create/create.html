@@ -1,0 +1,32 @@
+<template name="SendInvite">
+    <div class="panel">
+        <div class="panel-body">
+            <form id="send-invite-form">
+                <div class="form-group">
+                    <label for="emailAddress">Correo Electronico</label>
+                    <input type="email" class="form-control" name="emailAddress">
+                </div>
+                <div class="form-group">
+                    <label for="firstname"> Nombres</label>
+                    <input type="text" class="form-control" name="firstname">
+                </div>
+                <div class="form-group">
+                    <label for="lastname"> Apellidos</label>
+                    <input type="text" class="form-control" name="lastname">
+                </div>
+                <div class="form-group">
+                    <label for="roles">Rol de Usuario</label>
+                    <select name="roles" class="form-control">
+                        <option value="">Seleccione un rol...</option>
+                        <option value="student">Estudiante</option>
+                        <option value="teacher"> Teacher </option>
+                        <option value="admin">Administrador</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-success" value="Enviar Invitacion">
+                </div>
+            </form>
+        </div>
+    </div>
+</template>

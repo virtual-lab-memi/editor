@@ -1,0 +1,4080 @@
+sisId,Nombres,Apellidos
+ 20150101 , Kabul, Kabol
+ 20150102 , Qandahar , Qandahar
+ 20150103 , Herat , Herat
+ 20150104 , Mazar-e-Sharif , Balkh 
+ 20150105 , Amsterdam , Noord-Holland 
+ 20150106 , Rotterdam , Zuid-Holland 
+ 20150107 , Haag , Zuid-Holland 
+ 20150108 , Utrecht , Utrecht 
+ 20150109 , Eindhoven , Noord-Brabant 
+ 20150110 , Tilburg , Noord-Brabant 
+ 20150111 , Groningen , Groningen 
+ 20150112 , Breda , Noord-Brabant 
+ 20150113 , Apeldoorn , Gelderland 
+ 20150114 , Nijmegen , Gelderland 
+ 20150115 , Enschede , Overijssel 
+ 20150116 , Haarlem , Noord-Holland 
+ 20150117 , Almere , Flevoland 
+ 20150118 , Arnhem , Gelderland 
+ 20150119 , Zaanstad , Noord-Holland 
+ 20150120 , ´s-Hertogenbosch , Noord-Brabant 
+ 20150121 , Amersfoort , Utrecht 
+ 20150122 , Maastricht , Limburg 
+ 20150123 , Dordrecht , Zuid-Holland 
+ 20150124 , Leiden , Zuid-Holland 
+ 20150125 , Haarlemmermeer , Noord-Holland 
+ 20150126 , Zoetermeer , Zuid-Holland 
+ 20150127 , Emmen , Drenthe 
+ 20150128 , Zwolle , Overijssel 
+ 20150129 , Ede , Gelderland 
+ 20150130 , Delft , Zuid-Holland 
+ 20150131 , Heerlen , Limburg 
+ 20150132 , Alkmaar , Noord-Holland 
+ 20150133 , Willemstad , Curaçao 
+ 20150134 , Tirana , Tirana 
+ 20150135 , Alger , Alger 
+ 20150136 , Oran , Oran 
+ 20150137 , Constantine , Constantine 
+ 20150138 , Annaba , Annaba 
+ 20150139 , Batna , Batna 
+ 20150140 , Sétif , Sétif 
+ 20150141 , Sidi Bel Abbès , Sidi Bel Abbès 
+ 20150142 , Skikda , Skikda 
+ 20150143 , Biskra , Biskra 
+ 20150144 , Blida (el-Boulaida) , Blida 
+ 20150145 , Béjaïa , Béjaïa 
+ 20150146 , Mostaganem , Mostaganem 
+ 20150147 , Tébessa , Tébessa 
+ 20150148 , Tlemcen (Tilimsen) , Tlemcen 
+ 20150149 , Béchar , Béchar 
+ 20150150 , Tiaret , Tiaret 
+ 20150151 , Ech-Chleff (el-Asnam) , Chlef 
+ 20150152 , Ghardaïa , Ghardaïa 
+ 20150153 , Tafuna , Tutuila 
+ 20150154 , Fagatogo , Tutuila 
+ 20150155 , Andorra la Vella , Andorra la Vella 
+ 20150156 , Luanda , Luanda 
+ 20150157 , Huambo , Huambo 
+ 20150158 , Lobito , Benguela 
+ 20150159 , Benguela , Benguela 
+ 20150160 , Namibe , Namibe 
+ 20150161 , South Hill , – 
+ 20150162 , The Valley , – 
+ 20150163 , Saint John´s , St John 
+ 20150164 , Dubai , Dubai 
+ 20150165 , Abu Dhabi , Abu Dhabi 
+ 20150166 , Sharja , Sharja 
+ 20150167 , al-Ayn , Abu Dhabi 
+ 20150168 , Ajman , Ajman 
+ 20150169 , Buenos Aires , Distrito Federal 
+ 20150170 , La Matanza , Buenos Aires 
+ 20150171 , Córdoba , Córdoba 
+ 20150172 , Rosario , Santa Fé 
+ 20150173 , Lomas de Zamora , Buenos Aires 
+ 20150174 , Quilmes , Buenos Aires 
+ 20150175 , Almirante Brown , Buenos Aires 
+ 20150176 , La Plata , Buenos Aires 
+ 20150177 , Mar del Plata , Buenos Aires 
+ 20150178 , San Miguel de Tucumán , Tucumán 
+ 20150179 , Lanús , Buenos Aires 
+ 20150180 , Merlo , Buenos Aires 
+ 20150181 , General San Martín , Buenos Aires 
+ 20150182 , Salta , Salta 
+ 20150183 , Moreno , Buenos Aires 
+ 20150184 , Santa Fé , Santa Fé 
+ 20150185 , Avellaneda , Buenos Aires 
+ 20150186 , Tres de Febrero , Buenos Aires 
+ 20150187 , Morón , Buenos Aires 
+ 20150188 , Florencio Varela , Buenos Aires 
+ 20150189 , San Isidro , Buenos Aires 
+ 20150190 , Tigre , Buenos Aires 
+ 20150191 , Malvinas Argentinas , Buenos Aires 
+ 20150192 , Vicente López , Buenos Aires 
+ 20150193 , Berazategui , Buenos Aires 
+ 20150194 , Corrientes , Corrientes 
+ 20150195 , San Miguel , Buenos Aires 
+ 20150196 , Bahía Blanca , Buenos Aires 
+ 20150197 , Esteban Echeverría , Buenos Aires 
+ 20150198 , Resistencia , Chaco 
+ 20150199 , José C. Paz , Buenos Aires 
+ 20150200 , Paraná , Entre Rios 
+ 20150201 , Godoy Cruz , Mendoza 
+ 20150202 , Posadas , Misiones 
+ 20150203 , Guaymallén , Mendoza 
+ 20150204 , Santiago del Estero , Santiago del Estero 
+ 20150205 , San Salvador de Jujuy , Jujuy 
+ 20150206 , Hurlingham , Buenos Aires 
+ 20150207 , Neuquén , Neuquén 
+ 20150208 , Ituzaingó , Buenos Aires 
+ 20150209 , San Fernando , Buenos Aires 
+ 20150210 , Formosa , Formosa 
+ 20150211 , Las Heras , Mendoza 
+ 20150212 , La Rioja , La Rioja 
+ 20150213 , San Fernando del Valle de Cata , Catamarca 
+ 20150214 , Río Cuarto , Córdoba 
+ 20150215 , Comodoro Rivadavia , Chubut 
+ 20150216 , Mendoza , Mendoza 
+ 20150217 , San Nicolás de los Arroyos , Buenos Aires 
+ 20150218 , San Juan , San Juan 
+ 20150219 , Escobar , Buenos Aires 
+ 20150220 , Concordia , Entre Rios 
+ 20150221 , Pilar , Buenos Aires 
+ 20150222 , San Luis , San Luis 
+ 20150223 , Ezeiza , Buenos Aires 
+ 20150224 , San Rafael , Mendoza 
+ 20150225 , Tandil , Buenos Aires 
+ 20150226 , Yerevan , Yerevan 
+ 20150227 , Gjumri , Širak 
+ 20150228 , Vanadzor , Lori 
+ 20150229 , Oranjestad , – 
+ 20150230 , Sydney , New South Wales 
+ 20150231 , Melbourne , Victoria 
+ 20150232 , Brisbane , Queensland 
+ 20150233 , Perth , West Australia 
+ 20150234 , Adelaide , South Australia 
+ 20150235 , Canberra , Capital Region 
+ 20150236 , Gold Coast , Queensland 
+ 20150237 , Newcastle , New South Wales 
+ 20150238 , Central Coast , New South Wales 
+ 20150239 , Wollongong , New South Wales 
+ 20150240 , Hobart , Tasmania 
+ 20150241 , Geelong , Victoria 
+ 20150242 , Townsville , Queensland 
+ 20150243 , Cairns , Queensland 
+ 20150244 , Baku , Baki 
+ 20150245 , Gäncä , Gäncä 
+ 20150246 , Sumqayit , Sumqayit 
+ 20150247 , Mingäçevir , Mingäçevir 
+ 20150248 , Nassau , New Providence 
+ 20150249 , al-Manama , al-Manama 
+ 20150250 , Dhaka , Dhaka 
+ 20150251 , Chittagong , Chittagong 
+ 20150252 , Khulna , Khulna 
+ 20150253 , Rajshahi , Rajshahi 
+ 20150254 , Narayanganj , Dhaka 
+ 20150255 , Rangpur , Rajshahi 
+ 20150256 , Mymensingh , Dhaka 
+ 20150257 , Barisal , Barisal 
+ 20150258 , Tungi , Dhaka 
+ 20150259 , Jessore , Khulna 
+ 20150260 , Comilla , Chittagong 
+ 20150261 , Nawabganj , Rajshahi 
+ 20150262 , Dinajpur , Rajshahi 
+ 20150263 , Bogra , Rajshahi 
+ 20150264 , Sylhet , Sylhet 
+ 20150265 , Brahmanbaria , Chittagong 
+ 20150266 , Tangail , Dhaka 
+ 20150267 , Jamalpur , Dhaka 
+ 20150268 , Pabna , Rajshahi 
+ 20150269 , Naogaon , Rajshahi 
+ 20150270 , Sirajganj , Rajshahi 
+ 20150271 , Narsinghdi , Dhaka 
+ 20150272 , Saidpur , Rajshahi 
+ 20150273 , Gazipur , Dhaka 
+ 20150274 , Bridgetown , St Michael 
+ 20150275 , Antwerpen , Antwerpen 
+ 20150276 , Gent , East Flanderi 
+ 20150277 , Charleroi , Hainaut 
+ 20150278 , Liège , Liège 
+ 20150279 , Bruxelles [Brussel] , Bryssel 
+ 20150280 , Brugge , West Flanderi 
+ 20150281 , Schaerbeek , Bryssel 
+ 20150282 , Namur , Namur 
+ 20150283 , Mons , Hainaut 
+ 20150284 , Belize City , Belize City 
+ 20150285 , Belmopan , Cayo 
+ 20150286 , Cotonou , Atlantique 
+ 20150287 , Porto-Novo , Ouémé 
+ 20150288 , Djougou , Atacora 
+ 20150289 , Parakou , Borgou 
+ 20150290 , Saint George , Saint George´s 
+ 20150291 , Hamilton , Hamilton 
+ 20150292 , Thimphu , Thimphu 
+ 20150293 , Santa Cruz de la Sierra , Santa Cruz 
+ 20150294 , La Paz , La Paz 
+ 20150295 , El Alto , La Paz 
+ 20150296 , Cochabamba , Cochabamba 
+ 20150297 , Oruro , Oruro 
+ 20150298 , Sucre , Chuquisaca 
+ 20150299 , Potosí , Potosí 
+ 20150300 , Tarija , Tarija 
+ 20150301 , Sarajevo , Federaatio 
+ 20150302 , Banja Luka , Republika Srpska 
+ 20150303 , Zenica , Federaatio 
+ 20150304 , Gaborone , Gaborone 
+ 20150305 , Francistown , Francistown 
+ 20150306 , São Paulo , São Paulo 
+ 20150307 , Rio de Janeiro , Rio de Janeiro 
+ 20150308 , Salvador , Bahia 
+ 20150309 , Belo Horizonte , Minas Gerais 
+ 20150310 , Fortaleza , Ceará 
+ 20150311 , Brasília , Distrito Federal 
+ 20150312 , Curitiba , Paraná 
+ 20150313 , Recife , Pernambuco 
+ 20150314 , Porto Alegre , Rio Grande do Sul 
+ 20150315 , Manaus , Amazonas 
+ 20150316 , Belém , Pará 
+ 20150317 , Guarulhos , São Paulo 
+ 20150318 , Goiânia , Goiás 
+ 20150319 , Campinas , São Paulo 
+ 20150320 , São Gonçalo , Rio de Janeiro 
+ 20150321 , Nova Iguaçu , Rio de Janeiro 
+ 20150322 , São Luís , Maranhão 
+ 20150323 , Maceió , Alagoas 
+ 20150324 , Duque de Caxias , Rio de Janeiro 
+ 20150325 , São Bernardo do Campo , São Paulo 
+ 20150326 , Teresina , Piauí 
+ 20150327 , Natal , Rio Grande do Norte 
+ 20150328 , Osasco , São Paulo 
+ 20150329 , Campo Grande , Mato Grosso do Sul 
+ 20150330 , Santo André , São Paulo 
+ 20150331 , João Pessoa , Paraíba 
+ 20150332 , Jaboatão dos Guararapes , Pernambuco 
+ 20150333 , Contagem , Minas Gerais 
+ 20150334 , São José dos Campos , São Paulo 
+ 20150335 , Uberlândia , Minas Gerais 
+ 20150336 , Feira de Santana , Bahia 
+ 20150337 , Ribeirão Preto , São Paulo 
+ 20150338 , Sorocaba , São Paulo 
+ 20150339 , Niterói , Rio de Janeiro 
+ 20150340 , Cuiabá , Mato Grosso 
+ 20150341 , Juiz de Fora , Minas Gerais 
+ 20150342 , Aracaju , Sergipe 
+ 20150343 , São João de Meriti , Rio de Janeiro 
+ 20150344 , Londrina , Paraná 
+ 20150345 , Joinville , Santa Catarina 
+ 20150346 , Belford Roxo , Rio de Janeiro 
+ 20150347 , Santos , São Paulo 
+ 20150348 , Ananindeua , Pará 
+ 20150349 , Campos dos Goytacazes , Rio de Janeiro 
+ 20150350 , Mauá , São Paulo 
+ 20150351 , Carapicuíba , São Paulo 
+ 20150352 , Olinda , Pernambuco 
+ 20150353 , Campina Grande , Paraíba 
+ 20150354 , São José do Rio Preto , São Paulo 
+ 20150355 , Caxias do Sul , Rio Grande do Sul 
+ 20150356 , Moji das Cruzes , São Paulo 
+ 20150357 , Diadema , São Paulo 
+ 20150358 , Aparecida de Goiânia , Goiás 
+ 20150359 , Piracicaba , São Paulo 
+ 20150360 , Cariacica , Espírito Santo 
+ 20150361 , Vila Velha , Espírito Santo 
+ 20150362 , Pelotas , Rio Grande do Sul 
+ 20150363 , Bauru , São Paulo 
+ 20150364 , Porto Velho , Rondônia 
+ 20150365 , Serra , Espírito Santo 
+ 20150366 , Betim , Minas Gerais 
+ 20150367 , Jundíaí , São Paulo 
+ 20150368 , Canoas , Rio Grande do Sul 
+ 20150369 , Franca , São Paulo 
+ 20150370 , São Vicente , São Paulo 
+ 20150371 , Maringá , Paraná 
+ 20150372 , Montes Claros , Minas Gerais 
+ 20150373 , Anápolis , Goiás 
+ 20150374 , Florianópolis , Santa Catarina 
+ 20150375 , Petrópolis , Rio de Janeiro 
+ 20150376 , Itaquaquecetuba , São Paulo 
+ 20150377 , Vitória , Espírito Santo 
+ 20150378 , Ponta Grossa , Paraná 
+ 20150379 , Rio Branco , Acre 
+ 20150380 , Foz do Iguaçu , Paraná 
+ 20150381 , Macapá , Amapá 
+ 20150382 , Ilhéus , Bahia 
+ 20150383 , Vitória da Conquista , Bahia 
+ 20150384 , Uberaba , Minas Gerais 
+ 20150385 , Paulista , Pernambuco 
+ 20150386 , Limeira , São Paulo 
+ 20150387 , Blumenau , Santa Catarina 
+ 20150388 , Caruaru , Pernambuco 
+ 20150389 , Santarém , Pará 
+ 20150390 , Volta Redonda , Rio de Janeiro 
+ 20150391 , Novo Hamburgo , Rio Grande do Sul 
+ 20150392 , Caucaia , Ceará 
+ 20150393 , Santa Maria , Rio Grande do Sul 
+ 20150394 , Cascavel , Paraná 
+ 20150395 , Guarujá , São Paulo 
+ 20150396 , Ribeirão das Neves , Minas Gerais 
+ 20150397 , Governador Valadares , Minas Gerais 
+ 20150398 , Taubaté , São Paulo 
+ 20150399 , Imperatriz , Maranhão 
+ 20150400 , Gravataí , Rio Grande do Sul 
+ 20150401 , Embu , São Paulo 
+ 20150402 , Mossoró , Rio Grande do Norte 
+ 20150403 , Várzea Grande , Mato Grosso 
+ 20150404 , Petrolina , Pernambuco 
+ 20150405 , Barueri , São Paulo 
+ 20150406 , Viamão , Rio Grande do Sul 
+ 20150407 , Ipatinga , Minas Gerais 
+ 20150408 , Juazeiro , Bahia 
+ 20150409 , Juazeiro do Norte , Ceará 
+ 20150410 , Taboão da Serra , São Paulo 
+ 20150411 , São José dos Pinhais , Paraná 
+ 20150412 , Magé , Rio de Janeiro 
+ 20150413 , Suzano , São Paulo 
+ 20150414 , São Leopoldo , Rio Grande do Sul 
+ 20150415 , Marília , São Paulo 
+ 20150416 , São Carlos , São Paulo 
+ 20150417 , Sumaré , São Paulo 
+ 20150418 , Presidente Prudente , São Paulo 
+ 20150419 , Divinópolis , Minas Gerais 
+ 20150420 , Sete Lagoas , Minas Gerais 
+ 20150421 , Rio Grande , Rio Grande do Sul 
+ 20150422 , Itabuna , Bahia 
+ 20150423 , Jequié , Bahia 
+ 20150424 , Arapiraca , Alagoas 
+ 20150425 , Colombo , Paraná 
+ 20150426 , Americana , São Paulo 
+ 20150427 , Alvorada , Rio Grande do Sul 
+ 20150428 , Araraquara , São Paulo 
+ 20150429 , Itaboraí , Rio de Janeiro 
+ 20150430 , Santa Bárbara d´Oeste , São Paulo 
+ 20150431 , Nova Friburgo , Rio de Janeiro 
+ 20150432 , Jacareí , São Paulo 
+ 20150433 , Araçatuba , São Paulo 
+ 20150434 , Barra Mansa , Rio de Janeiro 
+ 20150435 , Praia Grande , São Paulo 
+ 20150436 , Marabá , Pará 
+ 20150437 , Criciúma , Santa Catarina 
+ 20150438 , Boa Vista , Roraima 
+ 20150439 , Passo Fundo , Rio Grande do Sul 
+ 20150440 , Dourados , Mato Grosso do Sul 
+ 20150441 , Santa Luzia , Minas Gerais 
+ 20150442 , Rio Claro , São Paulo 
+ 20150443 , Maracanaú , Ceará 
+ 20150444 , Guarapuava , Paraná 
+ 20150445 , Rondonópolis , Mato Grosso 
+ 20150446 , São José , Santa Catarina 
+ 20150447 , Cachoeiro de Itapemirim , Espírito Santo 
+ 20150448 , Nilópolis , Rio de Janeiro 
+ 20150449 , Itapevi , São Paulo 
+ 20150450 , Cabo de Santo Agostinho , Pernambuco 
+ 20150451 , Camaçari , Bahia 
+ 20150452 , Sobral , Ceará 
+ 20150453 , Itajaí , Santa Catarina 
+ 20150454 , Chapecó , Santa Catarina 
+ 20150455 , Cotia , São Paulo 
+ 20150456 , Lages , Santa Catarina 
+ 20150457 , Ferraz de Vasconcelos , São Paulo 
+ 20150458 , Indaiatuba , São Paulo 
+ 20150459 , Hortolândia , São Paulo 
+ 20150460 , Caxias , Maranhão 
+ 20150461 , São Caetano do Sul , São Paulo 
+ 20150462 , Itu , São Paulo 
+ 20150463 , Nossa Senhora do Socorro , Sergipe 
+ 20150464 , Parnaíba , Piauí 
+ 20150465 , Poços de Caldas , Minas Gerais 
+ 20150466 , Teresópolis , Rio de Janeiro 
+ 20150467 , Barreiras , Bahia 
+ 20150468 , Castanhal , Pará 
+ 20150469 , Alagoinhas , Bahia 
+ 20150470 , Itapecerica da Serra , São Paulo 
+ 20150471 , Uruguaiana , Rio Grande do Sul 
+ 20150472 , Paranaguá , Paraná 
+ 20150473 , Ibirité , Minas Gerais 
+ 20150474 , Timon , Maranhão 
+ 20150475 , Luziânia , Goiás 
+ 20150476 , Macaé , Rio de Janeiro 
+ 20150477 , Teófilo Otoni , Minas Gerais 
+ 20150478 , Moji-Guaçu , São Paulo 
+ 20150479 , Palmas , Tocantins 
+ 20150480 , Pindamonhangaba , São Paulo 
+ 20150481 , Francisco Morato , São Paulo 
+ 20150482 , Bagé , Rio Grande do Sul 
+ 20150483 , Sapucaia do Sul , Rio Grande do Sul 
+ 20150484 , Cabo Frio , Rio de Janeiro 
+ 20150485 , Itapetininga , São Paulo 
+ 20150486 , Patos de Minas , Minas Gerais 
+ 20150487 , Camaragibe , Pernambuco 
+ 20150488 , Bragança Paulista , São Paulo 
+ 20150489 , Queimados , Rio de Janeiro 
+ 20150490 , Araguaína , Tocantins 
+ 20150491 , Garanhuns , Pernambuco 
+ 20150492 , Vitória de Santo Antão , Pernambuco 
+ 20150493 , Santa Rita , Paraíba 
+ 20150494 , Barbacena , Minas Gerais 
+ 20150495 , Abaetetuba , Pará 
+ 20150496 , Jaú , São Paulo 
+ 20150497 , Lauro de Freitas , Bahia 
+ 20150498 , Franco da Rocha , São Paulo 
+ 20150499 , Teixeira de Freitas , Bahia 
+ 20150500 , Varginha , Minas Gerais 
+ 20150501 , Ribeirão Pires , São Paulo 
+ 20150502 , Sabará , Minas Gerais 
+ 20150503 , Catanduva , São Paulo 
+ 20150504 , Rio Verde , Goiás 
+ 20150505 , Botucatu , São Paulo 
+ 20150506 , Colatina , Espírito Santo 
+ 20150507 , Santa Cruz do Sul , Rio Grande do Sul 
+ 20150508 , Linhares , Espírito Santo 
+ 20150509 , Apucarana , Paraná 
+ 20150510 , Barretos , São Paulo 
+ 20150511 , Guaratinguetá , São Paulo 
+ 20150512 , Cachoeirinha , Rio Grande do Sul 
+ 20150513 , Codó , Maranhão 
+ 20150514 , Jaraguá do Sul , Santa Catarina 
+ 20150515 , Cubatão , São Paulo 
+ 20150516 , Itabira , Minas Gerais 
+ 20150517 , Itaituba , Pará 
+ 20150518 , Araras , São Paulo 
+ 20150519 , Resende , Rio de Janeiro 
+ 20150520 , Atibaia , São Paulo 
+ 20150521 , Pouso Alegre , Minas Gerais 
+ 20150522 , Toledo , Paraná 
+ 20150523 , Crato , Ceará 
+ 20150524 , Passos , Minas Gerais 
+ 20150525 , Araguari , Minas Gerais 
+ 20150526 , São José de Ribamar , Maranhão 
+ 20150527 , Pinhais , Paraná 
+ 20150528 , Sertãozinho , São Paulo 
+ 20150529 , Conselheiro Lafaiete , Minas Gerais 
+ 20150530 , Paulo Afonso , Bahia 
+ 20150531 , Angra dos Reis , Rio de Janeiro 
+ 20150532 , Eunápolis , Bahia 
+ 20150533 , Salto , São Paulo 
+ 20150534 , Ourinhos , São Paulo 
+ 20150535 , Parnamirim , Rio Grande do Norte 
+ 20150536 , Jacobina , Bahia 
+ 20150537 , Coronel Fabriciano , Minas Gerais 
+ 20150538 , Birigui , São Paulo 
+ 20150539 , Tatuí , São Paulo 
+ 20150540 , Ji-Paraná , Rondônia 
+ 20150541 , Bacabal , Maranhão 
+ 20150542 , Cametá , Pará 
+ 20150543 , Guaíba , Rio Grande do Sul 
+ 20150544 , São Lourenço da Mata , Pernambuco 
+ 20150545 , Santana do Livramento , Rio Grande do Sul 
+ 20150546 , Votorantim , São Paulo 
+ 20150547 , Campo Largo , Paraná 
+ 20150548 , Patos , Paraíba 
+ 20150549 , Ituiutaba , Minas Gerais 
+ 20150550 , Corumbá , Mato Grosso do Sul 
+ 20150551 , Palhoça , Santa Catarina 
+ 20150552 , Barra do Piraí , Rio de Janeiro 
+ 20150553 , Bento Gonçalves , Rio Grande do Sul 
+ 20150554 , Poá , São Paulo 
+ 20150555 , Águas Lindas de Goiás , Goiás 
+ 20150556 , London , England 
+ 20150557 , Birmingham , England 
+ 20150558 , Glasgow , Scotland 
+ 20150559 , Liverpool , England 
+ 20150560 , Edinburgh , Scotland 
+ 20150561 , Sheffield , England 
+ 20150562 , Manchester , England 
+ 20150563 , Leeds , England 
+ 20150564 , Bristol , England 
+ 20150565 , Cardiff , Wales 
+ 20150566 , Coventry , England 
+ 20150567 , Leicester , England 
+ 20150568 , Bradford , England 
+ 20150569 , Belfast , North Ireland 
+ 20150570 , Nottingham , England 
+ 20150571 , Kingston upon Hull , England 
+ 20150572 , Plymouth , England 
+ 20150573 , Stoke-on-Trent , England 
+ 20150574 , Wolverhampton , England 
+ 20150575 , Derby , England 
+ 20150576 , Swansea , Wales 
+ 20150577 , Southampton , England 
+ 20150578 , Aberdeen , Scotland 
+ 20150579 , Northampton , England 
+ 20150580 , Dudley , England 
+ 20150581 , Portsmouth , England 
+ 20150582 , Newcastle upon Tyne , England 
+ 20150583 , Sunderland , England 
+ 20150584 , Luton , England 
+ 20150585 , Swindon , England 
+ 20150586 , Southend-on-Sea , England 
+ 20150587 , Walsall , England 
+ 20150588 , Bournemouth , England 
+ 20150589 , Peterborough , England 
+ 20150590 , Brighton , England 
+ 20150591 , Blackpool , England 
+ 20150592 , Dundee , Scotland 
+ 20150593 , West Bromwich , England 
+ 20150594 , Reading , England 
+ 20150595 , Oldbury/Smethwick (Warley) , England 
+ 20150596 , Middlesbrough , England 
+ 20150597 , Huddersfield , England 
+ 20150598 , Oxford , England 
+ 20150599 , Poole , England 
+ 20150600 , Bolton , England 
+ 20150601 , Blackburn , England 
+ 20150602 , Newport , Wales 
+ 20150603 , Preston , England 
+ 20150604 , Stockport , England 
+ 20150605 , Norwich , England 
+ 20150606 , Rotherham , England 
+ 20150607 , Cambridge , England 
+ 20150608 , Watford , England 
+ 20150609 , Ipswich , England 
+ 20150610 , Slough , England 
+ 20150611 , Exeter , England 
+ 20150612 , Cheltenham , England 
+ 20150613 , Gloucester , England 
+ 20150614 , Saint Helens , England 
+ 20150615 , Sutton Coldfield , England 
+ 20150616 , York , England 
+ 20150617 , Oldham , England 
+ 20150618 , Basildon , England 
+ 20150619 , Worthing , England 
+ 20150620 , Chelmsford , England 
+ 20150621 , Colchester , England 
+ 20150622 , Crawley , England 
+ 20150623 , Gillingham , England 
+ 20150624 , Solihull , England 
+ 20150625 , Rochdale , England 
+ 20150626 , Birkenhead , England 
+ 20150627 , Worcester , England 
+ 20150628 , Hartlepool , England 
+ 20150629 , Halifax , England 
+ 20150630 , Woking/Byfleet , England 
+ 20150631 , Southport , England 
+ 20150632 , Maidstone , England 
+ 20150633 , Eastbourne , England 
+ 20150634 , Grimsby , England 
+ 20150635 , Saint Helier , Jersey 
+ 20150636 , Douglas , – 
+ 20150637 , Road Town , Tortola 
+ 20150638 , Bandar Seri Begawan , Brunei and Muara 
+ 20150639 , Sofija , Grad Sofija 
+ 20150640 , Plovdiv , Plovdiv 
+ 20150641 , Varna , Varna 
+ 20150642 , Burgas , Burgas 
+ 20150643 , Ruse , Ruse 
+ 20150644 , Stara Zagora , Haskovo 
+ 20150645 , Pleven , Lovec 
+ 20150646 , Sliven , Burgas 
+ 20150647 , Dobric , Varna 
+ 20150648 , Šumen , Varna 
+ 20150649 , Ouagadougou , Kadiogo 
+ 20150650 , Bobo-Dioulasso , Houet 
+ 20150651 , Koudougou , Boulkiemdé 
+ 20150652 , Bujumbura , Bujumbura 
+ 20150653 , George Town , Grand Cayman 
+ 20150654 , Santiago de Chile , Santiago 
+ 20150655 , Puente Alto , Santiago 
+ 20150656 , Viña del Mar , Valparaíso 
+ 20150657 , Valparaíso , Valparaíso 
+ 20150658 , Talcahuano , Bíobío 
+ 20150659 , Antofagasta , Antofagasta 
+ 20150660 , San Bernardo , Santiago 
+ 20150661 , Temuco , La Araucanía 
+ 20150662 , Concepción , Bíobío 
+ 20150663 , Rancagua , O´Higgins 
+ 20150664 , Arica , Tarapacá 
+ 20150665 , Talca , Maule 
+ 20150666 , Chillán , Bíobío 
+ 20150667 , Iquique , Tarapacá 
+ 20150668 , Los Angeles , Bíobío 
+ 20150669 , Puerto Montt , Los Lagos 
+ 20150670 , Coquimbo , Coquimbo 
+ 20150671 , Osorno , Los Lagos 
+ 20150672 , La Serena , Coquimbo 
+ 20150673 , Calama , Antofagasta 
+ 20150674 , Valdivia , Los Lagos 
+ 20150675 , Punta Arenas , Magallanes 
+ 20150676 , Copiapó , Atacama 
+ 20150677 , Quilpué , Valparaíso 
+ 20150678 , Curicó , Maule 
+ 20150679 , Ovalle , Coquimbo 
+ 20150680 , Coronel , Bíobío 
+ 20150681 , San Pedro de la Paz , Bíobío 
+ 20150682 , Melipilla , Santiago 
+ 20150683 , Avarua , Rarotonga 
+ 20150684 , San José , San José 
+ 20150685 , Djibouti , Djibouti 
+ 20150686 , Roseau , St George 
+ 20150687 , Santo Domingo de Guzmán , Distrito Nacional 
+ 20150688 , Santiago de los Caballeros , Santiago 
+ 20150689 , La Romana , La Romana 
+ 20150690 , San Pedro de Macorís , San Pedro de Macorís 
+ 20150691 , San Francisco de Macorís , Duarte 
+ 20150692 , San Felipe de Puerto Plata , Puerto Plata 
+ 20150693 , Guayaquil , Guayas 
+ 20150694 , Quito , Pichincha 
+ 20150695 , Cuenca , Azuay 
+ 20150696 , Machala , El Oro 
+ 20150697 , Santo Domingo de los Colorados , Pichincha 
+ 20150698 , Portoviejo , Manabí 
+ 20150699 , Ambato , Tungurahua 
+ 20150700 , Manta , Manabí 
+ 20150701 , Duran [Eloy Alfaro] , Guayas 
+ 20150702 , Ibarra , Imbabura 
+ 20150703 , Quevedo , Los Ríos 
+ 20150704 , Milagro , Guayas 
+ 20150705 , Loja , Loja 
+ 20150706 , Ríobamba , Chimborazo 
+ 20150707 , Esmeraldas , Esmeraldas 
+ 20150708 , Cairo , Kairo 
+ 20150709 , Alexandria , Aleksandria 
+ 20150710 , Giza , Giza 
+ 20150711 , Shubra al-Khayma , al-Qalyubiya 
+ 20150712 , Port Said , Port Said 
+ 20150713 , Suez , Suez 
+ 20150714 , al-Mahallat al-Kubra , al-Gharbiya 
+ 20150715 , Tanta , al-Gharbiya 
+ 20150716 , al-Mansura , al-Daqahliya 
+ 20150717 , Luxor , Luxor 
+ 20150718 , Asyut , Asyut 
+ 20150719 , Bahtim , al-Qalyubiya 
+ 20150720 , Zagazig , al-Sharqiya 
+ 20150721 , al-Faiyum , al-Faiyum 
+ 20150722 , Ismailia , Ismailia 
+ 20150723 , Kafr al-Dawwar , al-Buhayra 
+ 20150724 , Assuan , Assuan 
+ 20150725 , Damanhur , al-Buhayra 
+ 20150726 , al-Minya , al-Minya 
+ 20150727 , Bani Suwayf , Bani Suwayf 
+ 20150728 , Qina , Qina 
+ 20150729 , Sawhaj , Sawhaj 
+ 20150730 , Shibin al-Kawm , al-Minufiya 
+ 20150731 , Bulaq al-Dakrur , Giza 
+ 20150732 , Banha , al-Qalyubiya 
+ 20150733 , Warraq al-Arab , Giza 
+ 20150734 , Kafr al-Shaykh , Kafr al-Shaykh 
+ 20150735 , Mallawi , al-Minya 
+ 20150736 , Bilbays , al-Sharqiya 
+ 20150737 , Mit Ghamr , al-Daqahliya 
+ 20150738 , al-Arish , Shamal Sina 
+ 20150739 , Talkha , al-Daqahliya 
+ 20150740 , Qalyub , al-Qalyubiya 
+ 20150741 , Jirja , Sawhaj 
+ 20150742 , Idfu , Qina 
+ 20150743 , al-Hawamidiya , Giza 
+ 20150744 , Disuq , Kafr al-Shaykh 
+ 20150745 , San Salvador , San Salvador 
+ 20150746 , Santa Ana , Santa Ana 
+ 20150747 , Mejicanos , San Salvador 
+ 20150748 , Soyapango , San Salvador 
+ 20150749 , San Miguel , San Miguel 
+ 20150750 , Nueva San Salvador , La Libertad 
+ 20150751 , Apopa , San Salvador 
+ 20150752 , Asmara , Maekel 
+ 20150753 , Madrid , Madrid 
+ 20150754 , Barcelona , Katalonia 
+ 20150755 , Valencia , Valencia 
+ 20150756 , Sevilla , Andalusia 
+ 20150757 , Zaragoza , Aragonia 
+ 20150758 , Málaga , Andalusia 
+ 20150759 , Bilbao , Baskimaa 
+ 20150760 , Las Palmas de Gran Canaria , Canary Islands 
+ 20150761 , Murcia , Murcia 
+ 20150762 , Palma de Mallorca , Balears 
+ 20150763 , Valladolid , Castilla and León 
+ 20150764 , Córdoba , Andalusia 
+ 20150765 , Vigo , Galicia 
+ 20150766 , Alicante [Alacant] , Valencia 
+ 20150767 , Gijón , Asturia 
+ 20150768 , L´Hospitalet de Llobregat , Katalonia 
+ 20150769 , Granada , Andalusia 
+ 20150770 , A Coruña (La Coruña) , Galicia 
+ 20150771 , Vitoria-Gasteiz , Baskimaa 
+ 20150772 , Santa Cruz de Tenerife , Canary Islands 
+ 20150773 , Badalona , Katalonia 
+ 20150774 , Oviedo , Asturia 
+ 20150775 , Móstoles , Madrid 
+ 20150776 , Elche [Elx] , Valencia 
+ 20150777 , Sabadell , Katalonia 
+ 20150778 , Santander , Cantabria 
+ 20150779 , Jerez de la Frontera , Andalusia 
+ 20150780 , Pamplona [Iruña] , Navarra 
+ 20150781 , Donostia-San Sebastián , Baskimaa 
+ 20150782 , Cartagena , Murcia 
+ 20150783 , Leganés , Madrid 
+ 20150784 , Fuenlabrada , Madrid 
+ 20150785 , Almería , Andalusia 
+ 20150786 , Terrassa , Katalonia 
+ 20150787 , Alcalá de Henares , Madrid 
+ 20150788 , Burgos , Castilla and León 
+ 20150789 , Salamanca , Castilla and León 
+ 20150790 , Albacete , Kastilia-La Mancha 
+ 20150791 , Getafe , Madrid 
+ 20150792 , Cádiz , Andalusia 
+ 20150793 , Alcorcón , Madrid 
+ 20150794 , Huelva , Andalusia 
+ 20150795 , León , Castilla and León 
+ 20150796 , Castellón de la Plana [Castell , Valencia 
+ 20150797 , Badajoz , Extremadura 
+ 20150798 , [San Cristóbal de] la Laguna , Canary Islands 
+ 20150799 , Logroño , La Rioja 
+ 20150800 , Santa Coloma de Gramenet , Katalonia 
+ 20150801 , Tarragona , Katalonia 
+ 20150802 , Lleida (Lérida) , Katalonia 
+ 20150803 , Jaén , Andalusia 
+ 20150804 , Ourense (Orense) , Galicia 
+ 20150805 , Mataró , Katalonia 
+ 20150806 , Algeciras , Andalusia 
+ 20150807 , Marbella , Andalusia 
+ 20150808 , Barakaldo , Baskimaa 
+ 20150809 , Dos Hermanas , Andalusia 
+ 20150810 , Santiago de Compostela , Galicia 
+ 20150811 , Torrejón de Ardoz , Madrid 
+ 20150812 , Cape Town , Western Cape 
+ 20150813 , Soweto , Gauteng 
+ 20150814 , Johannesburg , Gauteng 
+ 20150815 , Port Elizabeth , Eastern Cape 
+ 20150816 , Pretoria , Gauteng 
+ 20150817 , Inanda , KwaZulu-Natal 
+ 20150818 , Durban , KwaZulu-Natal 
+ 20150819 , Vanderbijlpark , Gauteng 
+ 20150820 , Kempton Park , Gauteng 
+ 20150821 , Alberton , Gauteng 
+ 20150822 , Pinetown , KwaZulu-Natal 
+ 20150823 , Pietermaritzburg , KwaZulu-Natal 
+ 20150824 , Benoni , Gauteng 
+ 20150825 , Randburg , Gauteng 
+ 20150826 , Umlazi , KwaZulu-Natal 
+ 20150827 , Bloemfontein , Free State 
+ 20150828 , Vereeniging , Gauteng 
+ 20150829 , Wonderboom , Gauteng 
+ 20150830 , Roodepoort , Gauteng 
+ 20150831 , Boksburg , Gauteng 
+ 20150832 , Klerksdorp , North West 
+ 20150833 , Soshanguve , Gauteng 
+ 20150834 , Newcastle , KwaZulu-Natal 
+ 20150835 , East London , Eastern Cape 
+ 20150836 , Welkom , Free State 
+ 20150837 , Kimberley , Northern Cape 
+ 20150838 , Uitenhage , Eastern Cape 
+ 20150839 , Chatsworth , KwaZulu-Natal 
+ 20150840 , Mdantsane , Eastern Cape 
+ 20150841 , Krugersdorp , Gauteng 
+ 20150842 , Botshabelo , Free State 
+ 20150843 , Brakpan , Gauteng 
+ 20150844 , Witbank , Mpumalanga 
+ 20150845 , Oberholzer , Gauteng 
+ 20150846 , Germiston , Gauteng 
+ 20150847 , Springs , Gauteng 
+ 20150848 , Westonaria , Gauteng 
+ 20150849 , Randfontein , Gauteng 
+ 20150850 , Paarl , Western Cape 
+ 20150851 , Potchefstroom , North West 
+ 20150852 , Rustenburg , North West 
+ 20150853 , Nigel , Gauteng 
+ 20150854 , George , Western Cape 
+ 20150855 , Ladysmith , KwaZulu-Natal 
+ 20150856 , Addis Abeba , Addis Abeba 
+ 20150857 , Dire Dawa , Dire Dawa 
+ 20150858 , Nazret , Oromia 
+ 20150859 , Gonder , Amhara 
+ 20150860 , Dese , Amhara 
+ 20150861 , Mekele , Tigray 
+ 20150862 , Bahir Dar , Amhara 
+ 20150863 , Stanley , East Falkland 
+ 20150864 , Suva , Central 
+ 20150865 , Quezon , National Capital Reg 
+ 20150866 , Manila , National Capital Reg 
+ 20150867 , Kalookan , National Capital Reg 
+ 20150868 , Davao , Southern Mindanao 
+ 20150869 , Cebu , Central Visayas 
+ 20150870 , Zamboanga , Western Mindanao 
+ 20150871 , Pasig , National Capital Reg 
+ 20150872 , Valenzuela , National Capital Reg 
+ 20150873 , Las Piñas , National Capital Reg 
+ 20150874 , Antipolo , Southern Tagalog 
+ 20150875 , Taguig , National Capital Reg 
+ 20150876 , Cagayan de Oro , Northern Mindanao 
+ 20150877 , Parañaque , National Capital Reg 
+ 20150878 , Makati , National Capital Reg 
+ 20150879 , Bacolod , Western Visayas 
+ 20150880 , General Santos , Southern Mindanao 
+ 20150881 , Marikina , National Capital Reg 
+ 20150882 , Dasmariñas , Southern Tagalog 
+ 20150883 , Muntinlupa , National Capital Reg 
+ 20150884 , Iloilo , Western Visayas 
+ 20150885 , Pasay , National Capital Reg 
+ 20150886 , Malabon , National Capital Reg 
+ 20150887 , San José del Monte , Central Luzon 
+ 20150888 , Bacoor , Southern Tagalog 
+ 20150889 , Iligan , Central Mindanao 
+ 20150890 , Calamba , Southern Tagalog 
+ 20150891 , Mandaluyong , National Capital Reg 
+ 20150892 , Butuan , Caraga 
+ 20150893 , Angeles , Central Luzon 
+ 20150894 , Tarlac , Central Luzon 
+ 20150895 , Mandaue , Central Visayas 
+ 20150896 , Baguio , CAR 
+ 20150897 , Batangas , Southern Tagalog 
+ 20150898 , Cainta , Southern Tagalog 
+ 20150899 , San Pedro , Southern Tagalog 
+ 20150900 , Navotas , National Capital Reg 
+ 20150901 , Cabanatuan , Central Luzon 
+ 20150902 , San Fernando , Central Luzon 
+ 20150903 , Lipa , Southern Tagalog 
+ 20150904 , Lapu-Lapu , Central Visayas 
+ 20150905 , San Pablo , Southern Tagalog 
+ 20150906 , Biñan , Southern Tagalog 
+ 20150907 , Taytay , Southern Tagalog 
+ 20150908 , Lucena , Southern Tagalog 
+ 20150909 , Imus , Southern Tagalog 
+ 20150910 , Olongapo , Central Luzon 
+ 20150911 , Binangonan , Southern Tagalog 
+ 20150912 , Santa Rosa , Southern Tagalog 
+ 20150913 , Tagum , Southern Mindanao 
+ 20150914 , Tacloban , Eastern Visayas 
+ 20150915 , Malolos , Central Luzon 
+ 20150916 , Mabalacat , Central Luzon 
+ 20150917 , Cotabato , Central Mindanao 
+ 20150918 , Meycauayan , Central Luzon 
+ 20150919 , Puerto Princesa , Southern Tagalog 
+ 20150920 , Legazpi , Bicol 
+ 20150921 , Silang , Southern Tagalog 
+ 20150922 , Ormoc , Eastern Visayas 
+ 20150923 , San Carlos , Ilocos 
+ 20150924 , Kabankalan , Western Visayas 
+ 20150925 , Talisay , Central Visayas 
+ 20150926 , Valencia , Northern Mindanao 
+ 20150927 , Calbayog , Eastern Visayas 
+ 20150928 , Santa Maria , Central Luzon 
+ 20150929 , Pagadian , Western Mindanao 
+ 20150930 , Cadiz , Western Visayas 
+ 20150931 , Bago , Western Visayas 
+ 20150932 , Toledo , Central Visayas 
+ 20150933 , Naga , Bicol 
+ 20150934 , San Mateo , Southern Tagalog 
+ 20150935 , Panabo , Southern Mindanao 
+ 20150936 , Koronadal , Southern Mindanao 
+ 20150937 , Marawi , Central Mindanao 
+ 20150938 , Dagupan , Ilocos 
+ 20150939 , Sagay , Western Visayas 
+ 20150940 , Roxas , Western Visayas 
+ 20150941 , Lubao , Central Luzon 
+ 20150942 , Digos , Southern Mindanao 
+ 20150943 , San Miguel , Central Luzon 
+ 20150944 , Malaybalay , Northern Mindanao 
+ 20150945 , Tuguegarao , Cagayan Valley 
+ 20150946 , Ilagan , Cagayan Valley 
+ 20150947 , Baliuag , Central Luzon 
+ 20150948 , Surigao , Caraga 
+ 20150949 , San Carlos , Western Visayas 
+ 20150950 , San Juan del Monte , National Capital Reg 
+ 20150951 , Tanauan , Southern Tagalog 
+ 20150952 , Concepcion , Central Luzon 
+ 20150953 , Rodriguez (Montalban) , Southern Tagalog 
+ 20150954 , Sariaya , Southern Tagalog 
+ 20150955 , Malasiqui , Ilocos 
+ 20150956 , General Mariano Alvarez , Southern Tagalog 
+ 20150957 , Urdaneta , Ilocos 
+ 20150958 , Hagonoy , Central Luzon 
+ 20150959 , San Jose , Southern Tagalog 
+ 20150960 , Polomolok , Southern Mindanao 
+ 20150961 , Santiago , Cagayan Valley 
+ 20150962 , Tanza , Southern Tagalog 
+ 20150963 , Ozamis , Northern Mindanao 
+ 20150964 , Mexico , Central Luzon 
+ 20150965 , San Jose , Central Luzon 
+ 20150966 , Silay , Western Visayas 
+ 20150967 , General Trias , Southern Tagalog 
+ 20150968 , Tabaco , Bicol 
+ 20150969 , Cabuyao , Southern Tagalog 
+ 20150970 , Calapan , Southern Tagalog 
+ 20150971 , Mati , Southern Mindanao 
+ 20150972 , Midsayap , Central Mindanao 
+ 20150973 , Cauayan , Cagayan Valley 
+ 20150974 , Gingoog , Northern Mindanao 
+ 20150975 , Dumaguete , Central Visayas 
+ 20150976 , San Fernando , Ilocos 
+ 20150977 , Arayat , Central Luzon 
+ 20150978 , Bayawan (Tulong) , Central Visayas 
+ 20150979 , Kidapawan , Central Mindanao 
+ 20150980 , Daraga (Locsin) , Bicol 
+ 20150981 , Marilao , Central Luzon 
+ 20150982 , Malita , Southern Mindanao 
+ 20150983 , Dipolog , Western Mindanao 
+ 20150984 , Cavite , Southern Tagalog 
+ 20150985 , Danao , Central Visayas 
+ 20150986 , Bislig , Caraga 
+ 20150987 , Talavera , Central Luzon 
+ 20150988 , Guagua , Central Luzon 
+ 20150989 , Bayambang , Ilocos 
+ 20150990 , Nasugbu , Southern Tagalog 
+ 20150991 , Baybay , Eastern Visayas 
+ 20150992 , Capas , Central Luzon 
+ 20150993 , Sultan Kudarat , ARMM 
+ 20150994 , Laoag , Ilocos 
+ 20150995 , Bayugan , Caraga 
+ 20150996 , Malungon , Southern Mindanao 
+ 20150997 , Santa Cruz , Southern Tagalog 
+ 20150998 , Sorsogon , Bicol 
+ 20150999 , Candelaria , Southern Tagalog 
+ 20151000 , Ligao , Bicol 
+ 20151001 , Tórshavn , Streymoyar 
+ 20151002 , Libreville , Estuaire 
+ 20151003 , Serekunda , Kombo St Mary 
+ 20151004 , Banjul , Banjul 
+ 20151005 , Tbilisi , Tbilisi 
+ 20151006 , Kutaisi , Imereti 
+ 20151007 , Rustavi , Kvemo Kartli 
+ 20151008 , Batumi , Adzaria [Atšara] 
+ 20151009 , Sohumi , Abhasia [Aphazeti] 
+ 20151010 , Accra , Greater Accra 
+ 20151011 , Kumasi , Ashanti 
+ 20151012 , Tamale , Northern 
+ 20151013 , Tema , Greater Accra 
+ 20151014 , Sekondi-Takoradi , Western 
+ 20151015 , Gibraltar , – 
+ 20151016 , Saint George´s , St George 
+ 20151017 , Nuuk , Kitaa 
+ 20151018 , Les Abymes , Grande-Terre 
+ 20151019 , Basse-Terre , Basse-Terre 
+ 20151020 , Tamuning , – 
+ 20151021 , Agaña , – 
+ 20151022 , Ciudad de Guatemala , Guatemala 
+ 20151023 , Mixco , Guatemala 
+ 20151024 , Villa Nueva , Guatemala 
+ 20151025 , Quetzaltenango , Quetzaltenango 
+ 20151026 , Conakry , Conakry 
+ 20151027 , Bissau , Bissau 
+ 20151028 , Georgetown , Georgetown 
+ 20151029 , Port-au-Prince , Ouest 
+ 20151030 , Carrefour , Ouest 
+ 20151031 , Delmas , Ouest 
+ 20151032 , Le-Cap-Haïtien , Nord 
+ 20151033 , Tegucigalpa , Distrito Central 
+ 20151034 , San Pedro Sula , Cortés 
+ 20151035 , La Ceiba , Atlántida 
+ 20151036 , Kowloon and New Kowloon , Kowloon and New Kowl 
+ 20151037 , Victoria , Hongkong 
+ 20151038 , Longyearbyen , Länsimaa 
+ 20151039 , Jakarta , Jakarta Raya 
+ 20151040 , Surabaya , East Java 
+ 20151041 , Bandung , West Java 
+ 20151042 , Medan , Sumatera Utara 
+ 20151043 , Palembang , Sumatera Selatan 
+ 20151044 , Tangerang , West Java 
+ 20151045 , Semarang , Central Java 
+ 20151046 , Ujung Pandang , Sulawesi Selatan 
+ 20151047 , Malang , East Java 
+ 20151048 , Bandar Lampung , Lampung 
+ 20151049 , Bekasi , West Java 
+ 20151050 , Padang , Sumatera Barat 
+ 20151051 , Surakarta , Central Java 
+ 20151052 , Banjarmasin , Kalimantan Selatan 
+ 20151053 , Pekan Baru , Riau 
+ 20151054 , Denpasar , Bali 
+ 20151055 , Yogyakarta , Yogyakarta 
+ 20151056 , Pontianak , Kalimantan Barat 
+ 20151057 , Samarinda , Kalimantan Timur 
+ 20151058 , Jambi , Jambi 
+ 20151059 , Depok , West Java 
+ 20151060 , Cimahi , West Java 
+ 20151061 , Balikpapan , Kalimantan Timur 
+ 20151062 , Manado , Sulawesi Utara 
+ 20151063 , Mataram , Nusa Tenggara Barat 
+ 20151064 , Pekalongan , Central Java 
+ 20151065 , Tegal , Central Java 
+ 20151066 , Bogor , West Java 
+ 20151067 , Ciputat , West Java 
+ 20151068 , Pondokgede , West Java 
+ 20151069 , Cirebon , West Java 
+ 20151070 , Kediri , East Java 
+ 20151071 , Ambon , Molukit 
+ 20151072 , Jember , East Java 
+ 20151073 , Cilacap , Central Java 
+ 20151074 , Cimanggis , West Java 
+ 20151075 , Pematang Siantar , Sumatera Utara 
+ 20151076 , Purwokerto , Central Java 
+ 20151077 , Ciomas , West Java 
+ 20151078 , Tasikmalaya , West Java 
+ 20151079 , Madiun , East Java 
+ 20151080 , Bengkulu , Bengkulu 
+ 20151081 , Karawang , West Java 
+ 20151082 , Banda Aceh , Aceh 
+ 20151083 , Palu , Sulawesi Tengah 
+ 20151084 , Pasuruan , East Java 
+ 20151085 , Kupang , Nusa Tenggara Timur 
+ 20151086 , Tebing Tinggi , Sumatera Utara 
+ 20151087 , Percut Sei Tuan , Sumatera Utara 
+ 20151088 , Binjai , Sumatera Utara 
+ 20151089 , Sukabumi , West Java 
+ 20151090 , Waru , East Java 
+ 20151091 , Pangkal Pinang , Sumatera Selatan 
+ 20151092 , Magelang , Central Java 
+ 20151093 , Blitar , East Java 
+ 20151094 , Serang , West Java 
+ 20151095 , Probolinggo , East Java 
+ 20151096 , Cilegon , West Java 
+ 20151097 , Cianjur , West Java 
+ 20151098 , Ciparay , West Java 
+ 20151099 , Lhokseumawe , Aceh 
+ 20151100 , Taman , East Java 
+ 20151101 , Depok , Yogyakarta 
+ 20151102 , Citeureup , West Java 
+ 20151103 , Pemalang , Central Java 
+ 20151104 , Klaten , Central Java 
+ 20151105 , Salatiga , Central Java 
+ 20151106 , Cibinong , West Java 
+ 20151107 , Palangka Raya , Kalimantan Tengah 
+ 20151108 , Mojokerto , East Java 
+ 20151109 , Purwakarta , West Java 
+ 20151110 , Garut , West Java 
+ 20151111 , Kudus , Central Java 
+ 20151112 , Kendari , Sulawesi Tenggara 
+ 20151113 , Jaya Pura , West Irian 
+ 20151114 , Gorontalo , Sulawesi Utara 
+ 20151115 , Majalaya , West Java 
+ 20151116 , Pondok Aren , West Java 
+ 20151117 , Jombang , East Java 
+ 20151118 , Sunggal , Sumatera Utara 
+ 20151119 , Batam , Riau 
+ 20151120 , Padang Sidempuan , Sumatera Utara 
+ 20151121 , Sawangan , West Java 
+ 20151122 , Banyuwangi , East Java 
+ 20151123 , Tanjung Pinang , Riau 
+ 20151124 , Mumbai (Bombay) , Maharashtra 
+ 20151125 , Delhi , Delhi 
+ 20151126 , Calcutta [Kolkata] , West Bengali 
+ 20151127 , Chennai (Madras) , Tamil Nadu 
+ 20151128 , Hyderabad , Andhra Pradesh 
+ 20151129 , Ahmedabad , Gujarat 
+ 20151130 , Bangalore , Karnataka 
+ 20151131 , Kanpur , Uttar Pradesh 
+ 20151132 , Nagpur , Maharashtra 
+ 20151133 , Lucknow , Uttar Pradesh 
+ 20151134 , Pune , Maharashtra 
+ 20151135 , Surat , Gujarat 
+ 20151136 , Jaipur , Rajasthan 
+ 20151137 , Indore , Madhya Pradesh 
+ 20151138 , Bhopal , Madhya Pradesh 
+ 20151139 , Ludhiana , Punjab 
+ 20151140 , Vadodara (Baroda) , Gujarat 
+ 20151141 , Kalyan , Maharashtra 
+ 20151142 , Madurai , Tamil Nadu 
+ 20151143 , Haora (Howrah) , West Bengali 
+ 20151144 , Varanasi (Benares) , Uttar Pradesh 
+ 20151145 , Patna , Bihar 
+ 20151146 , Srinagar , Jammu and Kashmir 
+ 20151147 , Agra , Uttar Pradesh 
+ 20151148 , Coimbatore , Tamil Nadu 
+ 20151149 , Thane (Thana) , Maharashtra 
+ 20151150 , Allahabad , Uttar Pradesh 
+ 20151151 , Meerut , Uttar Pradesh 
+ 20151152 , Vishakhapatnam , Andhra Pradesh 
+ 20151153 , Jabalpur , Madhya Pradesh 
+ 20151154 , Amritsar , Punjab 
+ 20151155 , Faridabad , Haryana 
+ 20151156 , Vijayawada , Andhra Pradesh 
+ 20151157 , Gwalior , Madhya Pradesh 
+ 20151158 , Jodhpur , Rajasthan 
+ 20151159 , Nashik (Nasik) , Maharashtra 
+ 20151160 , Hubli-Dharwad , Karnataka 
+ 20151161 , Solapur (Sholapur) , Maharashtra 
+ 20151162 , Ranchi , Jharkhand 
+ 20151163 , Bareilly , Uttar Pradesh 
+ 20151164 , Guwahati (Gauhati) , Assam 
+ 20151165 , Shambajinagar (Aurangabad) , Maharashtra 
+ 20151166 , Cochin (Kochi) , Kerala 
+ 20151167 , Rajkot , Gujarat 
+ 20151168 , Kota , Rajasthan 
+ 20151169 , Thiruvananthapuram (Trivandrum , Kerala 
+ 20151170 , Pimpri-Chinchwad , Maharashtra 
+ 20151171 , Jalandhar (Jullundur) , Punjab 
+ 20151172 , Gorakhpur , Uttar Pradesh 
+ 20151173 , Chandigarh , Chandigarh 
+ 20151174 , Mysore , Karnataka 
+ 20151175 , Aligarh , Uttar Pradesh 
+ 20151176 , Guntur , Andhra Pradesh 
+ 20151177 , Jamshedpur , Jharkhand 
+ 20151178 , Ghaziabad , Uttar Pradesh 
+ 20151179 , Warangal , Andhra Pradesh 
+ 20151180 , Raipur , Chhatisgarh 
+ 20151181 , Moradabad , Uttar Pradesh 
+ 20151182 , Durgapur , West Bengali 
+ 20151183 , Amravati , Maharashtra 
+ 20151184 , Calicut (Kozhikode) , Kerala 
+ 20151185 , Bikaner , Rajasthan 
+ 20151186 , Bhubaneswar , Orissa 
+ 20151187 , Kolhapur , Maharashtra 
+ 20151188 , Kataka (Cuttack) , Orissa 
+ 20151189 , Ajmer , Rajasthan 
+ 20151190 , Bhavnagar , Gujarat 
+ 20151191 , Tiruchirapalli , Tamil Nadu 
+ 20151192 , Bhilai , Chhatisgarh 
+ 20151193 , Bhiwandi , Maharashtra 
+ 20151194 , Saharanpur , Uttar Pradesh 
+ 20151195 , Ulhasnagar , Maharashtra 
+ 20151196 , Salem , Tamil Nadu 
+ 20151197 , Ujjain , Madhya Pradesh 
+ 20151198 , Malegaon , Maharashtra 
+ 20151199 , Jamnagar , Gujarat 
+ 20151200 , Bokaro Steel City , Jharkhand 
+ 20151201 , Akola , Maharashtra 
+ 20151202 , Belgaum , Karnataka 
+ 20151203 , Rajahmundry , Andhra Pradesh 
+ 20151204 , Nellore , Andhra Pradesh 
+ 20151205 , Udaipur , Rajasthan 
+ 20151206 , New Bombay , Maharashtra 
+ 20151207 , Bhatpara , West Bengali 
+ 20151208 , Gulbarga , Karnataka 
+ 20151209 , New Delhi , Delhi 
+ 20151210 , Jhansi , Uttar Pradesh 
+ 20151211 , Gaya , Bihar 
+ 20151212 , Kakinada , Andhra Pradesh 
+ 20151213 , Dhule (Dhulia) , Maharashtra 
+ 20151214 , Panihati , West Bengali 
+ 20151215 , Nanded (Nander) , Maharashtra 
+ 20151216 , Mangalore , Karnataka 
+ 20151217 , Dehra Dun , Uttaranchal 
+ 20151218 , Kamarhati , West Bengali 
+ 20151219 , Davangere , Karnataka 
+ 20151220 , Asansol , West Bengali 
+ 20151221 , Bhagalpur , Bihar 
+ 20151222 , Bellary , Karnataka 
+ 20151223 , Barddhaman (Burdwan) , West Bengali 
+ 20151224 , Rampur , Uttar Pradesh 
+ 20151225 , Jalgaon , Maharashtra 
+ 20151226 , Muzaffarpur , Bihar 
+ 20151227 , Nizamabad , Andhra Pradesh 
+ 20151228 , Muzaffarnagar , Uttar Pradesh 
+ 20151229 , Patiala , Punjab 
+ 20151230 , Shahjahanpur , Uttar Pradesh 
+ 20151231 , Kurnool , Andhra Pradesh 
+ 20151232 , Tiruppur (Tirupper) , Tamil Nadu 
+ 20151233 , Rohtak , Haryana 
+ 20151234 , South Dum Dum , West Bengali 
+ 20151235 , Mathura , Uttar Pradesh 
+ 20151236 , Chandrapur , Maharashtra 
+ 20151237 , Barahanagar (Baranagar) , West Bengali 
+ 20151238 , Darbhanga , Bihar 
+ 20151239 , Siliguri (Shiliguri) , West Bengali 
+ 20151240 , Raurkela , Orissa 
+ 20151241 , Ambattur , Tamil Nadu 
+ 20151242 , Panipat , Haryana 
+ 20151243 , Firozabad , Uttar Pradesh 
+ 20151244 , Ichalkaranji , Maharashtra 
+ 20151245 , Jammu , Jammu and Kashmir 
+ 20151246 , Ramagundam , Andhra Pradesh 
+ 20151247 , Eluru , Andhra Pradesh 
+ 20151248 , Brahmapur , Orissa 
+ 20151249 , Alwar , Rajasthan 
+ 20151250 , Pondicherry , Pondicherry 
+ 20151251 , Thanjavur , Tamil Nadu 
+ 20151252 , Bihar Sharif , Bihar 
+ 20151253 , Tuticorin , Tamil Nadu 
+ 20151254 , Imphal , Manipur 
+ 20151255 , Latur , Maharashtra 
+ 20151256 , Sagar , Madhya Pradesh 
+ 20151257 , Farrukhabad-cum-Fatehgarh , Uttar Pradesh 
+ 20151258 , Sangli , Maharashtra 
+ 20151259 , Parbhani , Maharashtra 
+ 20151260 , Nagar Coil , Tamil Nadu 
+ 20151261 , Bijapur , Karnataka 
+ 20151262 , Kukatpalle , Andhra Pradesh 
+ 20151263 , Bally , West Bengali 
+ 20151264 , Bhilwara , Rajasthan 
+ 20151265 , Ratlam , Madhya Pradesh 
+ 20151266 , Avadi , Tamil Nadu 
+ 20151267 , Dindigul , Tamil Nadu 
+ 20151268 , Ahmadnagar , Maharashtra 
+ 20151269 , Bilaspur , Chhatisgarh 
+ 20151270 , Shimoga , Karnataka 
+ 20151271 , Kharagpur , West Bengali 
+ 20151272 , Mira Bhayandar , Maharashtra 
+ 20151273 , Vellore , Tamil Nadu 
+ 20151274 , Jalna , Maharashtra 
+ 20151275 , Burnpur , West Bengali 
+ 20151276 , Anantapur , Andhra Pradesh 
+ 20151277 , Allappuzha (Alleppey) , Kerala 
+ 20151278 , Tirupati , Andhra Pradesh 
+ 20151279 , Karnal , Haryana 
+ 20151280 , Burhanpur , Madhya Pradesh 
+ 20151281 , Hisar (Hissar) , Haryana 
+ 20151282 , Tiruvottiyur , Tamil Nadu 
+ 20151283 , Mirzapur-cum-Vindhyachal , Uttar Pradesh 
+ 20151284 , Secunderabad , Andhra Pradesh 
+ 20151285 , Nadiad , Gujarat 
+ 20151286 , Dewas , Madhya Pradesh 
+ 20151287 , Murwara (Katni) , Madhya Pradesh 
+ 20151288 , Ganganagar , Rajasthan 
+ 20151289 , Vizianagaram , Andhra Pradesh 
+ 20151290 , Erode , Tamil Nadu 
+ 20151291 , Machilipatnam (Masulipatam) , Andhra Pradesh 
+ 20151292 , Bhatinda (Bathinda) , Punjab 
+ 20151293 , Raichur , Karnataka 
+ 20151294 , Agartala , Tripura 
+ 20151295 , Arrah (Ara) , Bihar 
+ 20151296 , Satna , Madhya Pradesh 
+ 20151297 , Lalbahadur Nagar , Andhra Pradesh 
+ 20151298 , Aizawl , Mizoram 
+ 20151299 , Uluberia , West Bengali 
+ 20151300 , Katihar , Bihar 
+ 20151301 , Cuddalore , Tamil Nadu 
+ 20151302 , Hugli-Chinsurah , West Bengali 
+ 20151303 , Dhanbad , Jharkhand 
+ 20151304 , Raiganj , West Bengali 
+ 20151305 , Sambhal , Uttar Pradesh 
+ 20151306 , Durg , Chhatisgarh 
+ 20151307 , Munger (Monghyr) , Bihar 
+ 20151308 , Kanchipuram , Tamil Nadu 
+ 20151309 , North Dum Dum , West Bengali 
+ 20151310 , Karimnagar , Andhra Pradesh 
+ 20151311 , Bharatpur , Rajasthan 
+ 20151312 , Sikar , Rajasthan 
+ 20151313 , Hardwar (Haridwar) , Uttaranchal 
+ 20151314 , Dabgram , West Bengali 
+ 20151315 , Morena , Madhya Pradesh 
+ 20151316 , Noida , Uttar Pradesh 
+ 20151317 , Hapur , Uttar Pradesh 
+ 20151318 , Bhusawal , Maharashtra 
+ 20151319 , Khandwa , Madhya Pradesh 
+ 20151320 , Yamuna Nagar , Haryana 
+ 20151321 , Sonipat (Sonepat) , Haryana 
+ 20151322 , Tenali , Andhra Pradesh 
+ 20151323 , Raurkela Civil Township , Orissa 
+ 20151324 , Kollam (Quilon) , Kerala 
+ 20151325 , Kumbakonam , Tamil Nadu 
+ 20151326 , Ingraj Bazar (English Bazar) , West Bengali 
+ 20151327 , Timkur , Karnataka 
+ 20151328 , Amroha , Uttar Pradesh 
+ 20151329 , Serampore , West Bengali 
+ 20151330 , Chapra , Bihar 
+ 20151331 , Pali , Rajasthan 
+ 20151332 , Maunath Bhanjan , Uttar Pradesh 
+ 20151333 , Adoni , Andhra Pradesh 
+ 20151334 , Jaunpur , Uttar Pradesh 
+ 20151335 , Tirunelveli , Tamil Nadu 
+ 20151336 , Bahraich , Uttar Pradesh 
+ 20151337 , Gadag Betigeri , Karnataka 
+ 20151338 , Proddatur , Andhra Pradesh 
+ 20151339 , Chittoor , Andhra Pradesh 
+ 20151340 , Barrackpur , West Bengali 
+ 20151341 , Bharuch (Broach) , Gujarat 
+ 20151342 , Naihati , West Bengali 
+ 20151343 , Shillong , Meghalaya 
+ 20151344 , Sambalpur , Orissa 
+ 20151345 , Junagadh , Gujarat 
+ 20151346 , Rae Bareli , Uttar Pradesh 
+ 20151347 , Rewa , Madhya Pradesh 
+ 20151348 , Gurgaon , Haryana 
+ 20151349 , Khammam , Andhra Pradesh 
+ 20151350 , Bulandshahr , Uttar Pradesh 
+ 20151351 , Navsari , Gujarat 
+ 20151352 , Malkajgiri , Andhra Pradesh 
+ 20151353 , Midnapore (Medinipur) , West Bengali 
+ 20151354 , Miraj , Maharashtra 
+ 20151355 , Raj Nandgaon , Chhatisgarh 
+ 20151356 , Alandur , Tamil Nadu 
+ 20151357 , Puri , Orissa 
+ 20151358 , Navadwip , West Bengali 
+ 20151359 , Sirsa , Haryana 
+ 20151360 , Korba , Chhatisgarh 
+ 20151361 , Faizabad , Uttar Pradesh 
+ 20151362 , Etawah , Uttar Pradesh 
+ 20151363 , Pathankot , Punjab 
+ 20151364 , Gandhinagar , Gujarat 
+ 20151365 , Palghat (Palakkad) , Kerala 
+ 20151366 , Veraval , Gujarat 
+ 20151367 , Hoshiarpur , Punjab 
+ 20151368 , Ambala , Haryana 
+ 20151369 , Sitapur , Uttar Pradesh 
+ 20151370 , Bhiwani , Haryana 
+ 20151371 , Cuddapah , Andhra Pradesh 
+ 20151372 , Bhimavaram , Andhra Pradesh 
+ 20151373 , Krishnanagar , West Bengali 
+ 20151374 , Chandannagar , West Bengali 
+ 20151375 , Mandya , Karnataka 
+ 20151376 , Dibrugarh , Assam 
+ 20151377 , Nandyal , Andhra Pradesh 
+ 20151378 , Balurghat , West Bengali 
+ 20151379 , Neyveli , Tamil Nadu 
+ 20151380 , Fatehpur , Uttar Pradesh 
+ 20151381 , Mahbubnagar , Andhra Pradesh 
+ 20151382 , Budaun , Uttar Pradesh 
+ 20151383 , Porbandar , Gujarat 
+ 20151384 , Silchar , Assam 
+ 20151385 , Berhampore (Baharampur) , West Bengali 
+ 20151386 , Purnea (Purnia) , Jharkhand 
+ 20151387 , Bankura , West Bengali 
+ 20151388 , Rajapalaiyam , Tamil Nadu 
+ 20151389 , Titagarh , West Bengali 
+ 20151390 , Halisahar , West Bengali 
+ 20151391 , Hathras , Uttar Pradesh 
+ 20151392 , Bhir (Bid) , Maharashtra 
+ 20151393 , Pallavaram , Tamil Nadu 
+ 20151394 , Anand , Gujarat 
+ 20151395 , Mango , Jharkhand 
+ 20151396 , Santipur , West Bengali 
+ 20151397 , Bhind , Madhya Pradesh 
+ 20151398 , Gondiya , Maharashtra 
+ 20151399 , Tiruvannamalai , Tamil Nadu 
+ 20151400 , Yeotmal (Yavatmal) , Maharashtra 
+ 20151401 , Kulti-Barakar , West Bengali 
+ 20151402 , Moga , Punjab 
+ 20151403 , Shivapuri , Madhya Pradesh 
+ 20151404 , Bidar , Karnataka 
+ 20151405 , Guntakal , Andhra Pradesh 
+ 20151406 , Unnao , Uttar Pradesh 
+ 20151407 , Barasat , West Bengali 
+ 20151408 , Tambaram , Tamil Nadu 
+ 20151409 , Abohar , Punjab 
+ 20151410 , Pilibhit , Uttar Pradesh 
+ 20151411 , Valparai , Tamil Nadu 
+ 20151412 , Gonda , Uttar Pradesh 
+ 20151413 , Surendranagar , Gujarat 
+ 20151414 , Qutubullapur , Andhra Pradesh 
+ 20151415 , Beawar , Rajasthan 
+ 20151416 , Hindupur , Andhra Pradesh 
+ 20151417 , Gandhidham , Gujarat 
+ 20151418 , Haldwani-cum-Kathgodam , Uttaranchal 
+ 20151419 , Tellicherry (Thalassery) , Kerala 
+ 20151420 , Wardha , Maharashtra 
+ 20151421 , Rishra , West Bengali 
+ 20151422 , Bhuj , Gujarat 
+ 20151423 , Modinagar , Uttar Pradesh 
+ 20151424 , Gudivada , Andhra Pradesh 
+ 20151425 , Basirhat , West Bengali 
+ 20151426 , Uttarpara-Kotrung , West Bengali 
+ 20151427 , Ongole , Andhra Pradesh 
+ 20151428 , North Barrackpur , West Bengali 
+ 20151429 , Guna , Madhya Pradesh 
+ 20151430 , Haldia , West Bengali 
+ 20151431 , Habra , West Bengali 
+ 20151432 , Kanchrapara , West Bengali 
+ 20151433 , Tonk , Rajasthan 
+ 20151434 , Champdani , West Bengali 
+ 20151435 , Orai , Uttar Pradesh 
+ 20151436 , Pudukkottai , Tamil Nadu 
+ 20151437 , Sasaram , Bihar 
+ 20151438 , Hazaribag , Jharkhand 
+ 20151439 , Palayankottai , Tamil Nadu 
+ 20151440 , Banda , Uttar Pradesh 
+ 20151441 , Godhra , Gujarat 
+ 20151442 , Hospet , Karnataka 
+ 20151443 , Ashoknagar-Kalyangarh , West Bengali 
+ 20151444 , Achalpur , Maharashtra 
+ 20151445 , Patan , Gujarat 
+ 20151446 , Mandasor , Madhya Pradesh 
+ 20151447 , Damoh , Madhya Pradesh 
+ 20151448 , Satara , Maharashtra 
+ 20151449 , Meerut Cantonment , Uttar Pradesh 
+ 20151450 , Dehri , Bihar 
+ 20151451 , Delhi Cantonment , Delhi 
+ 20151452 , Chhindwara , Madhya Pradesh 
+ 20151453 , Bansberia , West Bengali 
+ 20151454 , Nagaon , Assam 
+ 20151455 , Kanpur Cantonment , Uttar Pradesh 
+ 20151456 , Vidisha , Madhya Pradesh 
+ 20151457 , Bettiah , Bihar 
+ 20151458 , Purulia , Jharkhand 
+ 20151459 , Hassan , Karnataka 
+ 20151460 , Ambala Sadar , Haryana 
+ 20151461 , Baidyabati , West Bengali 
+ 20151462 , Morvi , Gujarat 
+ 20151463 , Raigarh , Chhatisgarh 
+ 20151464 , Vejalpur , Gujarat 
+ 20151465 , Baghdad , Baghdad 
+ 20151466 , Mosul , Ninawa 
+ 20151467 , Irbil , Irbil 
+ 20151468 , Kirkuk , al-Tamim 
+ 20151469 , Basra , Basra 
+ 20151470 , al-Sulaymaniya , al-Sulaymaniya 
+ 20151471 , al-Najaf , al-Najaf 
+ 20151472 , Karbala , Karbala 
+ 20151473 , al-Hilla , Babil 
+ 20151474 , al-Nasiriya , DhiQar 
+ 20151475 , al-Amara , Maysan 
+ 20151476 , al-Diwaniya , al-Qadisiya 
+ 20151477 , al-Ramadi , al-Anbar 
+ 20151478 , al-Kut , Wasit 
+ 20151479 , Baquba , Diyala 
+ 20151480 , Teheran , Teheran 
+ 20151481 , Mashhad , Khorasan 
+ 20151482 , Esfahan , Esfahan 
+ 20151483 , Tabriz , East Azerbaidzan 
+ 20151484 , Shiraz , Fars 
+ 20151485 , Karaj , Teheran 
+ 20151486 , Ahvaz , Khuzestan 
+ 20151487 , Qom , Qom 
+ 20151488 , Kermanshah , Kermanshah 
+ 20151489 , Urmia , West Azerbaidzan 
+ 20151490 , Zahedan , Sistan va Baluchesta 
+ 20151491 , Rasht , Gilan 
+ 20151492 , Hamadan , Hamadan 
+ 20151493 , Kerman , Kerman 
+ 20151494 , Arak , Markazi 
+ 20151495 , Ardebil , Ardebil 
+ 20151496 , Yazd , Yazd 
+ 20151497 , Qazvin , Qazvin 
+ 20151498 , Zanjan , Zanjan 
+ 20151499 , Sanandaj , Kordestan 
+ 20151500 , Bandar-e-Abbas , Hormozgan 
+ 20151501 , Khorramabad , Lorestan 
+ 20151502 , Eslamshahr , Teheran 
+ 20151503 , Borujerd , Lorestan 
+ 20151504 , Abadan , Khuzestan 
+ 20151505 , Dezful , Khuzestan 
+ 20151506 , Kashan , Esfahan 
+ 20151507 , Sari , Mazandaran 
+ 20151508 , Gorgan , Golestan 
+ 20151509 , Najafabad , Esfahan 
+ 20151510 , Sabzevar , Khorasan 
+ 20151511 , Khomeynishahr , Esfahan 
+ 20151512 , Amol , Mazandaran 
+ 20151513 , Neyshabur , Khorasan 
+ 20151514 , Babol , Mazandaran 
+ 20151515 , Khoy , West Azerbaidzan 
+ 20151516 , Malayer , Hamadan 
+ 20151517 , Bushehr , Bushehr 
+ 20151518 , Qaemshahr , Mazandaran 
+ 20151519 , Qarchak , Teheran 
+ 20151520 , Qods , Teheran 
+ 20151521 , Sirjan , Kerman 
+ 20151522 , Bojnurd , Khorasan 
+ 20151523 , Maragheh , East Azerbaidzan 
+ 20151524 , Birjand , Khorasan 
+ 20151525 , Ilam , Ilam 
+ 20151526 , Bukan , West Azerbaidzan 
+ 20151527 , Masjed-e-Soleyman , Khuzestan 
+ 20151528 , Saqqez , Kordestan 
+ 20151529 , Gonbad-e Qabus , Mazandaran 
+ 20151530 , Saveh , Qom 
+ 20151531 , Mahabad , West Azerbaidzan 
+ 20151532 , Varamin , Teheran 
+ 20151533 , Andimeshk , Khuzestan 
+ 20151534 , Khorramshahr , Khuzestan 
+ 20151535 , Shahrud , Semnan 
+ 20151536 , Marv Dasht , Fars 
+ 20151537 , Zabol , Sistan va Baluchesta 
+ 20151538 , Shahr-e Kord , Chaharmahal va Bakht 
+ 20151539 , Bandar-e Anzali , Gilan 
+ 20151540 , Rafsanjan , Kerman 
+ 20151541 , Marand , East Azerbaidzan 
+ 20151542 , Torbat-e Heydariyeh , Khorasan 
+ 20151543 , Jahrom , Fars 
+ 20151544 , Semnan , Semnan 
+ 20151545 , Miandoab , West Azerbaidzan 
+ 20151546 , Qomsheh , Esfahan 
+ 20151547 , Dublin , Leinster 
+ 20151548 , Cork , Munster 
+ 20151549 , Reykjavík , Höfuðborgarsvæði 
+ 20151550 , Jerusalem , Jerusalem 
+ 20151551 , Tel Aviv-Jaffa , Tel Aviv 
+ 20151552 , Haifa , Haifa 
+ 20151553 , Rishon Le Ziyyon , Ha Merkaz 
+ 20151554 , Beerseba , Ha Darom 
+ 20151555 , Holon , Tel Aviv 
+ 20151556 , Petah Tiqwa , Ha Merkaz 
+ 20151557 , Ashdod , Ha Darom 
+ 20151558 , Netanya , Ha Merkaz 
+ 20151559 , Bat Yam , Tel Aviv 
+ 20151560 , Bene Beraq , Tel Aviv 
+ 20151561 , Ramat Gan , Tel Aviv 
+ 20151562 , Ashqelon , Ha Darom 
+ 20151563 , Rehovot , Ha Merkaz 
+ 20151564 , Roma , Latium 
+ 20151565 , Milano , Lombardia 
+ 20151566 , Napoli , Campania 
+ 20151567 , Torino , Piemonte 
+ 20151568 , Palermo , Sisilia 
+ 20151569 , Genova , Liguria 
+ 20151570 , Bologna , Emilia-Romagna 
+ 20151571 , Firenze , Toscana 
+ 20151572 , Catania , Sisilia 
+ 20151573 , Bari , Apulia 
+ 20151574 , Venezia , Veneto 
+ 20151575 , Messina , Sisilia 
+ 20151576 , Verona , Veneto 
+ 20151577 , Trieste , Friuli-Venezia Giuli 
+ 20151578 , Padova , Veneto 
+ 20151579 , Taranto , Apulia 
+ 20151580 , Brescia , Lombardia 
+ 20151581 , Reggio di Calabria , Calabria 
+ 20151582 , Modena , Emilia-Romagna 
+ 20151583 , Prato , Toscana 
+ 20151584 , Parma , Emilia-Romagna 
+ 20151585 , Cagliari , Sardinia 
+ 20151586 , Livorno , Toscana 
+ 20151587 , Perugia , Umbria 
+ 20151588 , Foggia , Apulia 
+ 20151589 , Reggio nell´ Emilia , Emilia-Romagna 
+ 20151590 , Salerno , Campania 
+ 20151591 , Ravenna , Emilia-Romagna 
+ 20151592 , Ferrara , Emilia-Romagna 
+ 20151593 , Rimini , Emilia-Romagna 
+ 20151594 , Syrakusa , Sisilia 
+ 20151595 , Sassari , Sardinia 
+ 20151596 , Monza , Lombardia 
+ 20151597 , Bergamo , Lombardia 
+ 20151598 , Pescara , Abruzzit 
+ 20151599 , Latina , Latium 
+ 20151600 , Vicenza , Veneto 
+ 20151601 , Terni , Umbria 
+ 20151602 , Forlì , Emilia-Romagna 
+ 20151603 , Trento , Trentino-Alto Adige 
+ 20151604 , Novara , Piemonte 
+ 20151605 , Piacenza , Emilia-Romagna 
+ 20151606 , Ancona , Marche 
+ 20151607 , Lecce , Apulia 
+ 20151608 , Bolzano , Trentino-Alto Adige 
+ 20151609 , Catanzaro , Calabria 
+ 20151610 , La Spezia , Liguria 
+ 20151611 , Udine , Friuli-Venezia Giuli 
+ 20151612 , Torre del Greco , Campania 
+ 20151613 , Andria , Apulia 
+ 20151614 , Brindisi , Apulia 
+ 20151615 , Giugliano in Campania , Campania 
+ 20151616 , Pisa , Toscana 
+ 20151617 , Barletta , Apulia 
+ 20151618 , Arezzo , Toscana 
+ 20151619 , Alessandria , Piemonte 
+ 20151620 , Cesena , Emilia-Romagna 
+ 20151621 , Pesaro , Marche 
+ 20151622 , Dili , Dili 
+ 20151623 , Wien , Wien 
+ 20151624 , Graz , Steiermark 
+ 20151625 , Linz , North Austria 
+ 20151626 , Salzburg , Salzburg 
+ 20151627 , Innsbruck , Tiroli 
+ 20151628 , Klagenfurt , Kärnten 
+ 20151629 , Spanish Town , St. Catherine 
+ 20151630 , Kingston , St. Andrew 
+ 20151631 , Portmore , St. Andrew 
+ 20151632 , Tokyo , Tokyo-to 
+ 20151633 , Jokohama [Yokohama] , Kanagawa 
+ 20151634 , Osaka , Osaka 
+ 20151635 , Nagoya , Aichi 
+ 20151636 , Sapporo , Hokkaido 
+ 20151637 , Kioto , Kyoto 
+ 20151638 , Kobe , Hyogo 
+ 20151639 , Fukuoka , Fukuoka 
+ 20151640 , Kawasaki , Kanagawa 
+ 20151641 , Hiroshima , Hiroshima 
+ 20151642 , Kitakyushu , Fukuoka 
+ 20151643 , Sendai , Miyagi 
+ 20151644 , Chiba , Chiba 
+ 20151645 , Sakai , Osaka 
+ 20151646 , Kumamoto , Kumamoto 
+ 20151647 , Okayama , Okayama 
+ 20151648 , Sagamihara , Kanagawa 
+ 20151649 , Hamamatsu , Shizuoka 
+ 20151650 , Kagoshima , Kagoshima 
+ 20151651 , Funabashi , Chiba 
+ 20151652 , Higashiosaka , Osaka 
+ 20151653 , Hachioji , Tokyo-to 
+ 20151654 , Niigata , Niigata 
+ 20151655 , Amagasaki , Hyogo 
+ 20151656 , Himeji , Hyogo 
+ 20151657 , Shizuoka , Shizuoka 
+ 20151658 , Urawa , Saitama 
+ 20151659 , Matsuyama , Ehime 
+ 20151660 , Matsudo , Chiba 
+ 20151661 , Kanazawa , Ishikawa 
+ 20151662 , Kawaguchi , Saitama 
+ 20151663 , Ichikawa , Chiba 
+ 20151664 , Omiya , Saitama 
+ 20151665 , Utsunomiya , Tochigi 
+ 20151666 , Oita , Oita 
+ 20151667 , Nagasaki , Nagasaki 
+ 20151668 , Yokosuka , Kanagawa 
+ 20151669 , Kurashiki , Okayama 
+ 20151670 , Gifu , Gifu 
+ 20151671 , Hirakata , Osaka 
+ 20151672 , Nishinomiya , Hyogo 
+ 20151673 , Toyonaka , Osaka 
+ 20151674 , Wakayama , Wakayama 
+ 20151675 , Fukuyama , Hiroshima 
+ 20151676 , Fujisawa , Kanagawa 
+ 20151677 , Asahikawa , Hokkaido 
+ 20151678 , Machida , Tokyo-to 
+ 20151679 , Nara , Nara 
+ 20151680 , Takatsuki , Osaka 
+ 20151681 , Iwaki , Fukushima 
+ 20151682 , Nagano , Nagano 
+ 20151683 , Toyohashi , Aichi 
+ 20151684 , Toyota , Aichi 
+ 20151685 , Suita , Osaka 
+ 20151686 , Takamatsu , Kagawa 
+ 20151687 , Koriyama , Fukushima 
+ 20151688 , Okazaki , Aichi 
+ 20151689 , Kawagoe , Saitama 
+ 20151690 , Tokorozawa , Saitama 
+ 20151691 , Toyama , Toyama 
+ 20151692 , Kochi , Kochi 
+ 20151693 , Kashiwa , Chiba 
+ 20151694 , Akita , Akita 
+ 20151695 , Miyazaki , Miyazaki 
+ 20151696 , Koshigaya , Saitama 
+ 20151697 , Naha , Okinawa 
+ 20151698 , Aomori , Aomori 
+ 20151699 , Hakodate , Hokkaido 
+ 20151700 , Akashi , Hyogo 
+ 20151701 , Yokkaichi , Mie 
+ 20151702 , Fukushima , Fukushima 
+ 20151703 , Morioka , Iwate 
+ 20151704 , Maebashi , Gumma 
+ 20151705 , Kasugai , Aichi 
+ 20151706 , Otsu , Shiga 
+ 20151707 , Ichihara , Chiba 
+ 20151708 , Yao , Osaka 
+ 20151709 , Ichinomiya , Aichi 
+ 20151710 , Tokushima , Tokushima 
+ 20151711 , Kakogawa , Hyogo 
+ 20151712 , Ibaraki , Osaka 
+ 20151713 , Neyagawa , Osaka 
+ 20151714 , Shimonoseki , Yamaguchi 
+ 20151715 , Yamagata , Yamagata 
+ 20151716 , Fukui , Fukui 
+ 20151717 , Hiratsuka , Kanagawa 
+ 20151718 , Mito , Ibaragi 
+ 20151719 , Sasebo , Nagasaki 
+ 20151720 , Hachinohe , Aomori 
+ 20151721 , Takasaki , Gumma 
+ 20151722 , Shimizu , Shizuoka 
+ 20151723 , Kurume , Fukuoka 
+ 20151724 , Fuji , Shizuoka 
+ 20151725 , Soka , Saitama 
+ 20151726 , Fuchu , Tokyo-to 
+ 20151727 , Chigasaki , Kanagawa 
+ 20151728 , Atsugi , Kanagawa 
+ 20151729 , Numazu , Shizuoka 
+ 20151730 , Ageo , Saitama 
+ 20151731 , Yamato , Kanagawa 
+ 20151732 , Matsumoto , Nagano 
+ 20151733 , Kure , Hiroshima 
+ 20151734 , Takarazuka , Hyogo 
+ 20151735 , Kasukabe , Saitama 
+ 20151736 , Chofu , Tokyo-to 
+ 20151737 , Odawara , Kanagawa 
+ 20151738 , Kofu , Yamanashi 
+ 20151739 , Kushiro , Hokkaido 
+ 20151740 , Kishiwada , Osaka 
+ 20151741 , Hitachi , Ibaragi 
+ 20151742 , Nagaoka , Niigata 
+ 20151743 , Itami , Hyogo 
+ 20151744 , Uji , Kyoto 
+ 20151745 , Suzuka , Mie 
+ 20151746 , Hirosaki , Aomori 
+ 20151747 , Ube , Yamaguchi 
+ 20151748 , Kodaira , Tokyo-to 
+ 20151749 , Takaoka , Toyama 
+ 20151750 , Obihiro , Hokkaido 
+ 20151751 , Tomakomai , Hokkaido 
+ 20151752 , Saga , Saga 
+ 20151753 , Sakura , Chiba 
+ 20151754 , Kamakura , Kanagawa 
+ 20151755 , Mitaka , Tokyo-to 
+ 20151756 , Izumi , Osaka 
+ 20151757 , Hino , Tokyo-to 
+ 20151758 , Hadano , Kanagawa 
+ 20151759 , Ashikaga , Tochigi 
+ 20151760 , Tsu , Mie 
+ 20151761 , Sayama , Saitama 
+ 20151762 , Yachiyo , Chiba 
+ 20151763 , Tsukuba , Ibaragi 
+ 20151764 , Tachikawa , Tokyo-to 
+ 20151765 , Kumagaya , Saitama 
+ 20151766 , Moriguchi , Osaka 
+ 20151767 , Otaru , Hokkaido 
+ 20151768 , Anjo , Aichi 
+ 20151769 , Narashino , Chiba 
+ 20151770 , Oyama , Tochigi 
+ 20151771 , Ogaki , Gifu 
+ 20151772 , Matsue , Shimane 
+ 20151773 , Kawanishi , Hyogo 
+ 20151774 , Hitachinaka , Tokyo-to 
+ 20151775 , Niiza , Saitama 
+ 20151776 , Nagareyama , Chiba 
+ 20151777 , Tottori , Tottori 
+ 20151778 , Tama , Ibaragi 
+ 20151779 , Iruma , Saitama 
+ 20151780 , Ota , Gumma 
+ 20151781 , Omuta , Fukuoka 
+ 20151782 , Komaki , Aichi 
+ 20151783 , Ome , Tokyo-to 
+ 20151784 , Kadoma , Osaka 
+ 20151785 , Yamaguchi , Yamaguchi 
+ 20151786 , Higashimurayama , Tokyo-to 
+ 20151787 , Yonago , Tottori 
+ 20151788 , Matsubara , Osaka 
+ 20151789 , Musashino , Tokyo-to 
+ 20151790 , Tsuchiura , Ibaragi 
+ 20151791 , Joetsu , Niigata 
+ 20151792 , Miyakonojo , Miyazaki 
+ 20151793 , Misato , Saitama 
+ 20151794 , Kakamigahara , Gifu 
+ 20151795 , Daito , Osaka 
+ 20151796 , Seto , Aichi 
+ 20151797 , Kariya , Aichi 
+ 20151798 , Urayasu , Chiba 
+ 20151799 , Beppu , Oita 
+ 20151800 , Niihama , Ehime 
+ 20151801 , Minoo , Osaka 
+ 20151802 , Fujieda , Shizuoka 
+ 20151803 , Abiko , Chiba 
+ 20151804 , Nobeoka , Miyazaki 
+ 20151805 , Tondabayashi , Osaka 
+ 20151806 , Ueda , Nagano 
+ 20151807 , Kashihara , Nara 
+ 20151808 , Matsusaka , Mie 
+ 20151809 , Isesaki , Gumma 
+ 20151810 , Zama , Kanagawa 
+ 20151811 , Kisarazu , Chiba 
+ 20151812 , Noda , Chiba 
+ 20151813 , Ishinomaki , Miyagi 
+ 20151814 , Fujinomiya , Shizuoka 
+ 20151815 , Kawachinagano , Osaka 
+ 20151816 , Imabari , Ehime 
+ 20151817 , Aizuwakamatsu , Fukushima 
+ 20151818 , Higashihiroshima , Hiroshima 
+ 20151819 , Habikino , Osaka 
+ 20151820 , Ebetsu , Hokkaido 
+ 20151821 , Hofu , Yamaguchi 
+ 20151822 , Kiryu , Gumma 
+ 20151823 , Okinawa , Okinawa 
+ 20151824 , Yaizu , Shizuoka 
+ 20151825 , Toyokawa , Aichi 
+ 20151826 , Ebina , Kanagawa 
+ 20151827 , Asaka , Saitama 
+ 20151828 , Higashikurume , Tokyo-to 
+ 20151829 , Ikoma , Nara 
+ 20151830 , Kitami , Hokkaido 
+ 20151831 , Koganei , Tokyo-to 
+ 20151832 , Iwatsuki , Saitama 
+ 20151833 , Mishima , Shizuoka 
+ 20151834 , Handa , Aichi 
+ 20151835 , Muroran , Hokkaido 
+ 20151836 , Komatsu , Ishikawa 
+ 20151837 , Yatsushiro , Kumamoto 
+ 20151838 , Iida , Nagano 
+ 20151839 , Tokuyama , Yamaguchi 
+ 20151840 , Kokubunji , Tokyo-to 
+ 20151841 , Akishima , Tokyo-to 
+ 20151842 , Iwakuni , Yamaguchi 
+ 20151843 , Kusatsu , Shiga 
+ 20151844 , Kuwana , Mie 
+ 20151845 , Sanda , Hyogo 
+ 20151846 , Hikone , Shiga 
+ 20151847 , Toda , Saitama 
+ 20151848 , Tajimi , Gifu 
+ 20151849 , Ikeda , Osaka 
+ 20151850 , Fukaya , Saitama 
+ 20151851 , Ise , Mie 
+ 20151852 , Sakata , Yamagata 
+ 20151853 , Kasuga , Fukuoka 
+ 20151854 , Kamagaya , Chiba 
+ 20151855 , Tsuruoka , Yamagata 
+ 20151856 , Hoya , Tokyo-to 
+ 20151857 , Nishio , Chiba 
+ 20151858 , Tokai , Aichi 
+ 20151859 , Inazawa , Aichi 
+ 20151860 , Sakado , Saitama 
+ 20151861 , Isehara , Kanagawa 
+ 20151862 , Takasago , Hyogo 
+ 20151863 , Fujimi , Saitama 
+ 20151864 , Urasoe , Okinawa 
+ 20151865 , Yonezawa , Yamagata 
+ 20151866 , Konan , Aichi 
+ 20151867 , Yamatokoriyama , Nara 
+ 20151868 , Maizuru , Kyoto 
+ 20151869 , Onomichi , Hiroshima 
+ 20151870 , Higashimatsuyama , Saitama 
+ 20151871 , Kimitsu , Chiba 
+ 20151872 , Isahaya , Nagasaki 
+ 20151873 , Kanuma , Tochigi 
+ 20151874 , Izumisano , Osaka 
+ 20151875 , Kameoka , Kyoto 
+ 20151876 , Mobara , Chiba 
+ 20151877 , Narita , Chiba 
+ 20151878 , Kashiwazaki , Niigata 
+ 20151879 , Tsuyama , Okayama 
+ 20151880 , Sanaa , Sanaa 
+ 20151881 , Aden , Aden 
+ 20151882 , Taizz , Taizz 
+ 20151883 , Hodeida , Hodeida 
+ 20151884 , al-Mukalla , Hadramawt 
+ 20151885 , Ibb , Ibb 
+ 20151886 , Amman , Amman 
+ 20151887 , al-Zarqa , al-Zarqa 
+ 20151888 , Irbid , Irbid 
+ 20151889 , al-Rusayfa , al-Zarqa 
+ 20151890 , Wadi al-Sir , Amman 
+ 20151891 , Flying Fish Cove , – 
+ 20151892 , Beograd , Central Serbia 
+ 20151893 , Novi Sad , Vojvodina 
+ 20151894 , Niš , Central Serbia 
+ 20151895 , Priština , Kosovo and Metohija 
+ 20151896 , Kragujevac , Central Serbia 
+ 20151897 , Podgorica , Montenegro 
+ 20151898 , Subotica , Vojvodina 
+ 20151899 , Prizren , Kosovo and Metohija 
+ 20151900 , Phnom Penh , Phnom Penh 
+ 20151901 , Battambang , Battambang 
+ 20151902 , Siem Reap , Siem Reap 
+ 20151903 , Douala , Littoral 
+ 20151904 , Yaoundé , Centre 
+ 20151905 , Garoua , Nord 
+ 20151906 , Maroua , Extrême-Nord 
+ 20151907 , Bamenda , Nord-Ouest 
+ 20151908 , Bafoussam , Ouest 
+ 20151909 , Nkongsamba , Littoral 
+ 20151910 , Montréal , Québec 
+ 20151911 , Calgary , Alberta 
+ 20151912 , Toronto , Ontario 
+ 20151913 , North York , Ontario 
+ 20151914 , Winnipeg , Manitoba 
+ 20151915 , Edmonton , Alberta 
+ 20151916 , Mississauga , Ontario 
+ 20151917 , Scarborough , Ontario 
+ 20151918 , Vancouver , British Colombia 
+ 20151919 , Etobicoke , Ontario 
+ 20151920 , London , Ontario 
+ 20151921 , Hamilton , Ontario 
+ 20151922 , Ottawa , Ontario 
+ 20151923 , Laval , Québec 
+ 20151924 , Surrey , British Colombia 
+ 20151925 , Brampton , Ontario 
+ 20151926 , Windsor , Ontario 
+ 20151927 , Saskatoon , Saskatchewan 
+ 20151928 , Kitchener , Ontario 
+ 20151929 , Markham , Ontario 
+ 20151930 , Regina , Saskatchewan 
+ 20151931 , Burnaby , British Colombia 
+ 20151932 , Québec , Québec 
+ 20151933 , York , Ontario 
+ 20151934 , Richmond , British Colombia 
+ 20151935 , Vaughan , Ontario 
+ 20151936 , Burlington , Ontario 
+ 20151937 , Oshawa , Ontario 
+ 20151938 , Oakville , Ontario 
+ 20151939 , Saint Catharines , Ontario 
+ 20151940 , Longueuil , Québec 
+ 20151941 , Richmond Hill , Ontario 
+ 20151942 , Thunder Bay , Ontario 
+ 20151943 , Nepean , Ontario 
+ 20151944 , Cape Breton , Nova Scotia 
+ 20151945 , East York , Ontario 
+ 20151946 , Halifax , Nova Scotia 
+ 20151947 , Cambridge , Ontario 
+ 20151948 , Gloucester , Ontario 
+ 20151949 , Abbotsford , British Colombia 
+ 20151950 , Guelph , Ontario 
+ 20151951 , Saint John´s , Newfoundland 
+ 20151952 , Coquitlam , British Colombia 
+ 20151953 , Saanich , British Colombia 
+ 20151954 , Gatineau , Québec 
+ 20151955 , Delta , British Colombia 
+ 20151956 , Sudbury , Ontario 
+ 20151957 , Kelowna , British Colombia 
+ 20151958 , Barrie , Ontario 
+ 20151959 , Praia , São Tiago 
+ 20151960 , Almaty , Almaty Qalasy 
+ 20151961 , Qaraghandy , Qaraghandy 
+ 20151962 , Shymkent , South Kazakstan 
+ 20151963 , Taraz , Taraz 
+ 20151964 , Astana , Astana 
+ 20151965 , Öskemen , East Kazakstan 
+ 20151966 , Pavlodar , Pavlodar 
+ 20151967 , Semey , East Kazakstan 
+ 20151968 , Aqtöbe , Aqtöbe 
+ 20151969 , Qostanay , Qostanay 
+ 20151970 , Petropavl , North Kazakstan 
+ 20151971 , Oral , West Kazakstan 
+ 20151972 , Temirtau , Qaraghandy 
+ 20151973 , Qyzylorda , Qyzylorda 
+ 20151974 , Aqtau , Mangghystau 
+ 20151975 , Atyrau , Atyrau 
+ 20151976 , Ekibastuz , Pavlodar 
+ 20151977 , Kökshetau , North Kazakstan 
+ 20151978 , Rudnyy , Qostanay 
+ 20151979 , Taldyqorghan , Almaty 
+ 20151980 , Zhezqazghan , Qaraghandy 
+ 20151981 , Nairobi , Nairobi 
+ 20151982 , Mombasa , Coast 
+ 20151983 , Kisumu , Nyanza 
+ 20151984 , Nakuru , Rift Valley 
+ 20151985 , Machakos , Eastern 
+ 20151986 , Eldoret , Rift Valley 
+ 20151987 , Meru , Eastern 
+ 20151988 , Nyeri , Central 
+ 20151989 , Bangui , Bangui 
+ 20151990 , Shanghai , Shanghai 
+ 20151991 , Peking , Peking 
+ 20151992 , Chongqing , Chongqing 
+ 20151993 , Tianjin , Tianjin 
+ 20151994 , Wuhan , Hubei 
+ 20151995 , Harbin , Heilongjiang 
+ 20151996 , Shenyang , Liaoning 
+ 20151997 , Kanton [Guangzhou] , Guangdong 
+ 20151998 , Chengdu , Sichuan 
+ 20151999 , Nanking [Nanjing] , Jiangsu 
+ 20152000 , Changchun , Jilin 
+ 20152001 , Xi´an , Shaanxi 
+ 20152002 , Dalian , Liaoning 
+ 20152003 , Qingdao , Shandong 
+ 20152004 , Jinan , Shandong 
+ 20152005 , Hangzhou , Zhejiang 
+ 20152006 , Zhengzhou , Henan 
+ 20152007 , Shijiazhuang , Hebei 
+ 20152008 , Taiyuan , Shanxi 
+ 20152009 , Kunming , Yunnan 
+ 20152010 , Changsha , Hunan 
+ 20152011 , Nanchang , Jiangxi 
+ 20152012 , Fuzhou , Fujian 
+ 20152013 , Lanzhou , Gansu 
+ 20152014 , Guiyang , Guizhou 
+ 20152015 , Ningbo , Zhejiang 
+ 20152016 , Hefei , Anhui 
+ 20152017 , Urumtši [Ürümqi] , Xinxiang 
+ 20152018 , Anshan , Liaoning 
+ 20152019 , Fushun , Liaoning 
+ 20152020 , Nanning , Guangxi 
+ 20152021 , Zibo , Shandong 
+ 20152022 , Qiqihar , Heilongjiang 
+ 20152023 , Jilin , Jilin 
+ 20152024 , Tangshan , Hebei 
+ 20152025 , Baotou , Inner Mongolia 
+ 20152026 , Shenzhen , Guangdong 
+ 20152027 , Hohhot , Inner Mongolia 
+ 20152028 , Handan , Hebei 
+ 20152029 , Wuxi , Jiangsu 
+ 20152030 , Xuzhou , Jiangsu 
+ 20152031 , Datong , Shanxi 
+ 20152032 , Yichun , Heilongjiang 
+ 20152033 , Benxi , Liaoning 
+ 20152034 , Luoyang , Henan 
+ 20152035 , Suzhou , Jiangsu 
+ 20152036 , Xining , Qinghai 
+ 20152037 , Huainan , Anhui 
+ 20152038 , Jixi , Heilongjiang 
+ 20152039 , Daqing , Heilongjiang 
+ 20152040 , Fuxin , Liaoning 
+ 20152041 , Amoy [Xiamen] , Fujian 
+ 20152042 , Liuzhou , Guangxi 
+ 20152043 , Shantou , Guangdong 
+ 20152044 , Jinzhou , Liaoning 
+ 20152045 , Mudanjiang , Heilongjiang 
+ 20152046 , Yinchuan , Ningxia 
+ 20152047 , Changzhou , Jiangsu 
+ 20152048 , Zhangjiakou , Hebei 
+ 20152049 , Dandong , Liaoning 
+ 20152050 , Hegang , Heilongjiang 
+ 20152051 , Kaifeng , Henan 
+ 20152052 , Jiamusi , Heilongjiang 
+ 20152053 , Liaoyang , Liaoning 
+ 20152054 , Hengyang , Hunan 
+ 20152055 , Baoding , Hebei 
+ 20152056 , Hunjiang , Jilin 
+ 20152057 , Xinxiang , Henan 
+ 20152058 , Huangshi , Hubei 
+ 20152059 , Haikou , Hainan 
+ 20152060 , Yantai , Shandong 
+ 20152061 , Bengbu , Anhui 
+ 20152062 , Xiangtan , Hunan 
+ 20152063 , Weifang , Shandong 
+ 20152064 , Wuhu , Anhui 
+ 20152065 , Pingxiang , Jiangxi 
+ 20152066 , Yingkou , Liaoning 
+ 20152067 , Anyang , Henan 
+ 20152068 , Panzhihua , Sichuan 
+ 20152069 , Pingdingshan , Henan 
+ 20152070 , Xiangfan , Hubei 
+ 20152071 , Zhuzhou , Hunan 
+ 20152072 , Jiaozuo , Henan 
+ 20152073 , Wenzhou , Zhejiang 
+ 20152074 , Zhangjiang , Guangdong 
+ 20152075 , Zigong , Sichuan 
+ 20152076 , Shuangyashan , Heilongjiang 
+ 20152077 , Zaozhuang , Shandong 
+ 20152078 , Yakeshi , Inner Mongolia 
+ 20152079 , Yichang , Hubei 
+ 20152080 , Zhenjiang , Jiangsu 
+ 20152081 , Huaibei , Anhui 
+ 20152082 , Qinhuangdao , Hebei 
+ 20152083 , Guilin , Guangxi 
+ 20152084 , Liupanshui , Guizhou 
+ 20152085 , Panjin , Liaoning 
+ 20152086 , Yangquan , Shanxi 
+ 20152087 , Jinxi , Liaoning 
+ 20152088 , Liaoyuan , Jilin 
+ 20152089 , Lianyungang , Jiangsu 
+ 20152090 , Xianyang , Shaanxi 
+ 20152091 , Tai´an , Shandong 
+ 20152092 , Chifeng , Inner Mongolia 
+ 20152093 , Shaoguan , Guangdong 
+ 20152094 , Nantong , Jiangsu 
+ 20152095 , Leshan , Sichuan 
+ 20152096 , Baoji , Shaanxi 
+ 20152097 , Linyi , Shandong 
+ 20152098 , Tonghua , Jilin 
+ 20152099 , Siping , Jilin 
+ 20152100 , Changzhi , Shanxi 
+ 20152101 , Tengzhou , Shandong 
+ 20152102 , Chaozhou , Guangdong 
+ 20152103 , Yangzhou , Jiangsu 
+ 20152104 , Dongwan , Guangdong 
+ 20152105 , Ma´anshan , Anhui 
+ 20152106 , Foshan , Guangdong 
+ 20152107 , Yueyang , Hunan 
+ 20152108 , Xingtai , Hebei 
+ 20152109 , Changde , Hunan 
+ 20152110 , Shihezi , Xinxiang 
+ 20152111 , Yancheng , Jiangsu 
+ 20152112 , Jiujiang , Jiangxi 
+ 20152113 , Dongying , Shandong 
+ 20152114 , Shashi , Hubei 
+ 20152115 , Xintai , Shandong 
+ 20152116 , Jingdezhen , Jiangxi 
+ 20152117 , Tongchuan , Shaanxi 
+ 20152118 , Zhongshan , Guangdong 
+ 20152119 , Shiyan , Hubei 
+ 20152120 , Tieli , Heilongjiang 
+ 20152121 , Jining , Shandong 
+ 20152122 , Wuhai , Inner Mongolia 
+ 20152123 , Mianyang , Sichuan 
+ 20152124 , Luzhou , Sichuan 
+ 20152125 , Zunyi , Guizhou 
+ 20152126 , Shizuishan , Ningxia 
+ 20152127 , Neijiang , Sichuan 
+ 20152128 , Tongliao , Inner Mongolia 
+ 20152129 , Tieling , Liaoning 
+ 20152130 , Wafangdian , Liaoning 
+ 20152131 , Anqing , Anhui 
+ 20152132 , Shaoyang , Hunan 
+ 20152133 , Laiwu , Shandong 
+ 20152134 , Chengde , Hebei 
+ 20152135 , Tianshui , Gansu 
+ 20152136 , Nanyang , Henan 
+ 20152137 , Cangzhou , Hebei 
+ 20152138 , Yibin , Sichuan 
+ 20152139 , Huaiyin , Jiangsu 
+ 20152140 , Dunhua , Jilin 
+ 20152141 , Yanji , Jilin 
+ 20152142 , Jiangmen , Guangdong 
+ 20152143 , Tongling , Anhui 
+ 20152144 , Suihua , Heilongjiang 
+ 20152145 , Gongziling , Jilin 
+ 20152146 , Xiantao , Hubei 
+ 20152147 , Chaoyang , Liaoning 
+ 20152148 , Ganzhou , Jiangxi 
+ 20152149 , Huzhou , Zhejiang 
+ 20152150 , Baicheng , Jilin 
+ 20152151 , Shangzi , Heilongjiang 
+ 20152152 , Yangjiang , Guangdong 
+ 20152153 , Qitaihe , Heilongjiang 
+ 20152154 , Gejiu , Yunnan 
+ 20152155 , Jiangyin , Jiangsu 
+ 20152156 , Hebi , Henan 
+ 20152157 , Jiaxing , Zhejiang 
+ 20152158 , Wuzhou , Guangxi 
+ 20152159 , Meihekou , Jilin 
+ 20152160 , Xuchang , Henan 
+ 20152161 , Liaocheng , Shandong 
+ 20152162 , Haicheng , Liaoning 
+ 20152163 , Qianjiang , Hubei 
+ 20152164 , Baiyin , Gansu 
+ 20152165 , Bei´an , Heilongjiang 
+ 20152166 , Yixing , Jiangsu 
+ 20152167 , Laizhou , Shandong 
+ 20152168 , Qaramay , Xinxiang 
+ 20152169 , Acheng , Heilongjiang 
+ 20152170 , Dezhou , Shandong 
+ 20152171 , Nanping , Fujian 
+ 20152172 , Zhaoqing , Guangdong 
+ 20152173 , Beipiao , Liaoning 
+ 20152174 , Fengcheng , Jiangxi 
+ 20152175 , Fuyu , Jilin 
+ 20152176 , Xinyang , Henan 
+ 20152177 , Dongtai , Jiangsu 
+ 20152178 , Yuci , Shanxi 
+ 20152179 , Honghu , Hubei 
+ 20152180 , Ezhou , Hubei 
+ 20152181 , Heze , Shandong 
+ 20152182 , Daxian , Sichuan 
+ 20152183 , Linfen , Shanxi 
+ 20152184 , Tianmen , Hubei 
+ 20152185 , Yiyang , Hunan 
+ 20152186 , Quanzhou , Fujian 
+ 20152187 , Rizhao , Shandong 
+ 20152188 , Deyang , Sichuan 
+ 20152189 , Guangyuan , Sichuan 
+ 20152190 , Changshu , Jiangsu 
+ 20152191 , Zhangzhou , Fujian 
+ 20152192 , Hailar , Inner Mongolia 
+ 20152193 , Nanchong , Sichuan 
+ 20152194 , Jiutai , Jilin 
+ 20152195 , Zhaodong , Heilongjiang 
+ 20152196 , Shaoxing , Zhejiang 
+ 20152197 , Fuyang , Anhui 
+ 20152198 , Maoming , Guangdong 
+ 20152199 , Qujing , Yunnan 
+ 20152200 , Ghulja , Xinxiang 
+ 20152201 , Jiaohe , Jilin 
+ 20152202 , Puyang , Henan 
+ 20152203 , Huadian , Jilin 
+ 20152204 , Jiangyou , Sichuan 
+ 20152205 , Qashqar , Xinxiang 
+ 20152206 , Anshun , Guizhou 
+ 20152207 , Fuling , Sichuan 
+ 20152208 , Xinyu , Jiangxi 
+ 20152209 , Hanzhong , Shaanxi 
+ 20152210 , Danyang , Jiangsu 
+ 20152211 , Chenzhou , Hunan 
+ 20152212 , Xiaogan , Hubei 
+ 20152213 , Shangqiu , Henan 
+ 20152214 , Zhuhai , Guangdong 
+ 20152215 , Qingyuan , Guangdong 
+ 20152216 , Aqsu , Xinxiang 
+ 20152217 , Jining , Inner Mongolia 
+ 20152218 , Xiaoshan , Zhejiang 
+ 20152219 , Zaoyang , Hubei 
+ 20152220 , Xinghua , Jiangsu 
+ 20152221 , Hami , Xinxiang 
+ 20152222 , Huizhou , Guangdong 
+ 20152223 , Jinmen , Hubei 
+ 20152224 , Sanming , Fujian 
+ 20152225 , Ulanhot , Inner Mongolia 
+ 20152226 , Korla , Xinxiang 
+ 20152227 , Wanxian , Sichuan 
+ 20152228 , Rui´an , Zhejiang 
+ 20152229 , Zhoushan , Zhejiang 
+ 20152230 , Liangcheng , Shandong 
+ 20152231 , Jiaozhou , Shandong 
+ 20152232 , Taizhou , Jiangsu 
+ 20152233 , Suzhou , Anhui 
+ 20152234 , Yichun , Jiangxi 
+ 20152235 , Taonan , Jilin 
+ 20152236 , Pingdu , Shandong 
+ 20152237 , Ji´an , Jiangxi 
+ 20152238 , Longkou , Shandong 
+ 20152239 , Langfang , Hebei 
+ 20152240 , Zhoukou , Henan 
+ 20152241 , Suining , Sichuan 
+ 20152242 , Yulin , Guangxi 
+ 20152243 , Jinhua , Zhejiang 
+ 20152244 , Liu´an , Anhui 
+ 20152245 , Shuangcheng , Heilongjiang 
+ 20152246 , Suizhou , Hubei 
+ 20152247 , Ankang , Shaanxi 
+ 20152248 , Weinan , Shaanxi 
+ 20152249 , Longjing , Jilin 
+ 20152250 , Da´an , Jilin 
+ 20152251 , Lengshuijiang , Hunan 
+ 20152252 , Laiyang , Shandong 
+ 20152253 , Xianning , Hubei 
+ 20152254 , Dali , Yunnan 
+ 20152255 , Anda , Heilongjiang 
+ 20152256 , Jincheng , Shanxi 
+ 20152257 , Longyan , Fujian 
+ 20152258 , Xichang , Sichuan 
+ 20152259 , Wendeng , Shandong 
+ 20152260 , Hailun , Heilongjiang 
+ 20152261 , Binzhou , Shandong 
+ 20152262 , Linhe , Inner Mongolia 
+ 20152263 , Wuwei , Gansu 
+ 20152264 , Duyun , Guizhou 
+ 20152265 , Mishan , Heilongjiang 
+ 20152266 , Shangrao , Jiangxi 
+ 20152267 , Changji , Xinxiang 
+ 20152268 , Meixian , Guangdong 
+ 20152269 , Yushu , Jilin 
+ 20152270 , Tiefa , Liaoning 
+ 20152271 , Huai´an , Jiangsu 
+ 20152272 , Leiyang , Hunan 
+ 20152273 , Zalantun , Inner Mongolia 
+ 20152274 , Weihai , Shandong 
+ 20152275 , Loudi , Hunan 
+ 20152276 , Qingzhou , Shandong 
+ 20152277 , Qidong , Jiangsu 
+ 20152278 , Huaihua , Hunan 
+ 20152279 , Luohe , Henan 
+ 20152280 , Chuzhou , Anhui 
+ 20152281 , Kaiyuan , Liaoning 
+ 20152282 , Linqing , Shandong 
+ 20152283 , Chaohu , Anhui 
+ 20152284 , Laohekou , Hubei 
+ 20152285 , Dujiangyan , Sichuan 
+ 20152286 , Zhumadian , Henan 
+ 20152287 , Linchuan , Jiangxi 
+ 20152288 , Jiaonan , Shandong 
+ 20152289 , Sanmenxia , Henan 
+ 20152290 , Heyuan , Guangdong 
+ 20152291 , Manzhouli , Inner Mongolia 
+ 20152292 , Lhasa , Tibet 
+ 20152293 , Lianyuan , Hunan 
+ 20152294 , Kuytun , Xinxiang 
+ 20152295 , Puqi , Hubei 
+ 20152296 , Hongjiang , Hunan 
+ 20152297 , Qinzhou , Guangxi 
+ 20152298 , Renqiu , Hebei 
+ 20152299 , Yuyao , Zhejiang 
+ 20152300 , Guigang , Guangxi 
+ 20152301 , Kaili , Guizhou 
+ 20152302 , Yan´an , Shaanxi 
+ 20152303 , Beihai , Guangxi 
+ 20152304 , Xuangzhou , Anhui 
+ 20152305 , Quzhou , Zhejiang 
+ 20152306 , Yong´an , Fujian 
+ 20152307 , Zixing , Hunan 
+ 20152308 , Liyang , Jiangsu 
+ 20152309 , Yizheng , Jiangsu 
+ 20152310 , Yumen , Gansu 
+ 20152311 , Liling , Hunan 
+ 20152312 , Yuncheng , Shanxi 
+ 20152313 , Shanwei , Guangdong 
+ 20152314 , Cixi , Zhejiang 
+ 20152315 , Yuanjiang , Hunan 
+ 20152316 , Bozhou , Anhui 
+ 20152317 , Jinchang , Gansu 
+ 20152318 , Fu´an , Fujian 
+ 20152319 , Suqian , Jiangsu 
+ 20152320 , Shishou , Hubei 
+ 20152321 , Hengshui , Hebei 
+ 20152322 , Danjiangkou , Hubei 
+ 20152323 , Fujin , Heilongjiang 
+ 20152324 , Sanya , Hainan 
+ 20152325 , Guangshui , Hubei 
+ 20152326 , Huangshan , Anhui 
+ 20152327 , Xingcheng , Liaoning 
+ 20152328 , Zhucheng , Shandong 
+ 20152329 , Kunshan , Jiangsu 
+ 20152330 , Haining , Zhejiang 
+ 20152331 , Pingliang , Gansu 
+ 20152332 , Fuqing , Fujian 
+ 20152333 , Xinzhou , Shanxi 
+ 20152334 , Jieyang , Guangdong 
+ 20152335 , Zhangjiagang , Jiangsu 
+ 20152336 , Tong Xian , Peking 
+ 20152337 , Ya´an , Sichuan 
+ 20152338 , Jinzhou , Liaoning 
+ 20152339 , Emeishan , Sichuan 
+ 20152340 , Enshi , Hubei 
+ 20152341 , Bose , Guangxi 
+ 20152342 , Yuzhou , Henan 
+ 20152343 , Kaiyuan , Yunnan 
+ 20152344 , Tumen , Jilin 
+ 20152345 , Putian , Fujian 
+ 20152346 , Linhai , Zhejiang 
+ 20152347 , Xilin Hot , Inner Mongolia 
+ 20152348 , Shaowu , Fujian 
+ 20152349 , Junan , Shandong 
+ 20152350 , Huaying , Sichuan 
+ 20152351 , Pingyi , Shandong 
+ 20152352 , Huangyan , Zhejiang 
+ 20152353 , Bishkek , Bishkek shaary 
+ 20152354 , Osh , Osh 
+ 20152355 , Bikenibeu , South Tarawa 
+ 20152356 , Bairiki , South Tarawa 
+ 20152357 , Santafé de Bogotá , Santafé de Bogotá 
+ 20152358 , Cali , Valle 
+ 20152359 , Medellín , Antioquia 
+ 20152360 , Barranquilla , Atlántico 
+ 20152361 , Cartagena , Bolívar 
+ 20152362 , Cúcuta , Norte de Santander 
+ 20152363 , Bucaramanga , Santander 
+ 20152364 , Ibagué , Tolima 
+ 20152365 , Pereira , Risaralda 
+ 20152366 , Santa Marta , Magdalena 
+ 20152367 , Manizales , Caldas 
+ 20152368 , Bello , Antioquia 
+ 20152369 , Pasto , Nariño 
+ 20152370 , Neiva , Huila 
+ 20152371 , Soledad , Atlántico 
+ 20152372 , Armenia , Quindío 
+ 20152373 , Villavicencio , Meta 
+ 20152374 , Soacha , Cundinamarca 
+ 20152375 , Valledupar , Cesar 
+ 20152376 , Montería , Córdoba 
+ 20152377 , Itagüí , Antioquia 
+ 20152378 , Palmira , Valle 
+ 20152379 , Buenaventura , Valle 
+ 20152380 , Floridablanca , Santander 
+ 20152381 , Sincelejo , Sucre 
+ 20152382 , Popayán , Cauca 
+ 20152383 , Barrancabermeja , Santander 
+ 20152384 , Dos Quebradas , Risaralda 
+ 20152385 , Tuluá , Valle 
+ 20152386 , Envigado , Antioquia 
+ 20152387 , Cartago , Valle 
+ 20152388 , Girardot , Cundinamarca 
+ 20152389 , Buga , Valle 
+ 20152390 , Tunja , Boyacá 
+ 20152391 , Florencia , Caquetá 
+ 20152392 , Maicao , La Guajira 
+ 20152393 , Sogamoso , Boyacá 
+ 20152394 , Giron , Santander 
+ 20152395 , Moroni , Njazidja 
+ 20152396 , Brazzaville , Brazzaville 
+ 20152397 , Pointe-Noire , Kouilou 
+ 20152398 , Kinshasa , Kinshasa 
+ 20152399 , Lubumbashi , Shaba 
+ 20152400 , Mbuji-Mayi , East Kasai 
+ 20152401 , Kolwezi , Shaba 
+ 20152402 , Kisangani , Haute-Zaïre 
+ 20152403 , Kananga , West Kasai 
+ 20152404 , Likasi , Shaba 
+ 20152405 , Bukavu , South Kivu 
+ 20152406 , Kikwit , Bandundu 
+ 20152407 , Tshikapa , West Kasai 
+ 20152408 , Matadi , Bas-Zaïre 
+ 20152409 , Mbandaka , Equateur 
+ 20152410 , Mwene-Ditu , East Kasai 
+ 20152411 , Boma , Bas-Zaïre 
+ 20152412 , Uvira , South Kivu 
+ 20152413 , Butembo , North Kivu 
+ 20152414 , Goma , North Kivu 
+ 20152415 , Kalemie , Shaba 
+ 20152416 , Bantam , Home Island 
+ 20152417 , West Island , West Island 
+ 20152418 , Pyongyang , Pyongyang-si 
+ 20152419 , Hamhung , Hamgyong N 
+ 20152420 , Chongjin , Hamgyong P 
+ 20152421 , Nampo , Nampo-si 
+ 20152422 , Sinuiju , Pyongan P 
+ 20152423 , Wonsan , Kangwon 
+ 20152424 , Phyongsong , Pyongan N 
+ 20152425 , Sariwon , Hwanghae P 
+ 20152426 , Haeju , Hwanghae N 
+ 20152427 , Kanggye , Chagang 
+ 20152428 , Kimchaek , Hamgyong P 
+ 20152429 , Hyesan , Yanggang 
+ 20152430 , Kaesong , Kaesong-si 
+ 20152431 , Seoul , Seoul 
+ 20152432 , Pusan , Pusan 
+ 20152433 , Inchon , Inchon 
+ 20152434 , Taegu , Taegu 
+ 20152435 , Taejon , Taejon 
+ 20152436 , Kwangju , Kwangju 
+ 20152437 , Ulsan , Kyongsangnam 
+ 20152438 , Songnam , Kyonggi 
+ 20152439 , Puchon , Kyonggi 
+ 20152440 , Suwon , Kyonggi 
+ 20152441 , Anyang , Kyonggi 
+ 20152442 , Chonju , Chollabuk 
+ 20152443 , Chongju , Chungchongbuk 
+ 20152444 , Koyang , Kyonggi 
+ 20152445 , Ansan , Kyonggi 
+ 20152446 , Pohang , Kyongsangbuk 
+ 20152447 , Chang-won , Kyongsangnam 
+ 20152448 , Masan , Kyongsangnam 
+ 20152449 , Kwangmyong , Kyonggi 
+ 20152450 , Chonan , Chungchongnam 
+ 20152451 , Chinju , Kyongsangnam 
+ 20152452 , Iksan , Chollabuk 
+ 20152453 , Pyongtaek , Kyonggi 
+ 20152454 , Kumi , Kyongsangbuk 
+ 20152455 , Uijongbu , Kyonggi 
+ 20152456 , Kyongju , Kyongsangbuk 
+ 20152457 , Kunsan , Chollabuk 
+ 20152458 , Cheju , Cheju 
+ 20152459 , Kimhae , Kyongsangnam 
+ 20152460 , Sunchon , Chollanam 
+ 20152461 , Mokpo , Chollanam 
+ 20152462 , Yong-in , Kyonggi 
+ 20152463 , Wonju , Kang-won 
+ 20152464 , Kunpo , Kyonggi 
+ 20152465 , Chunchon , Kang-won 
+ 20152466 , Namyangju , Kyonggi 
+ 20152467 , Kangnung , Kang-won 
+ 20152468 , Chungju , Chungchongbuk 
+ 20152469 , Andong , Kyongsangbuk 
+ 20152470 , Yosu , Chollanam 
+ 20152471 , Kyongsan , Kyongsangbuk 
+ 20152472 , Paju , Kyonggi 
+ 20152473 , Yangsan , Kyongsangnam 
+ 20152474 , Ichon , Kyonggi 
+ 20152475 , Asan , Chungchongnam 
+ 20152476 , Koje , Kyongsangnam 
+ 20152477 , Kimchon , Kyongsangbuk 
+ 20152478 , Nonsan , Chungchongnam 
+ 20152479 , Kuri , Kyonggi 
+ 20152480 , Chong-up , Chollabuk 
+ 20152481 , Chechon , Chungchongbuk 
+ 20152482 , Sosan , Chungchongnam 
+ 20152483 , Shihung , Kyonggi 
+ 20152484 , Tong-yong , Kyongsangnam 
+ 20152485 , Kongju , Chungchongnam 
+ 20152486 , Yongju , Kyongsangbuk 
+ 20152487 , Chinhae , Kyongsangnam 
+ 20152488 , Sangju , Kyongsangbuk 
+ 20152489 , Poryong , Chungchongnam 
+ 20152490 , Kwang-yang , Chollanam 
+ 20152491 , Miryang , Kyongsangnam 
+ 20152492 , Hanam , Kyonggi 
+ 20152493 , Kimje , Chollabuk 
+ 20152494 , Yongchon , Kyongsangbuk 
+ 20152495 , Sachon , Kyongsangnam 
+ 20152496 , Uiwang , Kyonggi 
+ 20152497 , Naju , Chollanam 
+ 20152498 , Namwon , Chollabuk 
+ 20152499 , Tonghae , Kang-won 
+ 20152500 , Mun-gyong , Kyongsangbuk 
+ 20152501 , Athenai , Attika 
+ 20152502 , Thessaloniki , Central Macedonia 
+ 20152503 , Pireus , Attika 
+ 20152504 , Patras , West Greece 
+ 20152505 , Peristerion , Attika 
+ 20152506 , Herakleion , Crete 
+ 20152507 , Kallithea , Attika 
+ 20152508 , Larisa , Thessalia 
+ 20152509 , Zagreb , Grad Zagreb 
+ 20152510 , Split , Split-Dalmatia 
+ 20152511 , Rijeka , Primorje-Gorski Kota 
+ 20152512 , Osijek , Osijek-Baranja 
+ 20152513 , La Habana , La Habana 
+ 20152514 , Santiago de Cuba , Santiago de Cuba 
+ 20152515 , Camagüey , Camagüey 
+ 20152516 , Holguín , Holguín 
+ 20152517 , Santa Clara , Villa Clara 
+ 20152518 , Guantánamo , Guantánamo 
+ 20152519 , Pinar del Río , Pinar del Río 
+ 20152520 , Bayamo , Granma 
+ 20152521 , Cienfuegos , Cienfuegos 
+ 20152522 , Victoria de las Tunas , Las Tunas 
+ 20152523 , Matanzas , Matanzas 
+ 20152524 , Manzanillo , Granma 
+ 20152525 , Sancti-Spíritus , Sancti-Spíritus 
+ 20152526 , Ciego de Ávila , Ciego de Ávila 
+ 20152527 , al-Salimiya , Hawalli 
+ 20152528 , Jalib al-Shuyukh , Hawalli 
+ 20152529 , Kuwait , al-Asima 
+ 20152530 , Nicosia , Nicosia 
+ 20152531 , Limassol , Limassol 
+ 20152532 , Vientiane , Viangchan 
+ 20152533 , Savannakhet , Savannakhet 
+ 20152534 , Riga , Riika 
+ 20152535 , Daugavpils , Daugavpils 
+ 20152536 , Liepaja , Liepaja 
+ 20152537 , Maseru , Maseru 
+ 20152538 , Beirut , Beirut 
+ 20152539 , Tripoli , al-Shamal 
+ 20152540 , Monrovia , Montserrado 
+ 20152541 , Tripoli , Tripoli 
+ 20152542 , Bengasi , Bengasi 
+ 20152543 , Misrata , Misrata 
+ 20152544 , al-Zawiya , al-Zawiya 
+ 20152545 , Schaan , Schaan 
+ 20152546 , Vaduz , Vaduz 
+ 20152547 , Vilnius , Vilna 
+ 20152548 , Kaunas , Kaunas 
+ 20152549 , Klaipeda , Klaipeda 
+ 20152550 , Šiauliai , Šiauliai 
+ 20152551 , Panevezys , Panevezys 
+ 20152552 , Luxembourg [Luxemburg/Lëtzebuerg] , Luxembourg 
+ 20152553 , El-Aaiún , El-Aaiún 
+ 20152554 , Macao , Macau 
+ 20152555 , Antananarivo , Antananarivo 
+ 20152556 , Toamasina , Toamasina 
+ 20152557 , Antsirabé , Antananarivo 
+ 20152558 , Mahajanga , Mahajanga 
+ 20152559 , Fianarantsoa , Fianarantsoa 
+ 20152560 , Skopje , Skopje 
+ 20152561 , Blantyre , Blantyre 
+ 20152562 , Lilongwe , Lilongwe 
+ 20152563 , Male , Maale 
+ 20152564 , Kuala Lumpur , Wilayah Persekutuan 
+ 20152565 , Ipoh , Perak 
+ 20152566 , Johor Baharu , Johor 
+ 20152567 , Petaling Jaya , Selangor 
+ 20152568 , Kelang , Selangor 
+ 20152569 , Kuala Terengganu , Terengganu 
+ 20152570 , Pinang , Pulau Pinang 
+ 20152571 , Kota Bharu , Kelantan 
+ 20152572 , Kuantan , Pahang 
+ 20152573 , Taiping , Perak 
+ 20152574 , Seremban , Negeri Sembilan 
+ 20152575 , Kuching , Sarawak 
+ 20152576 , Sibu , Sarawak 
+ 20152577 , Sandakan , Sabah 
+ 20152578 , Alor Setar , Kedah 
+ 20152579 , Selayang Baru , Selangor 
+ 20152580 , Sungai Petani , Kedah 
+ 20152581 , Shah Alam , Selangor 
+ 20152582 , Bamako , Bamako 
+ 20152583 , Birkirkara , Outer Harbour 
+ 20152584 , Valletta , Inner Harbour 
+ 20152585 , Casablanca , Casablanca 
+ 20152586 , Rabat , Rabat-Salé-Zammour-Z 
+ 20152587 , Marrakech , Marrakech-Tensift-Al 
+ 20152588 , Fès , Fès-Boulemane 
+ 20152589 , Tanger , Tanger-Tétouan 
+ 20152590 , Salé , Rabat-Salé-Zammour-Z 
+ 20152591 , Meknès , Meknès-Tafilalet 
+ 20152592 , Oujda , Oriental 
+ 20152593 , Kénitra , Gharb-Chrarda-Béni H 
+ 20152594 , Tétouan , Tanger-Tétouan 
+ 20152595 , Safi , Doukkala-Abda 
+ 20152596 , Agadir , Souss Massa-Draâ 
+ 20152597 , Mohammedia , Casablanca 
+ 20152598 , Khouribga , Chaouia-Ouardigha 
+ 20152599 , Beni-Mellal , Tadla-Azilal 
+ 20152600 , Témara , Rabat-Salé-Zammour-Z 
+ 20152601 , El Jadida , Doukkala-Abda 
+ 20152602 , Nador , Oriental 
+ 20152603 , Ksar el Kebir , Tanger-Tétouan 
+ 20152604 , Settat , Chaouia-Ouardigha 
+ 20152605 , Taza , Taza-Al Hoceima-Taou 
+ 20152606 , El Araich , Tanger-Tétouan 
+ 20152607 , Dalap-Uliga-Darrit , Majuro 
+ 20152608 , Fort-de-France , Fort-de-France 
+ 20152609 , Nouakchott , Nouakchott 
+ 20152610 , Nouâdhibou , Dakhlet Nouâdhibou 
+ 20152611 , Port-Louis , Port-Louis 
+ 20152612 , Beau Bassin-Rose Hill , Plaines Wilhelms 
+ 20152613 , Vacoas-Phoenix , Plaines Wilhelms 
+ 20152614 , Mamoutzou , Mamoutzou 
+ 20152615 , Ciudad de México , Distrito Federal 
+ 20152616 , Guadalajara , Jalisco 
+ 20152617 , Ecatepec de Morelos , México 
+ 20152618 , Puebla , Puebla 
+ 20152619 , Nezahualcóyotl , México 
+ 20152620 , Juárez , Chihuahua 
+ 20152621 , Tijuana , Baja California 
+ 20152622 , León , Guanajuato 
+ 20152623 , Monterrey , Nuevo León 
+ 20152624 , Zapopan , Jalisco 
+ 20152625 , Naucalpan de Juárez , México 
+ 20152626 , Mexicali , Baja California 
+ 20152627 , Culiacán , Sinaloa 
+ 20152628 , Acapulco de Juárez , Guerrero 
+ 20152629 , Tlalnepantla de Baz , México 
+ 20152630 , Mérida , Yucatán 
+ 20152631 , Chihuahua , Chihuahua 
+ 20152632 , San Luis Potosí , San Luis Potosí 
+ 20152633 , Guadalupe , Nuevo León 
+ 20152634 , Toluca , México 
+ 20152635 , Aguascalientes , Aguascalientes 
+ 20152636 , Querétaro , Querétaro de Arteaga 
+ 20152637 , Morelia , Michoacán de Ocampo 
+ 20152638 , Hermosillo , Sonora 
+ 20152639 , Saltillo , Coahuila de Zaragoza 
+ 20152640 , Torreón , Coahuila de Zaragoza 
+ 20152641 , Centro (Villahermosa) , Tabasco 
+ 20152642 , San Nicolás de los Garza , Nuevo León 
+ 20152643 , Durango , Durango 
+ 20152644 , Chimalhuacán , México 
+ 20152645 , Tlaquepaque , Jalisco 
+ 20152646 , Atizapán de Zaragoza , México 
+ 20152647 , Veracruz , Veracruz 
+ 20152648 , Cuautitlán Izcalli , México 
+ 20152649 , Irapuato , Guanajuato 
+ 20152650 , Tuxtla Gutiérrez , Chiapas 
+ 20152651 , Tultitlán , México 
+ 20152652 , Reynosa , Tamaulipas 
+ 20152653 , Benito Juárez , Quintana Roo 
+ 20152654 , Matamoros , Tamaulipas 
+ 20152655 , Xalapa , Veracruz 
+ 20152656 , Celaya , Guanajuato 
+ 20152657 , Mazatlán , Sinaloa 
+ 20152658 , Ensenada , Baja California 
+ 20152659 , Ahome , Sinaloa 
+ 20152660 , Cajeme , Sonora 
+ 20152661 , Cuernavaca , Morelos 
+ 20152662 , Tonalá , Jalisco 
+ 20152663 , Valle de Chalco Solidaridad , México 
+ 20152664 , Nuevo Laredo , Tamaulipas 
+ 20152665 , Tepic , Nayarit 
+ 20152666 , Tampico , Tamaulipas 
+ 20152667 , Ixtapaluca , México 
+ 20152668 , Apodaca , Nuevo León 
+ 20152669 , Guasave , Sinaloa 
+ 20152670 , Gómez Palacio , Durango 
+ 20152671 , Tapachula , Chiapas 
+ 20152672 , Nicolás Romero , México 
+ 20152673 , Coatzacoalcos , Veracruz 
+ 20152674 , Uruapan , Michoacán de Ocampo 
+ 20152675 , Victoria , Tamaulipas 
+ 20152676 , Oaxaca de Juárez , Oaxaca 
+ 20152677 , Coacalco de Berriozábal , México 
+ 20152678 , Pachuca de Soto , Hidalgo 
+ 20152679 , General Escobedo , Nuevo León 
+ 20152680 , Salamanca , Guanajuato 
+ 20152681 , Santa Catarina , Nuevo León 
+ 20152682 , Tehuacán , Puebla 
+ 20152683 , Chalco , México 
+ 20152684 , Cárdenas , Tabasco 
+ 20152685 , Campeche , Campeche 
+ 20152686 , La Paz , México 
+ 20152687 , Othón P. Blanco (Chetumal) , Quintana Roo 
+ 20152688 , Texcoco , México 
+ 20152689 , La Paz , Baja California Sur 
+ 20152690 , Metepec , México 
+ 20152691 , Monclova , Coahuila de Zaragoza 
+ 20152692 , Huixquilucan , México 
+ 20152693 , Chilpancingo de los Bravo , Guerrero 
+ 20152694 , Puerto Vallarta , Jalisco 
+ 20152695 , Fresnillo , Zacatecas 
+ 20152696 , Ciudad Madero , Tamaulipas 
+ 20152697 , Soledad de Graciano Sánchez , San Luis Potosí 
+ 20152698 , San Juan del Río , Querétaro 
+ 20152699 , San Felipe del Progreso , México 
+ 20152700 , Córdoba , Veracruz 
+ 20152701 , Tecámac , México 
+ 20152702 , Ocosingo , Chiapas 
+ 20152703 , Carmen , Campeche 
+ 20152704 , Lázaro Cárdenas , Michoacán de Ocampo 
+ 20152705 , Jiutepec , Morelos 
+ 20152706 , Papantla , Veracruz 
+ 20152707 , Comalcalco , Tabasco 
+ 20152708 , Zamora , Michoacán de Ocampo 
+ 20152709 , Nogales , Sonora 
+ 20152710 , Huimanguillo , Tabasco 
+ 20152711 , Cuautla , Morelos 
+ 20152712 , Minatitlán , Veracruz 
+ 20152713 , Poza Rica de Hidalgo , Veracruz 
+ 20152714 , Ciudad Valles , San Luis Potosí 
+ 20152715 , Navolato , Sinaloa 
+ 20152716 , San Luis Río Colorado , Sonora 
+ 20152717 , Pénjamo , Guanajuato 
+ 20152718 , San Andrés Tuxtla , Veracruz 
+ 20152719 , Guanajuato , Guanajuato 
+ 20152720 , Navojoa , Sonora 
+ 20152721 , Zitácuaro , Michoacán de Ocampo 
+ 20152722 , Boca del Río , Veracruz-Llave 
+ 20152723 , Allende , Guanajuato 
+ 20152724 , Silao , Guanajuato 
+ 20152725 , Macuspana , Tabasco 
+ 20152726 , San Juan Bautista Tuxtepec , Oaxaca 
+ 20152727 , San Cristóbal de las Casas , Chiapas 
+ 20152728 , Valle de Santiago , Guanajuato 
+ 20152729 , Guaymas , Sonora 
+ 20152730 , Colima , Colima 
+ 20152731 , Dolores Hidalgo , Guanajuato 
+ 20152732 , Lagos de Moreno , Jalisco 
+ 20152733 , Piedras Negras , Coahuila de Zaragoza 
+ 20152734 , Altamira , Tamaulipas 
+ 20152735 , Túxpam , Veracruz 
+ 20152736 , San Pedro Garza García , Nuevo León 
+ 20152737 , Cuauhtémoc , Chihuahua 
+ 20152738 , Manzanillo , Colima 
+ 20152739 , Iguala de la Independencia , Guerrero 
+ 20152740 , Zacatecas , Zacatecas 
+ 20152741 , Tlajomulco de Zúñiga , Jalisco 
+ 20152742 , Tulancingo de Bravo , Hidalgo 
+ 20152743 , Zinacantepec , México 
+ 20152744 , San Martín Texmelucan , Puebla 
+ 20152745 , Tepatitlán de Morelos , Jalisco 
+ 20152746 , Martínez de la Torre , Veracruz 
+ 20152747 , Orizaba , Veracruz 
+ 20152748 , Apatzingán , Michoacán de Ocampo 
+ 20152749 , Atlixco , Puebla 
+ 20152750 , Delicias , Chihuahua 
+ 20152751 , Ixtlahuaca , México 
+ 20152752 , El Mante , Tamaulipas 
+ 20152753 , Lerdo , Durango 
+ 20152754 , Almoloya de Juárez , México 
+ 20152755 , Acámbaro , Guanajuato 
+ 20152756 , Acuña , Coahuila de Zaragoza 
+ 20152757 , Guadalupe , Zacatecas 
+ 20152758 , Huejutla de Reyes , Hidalgo 
+ 20152759 , Hidalgo , Michoacán de Ocampo 
+ 20152760 , Los Cabos , Baja California Sur 
+ 20152761 , Comitán de Domínguez , Chiapas 
+ 20152762 , Cunduacán , Tabasco 
+ 20152763 , Río Bravo , Tamaulipas 
+ 20152764 , Temapache , Veracruz 
+ 20152765 , Chilapa de Alvarez , Guerrero 
+ 20152766 , Hidalgo del Parral , Chihuahua 
+ 20152767 , San Francisco del Rincón , Guanajuato 
+ 20152768 , Taxco de Alarcón , Guerrero 
+ 20152769 , Zumpango , México 
+ 20152770 , San Pedro Cholula , Puebla 
+ 20152771 , Lerma , México 
+ 20152772 , Tecomán , Colima 
+ 20152773 , Las Margaritas , Chiapas 
+ 20152774 , Cosoleacaque , Veracruz 
+ 20152775 , San Luis de la Paz , Guanajuato 
+ 20152776 , José Azueta , Guerrero 
+ 20152777 , Santiago Ixcuintla , Nayarit 
+ 20152778 , San Felipe , Guanajuato 
+ 20152779 , Tejupilco , México 
+ 20152780 , Tantoyuca , Veracruz 
+ 20152781 , Salvatierra , Guanajuato 
+ 20152782 , Tultepec , México 
+ 20152783 , Temixco , Morelos 
+ 20152784 , Matamoros , Coahuila de Zaragoza 
+ 20152785 , Pánuco , Veracruz 
+ 20152786 , El Fuerte , Sinaloa 
+ 20152787 , Tierra Blanca , Veracruz 
+ 20152788 , Weno , Chuuk 
+ 20152789 , Palikir , Pohnpei 
+ 20152790 , Chisinau , Chisinau 
+ 20152791 , Tiraspol , Dnjestria 
+ 20152792 , Balti , Balti 
+ 20152793 , Bender (Tîghina) , Bender (Tîghina) 
+ 20152794 , Monte-Carlo , – 
+ 20152795 , Monaco-Ville , – 
+ 20152796 , Ulan Bator , Ulaanbaatar 
+ 20152797 , Plymouth , Plymouth 
+ 20152798 , Maputo , Maputo 
+ 20152799 , Matola , Maputo 
+ 20152800 , Beira , Sofala 
+ 20152801 , Nampula , Nampula 
+ 20152802 , Chimoio , Manica 
+ 20152803 , Naçala-Porto , Nampula 
+ 20152804 , Quelimane , Zambézia 
+ 20152805 , Mocuba , Zambézia 
+ 20152806 , Tete , Tete 
+ 20152807 , Xai-Xai , Gaza 
+ 20152808 , Gurue , Zambézia 
+ 20152809 , Maxixe , Inhambane 
+ 20152810 , Rangoon (Yangon) , Rangoon [Yangon] 
+ 20152811 , Mandalay , Mandalay 
+ 20152812 , Moulmein (Mawlamyine) , Mon 
+ 20152813 , Pegu (Bago) , Pegu [Bago] 
+ 20152814 , Bassein (Pathein) , Irrawaddy [Ayeyarwad 
+ 20152815 , Monywa , Sagaing 
+ 20152816 , Sittwe (Akyab) , Rakhine 
+ 20152817 , Taunggyi (Taunggye) , Shan 
+ 20152818 , Meikhtila , Mandalay 
+ 20152819 , Mergui (Myeik) , Tenasserim [Tanintha 
+ 20152820 , Lashio (Lasho) , Shan 
+ 20152821 , Prome (Pyay) , Pegu [Bago] 
+ 20152822 , Henzada (Hinthada) , Irrawaddy [Ayeyarwad 
+ 20152823 , Myingyan , Mandalay 
+ 20152824 , Tavoy (Dawei) , Tenasserim [Tanintha 
+ 20152825 , Pagakku (Pakokku) , Magwe [Magway] 
+ 20152826 , Windhoek , Khomas 
+ 20152827 , Yangor , – 
+ 20152828 , Yaren , – 
+ 20152829 , Kathmandu , Central 
+ 20152830 , Biratnagar , Eastern 
+ 20152831 , Pokhara , Western 
+ 20152832 , Lalitapur , Central 
+ 20152833 , Birgunj , Central 
+ 20152834 , Managua , Managua 
+ 20152835 , León , León 
+ 20152836 , Chinandega , Chinandega 
+ 20152837 , Masaya , Masaya 
+ 20152838 , Niamey , Niamey 
+ 20152839 , Zinder , Zinder 
+ 20152840 , Maradi , Maradi 
+ 20152841 , Lagos , Lagos 
+ 20152842 , Ibadan , Oyo & Osun 
+ 20152843 , Ogbomosho , Oyo & Osun 
+ 20152844 , Kano , Kano & Jigawa 
+ 20152845 , Oshogbo , Oyo & Osun 
+ 20152846 , Ilorin , Kwara & Kogi 
+ 20152847 , Abeokuta , Ogun 
+ 20152848 , Port Harcourt , Rivers & Bayelsa 
+ 20152849 , Zaria , Kaduna 
+ 20152850 , Ilesha , Oyo & Osun 
+ 20152851 , Onitsha , Anambra & Enugu & Eb 
+ 20152852 , Iwo , Oyo & Osun 
+ 20152853 , Ado-Ekiti , Ondo & Ekiti 
+ 20152854 , Abuja , Federal Capital Dist 
+ 20152855 , Kaduna , Kaduna 
+ 20152856 , Mushin , Lagos 
+ 20152857 , Maiduguri , Borno & Yobe 
+ 20152858 , Enugu , Anambra & Enugu & Eb 
+ 20152859 , Ede , Oyo & Osun 
+ 20152860 , Aba , Imo & Abia 
+ 20152861 , Ife , Oyo & Osun 
+ 20152862 , Ila , Oyo & Osun 
+ 20152863 , Oyo , Oyo & Osun 
+ 20152864 , Ikerre , Ondo & Ekiti 
+ 20152865 , Benin City , Edo & Delta 
+ 20152866 , Iseyin , Oyo & Osun 
+ 20152867 , Katsina , Katsina 
+ 20152868 , Jos , Plateau & Nassarawa 
+ 20152869 , Sokoto , Sokoto & Kebbi & Zam 
+ 20152870 , Ilobu , Oyo & Osun 
+ 20152871 , Offa , Kwara & Kogi 
+ 20152872 , Ikorodu , Lagos 
+ 20152873 , Ilawe-Ekiti , Ondo & Ekiti 
+ 20152874 , Owo , Ondo & Ekiti 
+ 20152875 , Ikirun , Oyo & Osun 
+ 20152876 , Shaki , Oyo & Osun 
+ 20152877 , Calabar , Cross River 
+ 20152878 , Ondo , Ondo & Ekiti 
+ 20152879 , Akure , Ondo & Ekiti 
+ 20152880 , Gusau , Sokoto & Kebbi & Zam 
+ 20152881 , Ijebu-Ode , Ogun 
+ 20152882 , Effon-Alaiye , Oyo & Osun 
+ 20152883 , Kumo , Bauchi & Gombe 
+ 20152884 , Shomolu , Lagos 
+ 20152885 , Oka-Akoko , Ondo & Ekiti 
+ 20152886 , Ikare , Ondo & Ekiti 
+ 20152887 , Sapele , Edo & Delta 
+ 20152888 , Deba Habe , Bauchi & Gombe 
+ 20152889 , Minna , Niger 
+ 20152890 , Warri , Edo & Delta 
+ 20152891 , Bida , Niger 
+ 20152892 , Ikire , Oyo & Osun 
+ 20152893 , Makurdi , Benue 
+ 20152894 , Lafia , Plateau & Nassarawa 
+ 20152895 , Inisa , Oyo & Osun 
+ 20152896 , Shagamu , Ogun 
+ 20152897 , Awka , Anambra & Enugu & Eb 
+ 20152898 , Gombe , Bauchi & Gombe 
+ 20152899 , Igboho , Oyo & Osun 
+ 20152900 , Ejigbo , Oyo & Osun 
+ 20152901 , Agege , Lagos 
+ 20152902 , Ise-Ekiti , Ondo & Ekiti 
+ 20152903 , Ugep , Cross River 
+ 20152904 , Epe , Lagos 
+ 20152905 , Alofi , – 
+ 20152906 , Kingston , – 
+ 20152907 , Oslo , Oslo 
+ 20152908 , Bergen , Hordaland 
+ 20152909 , Trondheim , Sør-Trøndelag 
+ 20152910 , Stavanger , Rogaland 
+ 20152911 , Bærum , Akershus 
+ 20152912 , Abidjan , Abidjan 
+ 20152913 , Bouaké , Bouaké 
+ 20152914 , Yamoussoukro , Yamoussoukro 
+ 20152915 , Daloa , Daloa 
+ 20152916 , Korhogo , Korhogo 
+ 20152917 , al-Sib , Masqat 
+ 20152918 , Salala , Zufar 
+ 20152919 , Bawshar , Masqat 
+ 20152920 , Suhar , al-Batina 
+ 20152921 , Masqat , Masqat 
+ 20152922 , Karachi , Sindh 
+ 20152923 , Lahore , Punjab 
+ 20152924 , Faisalabad , Punjab 
+ 20152925 , Rawalpindi , Punjab 
+ 20152926 , Multan , Punjab 
+ 20152927 , Hyderabad , Sindh 
+ 20152928 , Gujranwala , Punjab 
+ 20152929 , Peshawar , Nothwest Border Prov 
+ 20152930 , Quetta , Baluchistan 
+ 20152931 , Islamabad , Islamabad 
+ 20152932 , Sargodha , Punjab 
+ 20152933 , Sialkot , Punjab 
+ 20152934 , Bahawalpur , Punjab 
+ 20152935 , Sukkur , Sindh 
+ 20152936 , Jhang , Punjab 
+ 20152937 , Sheikhupura , Punjab 
+ 20152938 , Larkana , Sindh 
+ 20152939 , Gujrat , Punjab 
+ 20152940 , Mardan , Nothwest Border Prov 
+ 20152941 , Kasur , Punjab 
+ 20152942 , Rahim Yar Khan , Punjab 
+ 20152943 , Sahiwal , Punjab 
+ 20152944 , Okara , Punjab 
+ 20152945 , Wah , Punjab 
+ 20152946 , Dera Ghazi Khan , Punjab 
+ 20152947 , Mirpur Khas , Sind 
+ 20152948 , Nawabshah , Sind 
+ 20152949 , Mingora , Nothwest Border Prov 
+ 20152950 , Chiniot , Punjab 
+ 20152951 , Kamoke , Punjab 
+ 20152952 , Mandi Burewala , Punjab 
+ 20152953 , Jhelum , Punjab 
+ 20152954 , Sadiqabad , Punjab 
+ 20152955 , Jacobabad , Sind 
+ 20152956 , Shikarpur , Sind 
+ 20152957 , Khanewal , Punjab 
+ 20152958 , Hafizabad , Punjab 
+ 20152959 , Kohat , Nothwest Border Prov 
+ 20152960 , Muzaffargarh , Punjab 
+ 20152961 , Khanpur , Punjab 
+ 20152962 , Gojra , Punjab 
+ 20152963 , Bahawalnagar , Punjab 
+ 20152964 , Muridke , Punjab 
+ 20152965 , Pak Pattan , Punjab 
+ 20152966 , Abottabad , Nothwest Border Prov 
+ 20152967 , Tando Adam , Sind 
+ 20152968 , Jaranwala , Punjab 
+ 20152969 , Khairpur , Sind 
+ 20152970 , Chishtian Mandi , Punjab 
+ 20152971 , Daska , Punjab 
+ 20152972 , Dadu , Sind 
+ 20152973 , Mandi Bahauddin , Punjab 
+ 20152974 , Ahmadpur East , Punjab 
+ 20152975 , Kamalia , Punjab 
+ 20152976 , Khuzdar , Baluchistan 
+ 20152977 , Vihari , Punjab 
+ 20152978 , Dera Ismail Khan , Nothwest Border Prov 
+ 20152979 , Wazirabad , Punjab 
+ 20152980 , Nowshera , Nothwest Border Prov 
+ 20152981 , Koror , Koror 
+ 20152982 , Ciudad de Panamá , Panamá 
+ 20152983 , San Miguelito , San Miguelito 
+ 20152984 , Port Moresby , National Capital Dis 
+ 20152985 , Asunción , Asunción 
+ 20152986 , Ciudad del Este , Alto Paraná 
+ 20152987 , San Lorenzo , Central 
+ 20152988 , Lambaré , Central 
+ 20152989 , Fernando de la Mora , Central 
+ 20152990 , Lima , Lima 
+ 20152991 , Arequipa , Arequipa 
+ 20152992 , Trujillo , La Libertad 
+ 20152993 , Chiclayo , Lambayeque 
+ 20152994 , Callao , Callao 
+ 20152995 , Iquitos , Loreto 
+ 20152996 , Chimbote , Ancash 
+ 20152997 , Huancayo , Junín 
+ 20152998 , Piura , Piura 
+ 20152999 , Cusco , Cusco 
+ 20153000 , Pucallpa , Ucayali 
+ 20153001 , Tacna , Tacna 
+ 20153002 , Ica , Ica 
+ 20153003 , Sullana , Piura 
+ 20153004 , Juliaca , Puno 
+ 20153005 , Huánuco , Huanuco 
+ 20153006 , Ayacucho , Ayacucho 
+ 20153007 , Chincha Alta , Ica 
+ 20153008 , Cajamarca , Cajamarca 
+ 20153009 , Puno , Puno 
+ 20153010 , Ventanilla , Callao 
+ 20153011 , Castilla , Piura 
+ 20153012 , Adamstown , – 
+ 20153013 , Garapan , Saipan 
+ 20153014 , Lisboa , Lisboa 
+ 20153015 , Porto , Porto 
+ 20153016 , Amadora , Lisboa 
+ 20153017 , Coímbra , Coímbra 
+ 20153018 , Braga , Braga 
+ 20153019 , San Juan , San Juan 
+ 20153020 , Bayamón , Bayamón 
+ 20153021 , Ponce , Ponce 
+ 20153022 , Carolina , Carolina 
+ 20153023 , Caguas , Caguas 
+ 20153024 , Arecibo , Arecibo 
+ 20153025 , Guaynabo , Guaynabo 
+ 20153026 , Mayagüez , Mayagüez 
+ 20153027 , Toa Baja , Toa Baja 
+ 20153028 , Warszawa , Mazowieckie 
+ 20153029 , Lódz , Lodzkie 
+ 20153030 , Kraków , Malopolskie 
+ 20153031 , Wroclaw , Dolnoslaskie 
+ 20153032 , Poznan , Wielkopolskie 
+ 20153033 , Gdansk , Pomorskie 
+ 20153034 , Szczecin , Zachodnio-Pomorskie 
+ 20153035 , Bydgoszcz , Kujawsko-Pomorskie 
+ 20153036 , Lublin , Lubelskie 
+ 20153037 , Katowice , Slaskie 
+ 20153038 , Bialystok , Podlaskie 
+ 20153039 , Czestochowa , Slaskie 
+ 20153040 , Gdynia , Pomorskie 
+ 20153041 , Sosnowiec , Slaskie 
+ 20153042 , Radom , Mazowieckie 
+ 20153043 , Kielce , Swietokrzyskie 
+ 20153044 , Gliwice , Slaskie 
+ 20153045 , Torun , Kujawsko-Pomorskie 
+ 20153046 , Bytom , Slaskie 
+ 20153047 , Zabrze , Slaskie 
+ 20153048 , Bielsko-Biala , Slaskie 
+ 20153049 , Olsztyn , Warminsko-Mazurskie 
+ 20153050 , Rzeszów , Podkarpackie 
+ 20153051 , Ruda Slaska , Slaskie 
+ 20153052 , Rybnik , Slaskie 
+ 20153053 , Walbrzych , Dolnoslaskie 
+ 20153054 , Tychy , Slaskie 
+ 20153055 , Dabrowa Górnicza , Slaskie 
+ 20153056 , Plock , Mazowieckie 
+ 20153057 , Elblag , Warminsko-Mazurskie 
+ 20153058 , Opole , Opolskie 
+ 20153059 , Gorzów Wielkopolski , Lubuskie 
+ 20153060 , Wloclawek , Kujawsko-Pomorskie 
+ 20153061 , Chorzów , Slaskie 
+ 20153062 , Tarnów , Malopolskie 
+ 20153063 , Zielona Góra , Lubuskie 
+ 20153064 , Koszalin , Zachodnio-Pomorskie 
+ 20153065 , Legnica , Dolnoslaskie 
+ 20153066 , Kalisz , Wielkopolskie 
+ 20153067 , Grudziadz , Kujawsko-Pomorskie 
+ 20153068 , Slupsk , Pomorskie 
+ 20153069 , Jastrzebie-Zdrój , Slaskie 
+ 20153070 , Jaworzno , Slaskie 
+ 20153071 , Jelenia Góra , Dolnoslaskie 
+ 20153072 , Malabo , Bioko 
+ 20153073 , Doha , Doha 
+ 20153074 , Paris , Île-de-France 
+ 20153075 , Marseille , Provence-Alpes-Côte 
+ 20153076 , Lyon , Rhône-Alpes 
+ 20153077 , Toulouse , Midi-Pyrénées 
+ 20153078 , Nice , Provence-Alpes-Côte 
+ 20153079 , Nantes , Pays de la Loire 
+ 20153080 , Strasbourg , Alsace 
+ 20153081 , Montpellier , Languedoc-Roussillon 
+ 20153082 , Bordeaux , Aquitaine 
+ 20153083 , Rennes , Haute-Normandie 
+ 20153084 , Le Havre , Champagne-Ardenne 
+ 20153085 , Reims , Nord-Pas-de-Calais 
+ 20153086 , Lille , Rhône-Alpes 
+ 20153087 , St-Étienne , Bretagne 
+ 20153088 , Toulon , Provence-Alpes-Côte 
+ 20153089 , Grenoble , Rhône-Alpes 
+ 20153090 , Angers , Pays de la Loire 
+ 20153091 , Dijon , Bourgogne 
+ 20153092 , Brest , Bretagne 
+ 20153093 , Le Mans , Pays de la Loire 
+ 20153094 , Clermont-Ferrand , Auvergne 
+ 20153095 , Amiens , Picardie 
+ 20153096 , Aix-en-Provence , Provence-Alpes-Côte 
+ 20153097 , Limoges , Limousin 
+ 20153098 , Nîmes , Languedoc-Roussillon 
+ 20153099 , Tours , Centre 
+ 20153100 , Villeurbanne , Rhône-Alpes 
+ 20153101 , Metz , Lorraine 
+ 20153102 , Besançon , Franche-Comté 
+ 20153103 , Caen , Basse-Normandie 
+ 20153104 , Orléans , Centre 
+ 20153105 , Mulhouse , Alsace 
+ 20153106 , Rouen , Haute-Normandie 
+ 20153107 , Boulogne-Billancourt , Île-de-France 
+ 20153108 , Perpignan , Languedoc-Roussillon 
+ 20153109 , Nancy , Lorraine 
+ 20153110 , Roubaix , Nord-Pas-de-Calais 
+ 20153111 , Argenteuil , Île-de-France 
+ 20153112 , Tourcoing , Nord-Pas-de-Calais 
+ 20153113 , Montreuil , Île-de-France 
+ 20153114 , Cayenne , Cayenne 
+ 20153115 , Faaa , Tahiti 
+ 20153116 , Papeete , Tahiti 
+ 20153117 , Saint-Denis , Saint-Denis 
+ 20153118 , Bucuresti , Bukarest 
+ 20153119 , Iasi , Iasi 
+ 20153120 , Constanta , Constanta 
+ 20153121 , Cluj-Napoca , Cluj 
+ 20153122 , Galati , Galati 
+ 20153123 , Timisoara , Timis 
+ 20153124 , Brasov , Brasov 
+ 20153125 , Craiova , Dolj 
+ 20153126 , Ploiesti , Prahova 
+ 20153127 , Braila , Braila 
+ 20153128 , Oradea , Bihor 
+ 20153129 , Bacau , Bacau 
+ 20153130 , Pitesti , Arges 
+ 20153131 , Arad , Arad 
+ 20153132 , Sibiu , Sibiu 
+ 20153133 , Târgu Mures , Mures 
+ 20153134 , Baia Mare , Maramures 
+ 20153135 , Buzau , Buzau 
+ 20153136 , Satu Mare , Satu Mare 
+ 20153137 , Botosani , Botosani 
+ 20153138 , Piatra Neamt , Neamt 
+ 20153139 , Râmnicu Vâlcea , Vâlcea 
+ 20153140 , Suceava , Suceava 
+ 20153141 , Drobeta-Turnu Severin , Mehedinti 
+ 20153142 , Târgoviste , Dâmbovita 
+ 20153143 , Focsani , Vrancea 
+ 20153144 , Târgu Jiu , Gorj 
+ 20153145 , Tulcea , Tulcea 
+ 20153146 , Resita , Caras-Severin 
+ 20153147 , Kigali , Kigali 
+ 20153148 , Stockholm , Lisboa 
+ 20153149 , Gothenburg [Göteborg] , West Götanmaan län 
+ 20153150 , Malmö , Skåne län 
+ 20153151 , Uppsala , Uppsala län 
+ 20153152 , Linköping , East Götanmaan län 
+ 20153153 , Västerås , Västmanlands län 
+ 20153154 , Örebro , Örebros län 
+ 20153155 , Norrköping , East Götanmaan län 
+ 20153156 , Helsingborg , Skåne län 
+ 20153157 , Jönköping , Jönköpings län 
+ 20153158 , Umeå , Västerbottens län 
+ 20153159 , Lund , Skåne län 
+ 20153160 , Borås , West Götanmaan län 
+ 20153161 , Sundsvall , Västernorrlands län 
+ 20153162 , Gävle , Gävleborgs län 
+ 20153163 , Jamestown , Saint Helena 
+ 20153164 , Basseterre , St George Basseterre 
+ 20153165 , Castries , Castries 
+ 20153166 , Kingstown , St George 
+ 20153167 , Saint-Pierre , Saint-Pierre 
+ 20153168 , Berlin , Berliini 
+ 20153169 , Hamburg , Hamburg 
+ 20153170 , Munich [München] , Baijeri 
+ 20153171 , Köln , Nordrhein-Westfalen 
+ 20153172 , Frankfurt am Main , Hessen 
+ 20153173 , Essen , Nordrhein-Westfalen 
+ 20153174 , Dortmund , Nordrhein-Westfalen 
+ 20153175 , Stuttgart , Baden-Württemberg 
+ 20153176 , Düsseldorf , Nordrhein-Westfalen 
+ 20153177 , Bremen , Bremen 
+ 20153178 , Duisburg , Nordrhein-Westfalen 
+ 20153179 , Hannover , Niedersachsen 
+ 20153180 , Leipzig , Saksi 
+ 20153181 , Nürnberg , Baijeri 
+ 20153182 , Dresden , Saksi 
+ 20153183 , Bochum , Nordrhein-Westfalen 
+ 20153184 , Wuppertal , Nordrhein-Westfalen 
+ 20153185 , Bielefeld , Nordrhein-Westfalen 
+ 20153186 , Mannheim , Baden-Württemberg 
+ 20153187 , Bonn , Nordrhein-Westfalen 
+ 20153188 , Gelsenkirchen , Nordrhein-Westfalen 
+ 20153189 , Karlsruhe , Baden-Württemberg 
+ 20153190 , Wiesbaden , Hessen 
+ 20153191 , Münster , Nordrhein-Westfalen 
+ 20153192 , Mönchengladbach , Nordrhein-Westfalen 
+ 20153193 , Chemnitz , Saksi 
+ 20153194 , Augsburg , Baijeri 
+ 20153195 , Halle/Saale , Anhalt Sachsen 
+ 20153196 , Braunschweig , Niedersachsen 
+ 20153197 , Aachen , Nordrhein-Westfalen 
+ 20153198 , Krefeld , Nordrhein-Westfalen 
+ 20153199 , Magdeburg , Anhalt Sachsen 
+ 20153200 , Kiel , Schleswig-Holstein 
+ 20153201 , Oberhausen , Nordrhein-Westfalen 
+ 20153202 , Lübeck , Schleswig-Holstein 
+ 20153203 , Hagen , Nordrhein-Westfalen 
+ 20153204 , Rostock , Mecklenburg-Vorpomme 
+ 20153205 , Freiburg im Breisgau , Baden-Württemberg 
+ 20153206 , Erfurt , Thüringen 
+ 20153207 , Kassel , Hessen 
+ 20153208 , Saarbrücken , Saarland 
+ 20153209 , Mainz , Rheinland-Pfalz 
+ 20153210 , Hamm , Nordrhein-Westfalen 
+ 20153211 , Herne , Nordrhein-Westfalen 
+ 20153212 , Mülheim an der Ruhr , Nordrhein-Westfalen 
+ 20153213 , Solingen , Nordrhein-Westfalen 
+ 20153214 , Osnabrück , Niedersachsen 
+ 20153215 , Ludwigshafen am Rhein , Rheinland-Pfalz 
+ 20153216 , Leverkusen , Nordrhein-Westfalen 
+ 20153217 , Oldenburg , Niedersachsen 
+ 20153218 , Neuss , Nordrhein-Westfalen 
+ 20153219 , Heidelberg , Baden-Württemberg 
+ 20153220 , Darmstadt , Hessen 
+ 20153221 , Paderborn , Nordrhein-Westfalen 
+ 20153222 , Potsdam , Brandenburg 
+ 20153223 , Würzburg , Baijeri 
+ 20153224 , Regensburg , Baijeri 
+ 20153225 , Recklinghausen , Nordrhein-Westfalen 
+ 20153226 , Göttingen , Niedersachsen 
+ 20153227 , Bremerhaven , Bremen 
+ 20153228 , Wolfsburg , Niedersachsen 
+ 20153229 , Bottrop , Nordrhein-Westfalen 
+ 20153230 , Remscheid , Nordrhein-Westfalen 
+ 20153231 , Heilbronn , Baden-Württemberg 
+ 20153232 , Pforzheim , Baden-Württemberg 
+ 20153233 , Offenbach am Main , Hessen 
+ 20153234 , Ulm , Baden-Württemberg 
+ 20153235 , Ingolstadt , Baijeri 
+ 20153236 , Gera , Thüringen 
+ 20153237 , Salzgitter , Niedersachsen 
+ 20153238 , Cottbus , Brandenburg 
+ 20153239 , Reutlingen , Baden-Württemberg 
+ 20153240 , Fürth , Baijeri 
+ 20153241 , Siegen , Nordrhein-Westfalen 
+ 20153242 , Koblenz , Rheinland-Pfalz 
+ 20153243 , Moers , Nordrhein-Westfalen 
+ 20153244 , Bergisch Gladbach , Nordrhein-Westfalen 
+ 20153245 , Zwickau , Saksi 
+ 20153246 , Hildesheim , Niedersachsen 
+ 20153247 , Witten , Nordrhein-Westfalen 
+ 20153248 , Schwerin , Mecklenburg-Vorpomme 
+ 20153249 , Erlangen , Baijeri 
+ 20153250 , Kaiserslautern , Rheinland-Pfalz 
+ 20153251 , Trier , Rheinland-Pfalz 
+ 20153252 , Jena , Thüringen 
+ 20153253 , Iserlohn , Nordrhein-Westfalen 
+ 20153254 , Gütersloh , Nordrhein-Westfalen 
+ 20153255 , Marl , Nordrhein-Westfalen 
+ 20153256 , Lünen , Nordrhein-Westfalen 
+ 20153257 , Düren , Nordrhein-Westfalen 
+ 20153258 , Ratingen , Nordrhein-Westfalen 
+ 20153259 , Velbert , Nordrhein-Westfalen 
+ 20153260 , Esslingen am Neckar , Baden-Württemberg 
+ 20153261 , Honiara , Honiara 
+ 20153262 , Lusaka , Lusaka 
+ 20153263 , Ndola , Copperbelt 
+ 20153264 , Kitwe , Copperbelt 
+ 20153265 , Kabwe , Central 
+ 20153266 , Chingola , Copperbelt 
+ 20153267 , Mufulira , Copperbelt 
+ 20153268 , Luanshya , Copperbelt 
+ 20153269 , Apia , Upolu 
+ 20153270 , Serravalle , Serravalle/Dogano 
+ 20153271 , San Marino , San Marino 
+ 20153272 , São Tomé , Aqua Grande 
+ 20153273 , Riyadh , Riyadh 
+ 20153274 , Jedda , Mekka 
+ 20153275 , Mekka , Mekka 
+ 20153276 , Medina , Medina 
+ 20153277 , al-Dammam , al-Sharqiya 
+ 20153278 , al-Taif , Mekka 
+ 20153279 , Tabuk , Tabuk 
+ 20153280 , Burayda , al-Qasim 
+ 20153281 , al-Hufuf , al-Sharqiya 
+ 20153282 , al-Mubarraz , al-Sharqiya 
+ 20153283 , Khamis Mushayt , Asir 
+ 20153284 , Hail , Hail 
+ 20153285 , al-Kharj , Riad 
+ 20153286 , al-Khubar , al-Sharqiya 
+ 20153287 , Jubayl , al-Sharqiya 
+ 20153288 , Hafar al-Batin , al-Sharqiya 
+ 20153289 , al-Tuqba , al-Sharqiya 
+ 20153290 , Yanbu , Medina 
+ 20153291 , Abha , Asir 
+ 20153292 , Ara´ar , al-Khudud al-Samaliy 
+ 20153293 , al-Qatif , al-Sharqiya 
+ 20153294 , al-Hawiya , Mekka 
+ 20153295 , Unayza , Qasim 
+ 20153296 , Najran , Najran 
+ 20153297 , Pikine , Cap-Vert 
+ 20153298 , Dakar , Cap-Vert 
+ 20153299 , Thiès , Thiès 
+ 20153300 , Kaolack , Kaolack 
+ 20153301 , Ziguinchor , Ziguinchor 
+ 20153302 , Rufisque , Cap-Vert 
+ 20153303 , Saint-Louis , Saint-Louis 
+ 20153304 , Mbour , Thiès 
+ 20153305 , Diourbel , Diourbel 
+ 20153306 , Victoria , Mahé 
+ 20153307 , Freetown , Western 
+ 20153308 , Singapore , – 
+ 20153309 , Bratislava , Bratislava 
+ 20153310 , Košice , Východné Slovensko 
+ 20153311 , Prešov , Východné Slovensko 
+ 20153312 , Ljubljana , Osrednjeslovenska 
+ 20153313 , Maribor , Podravska 
+ 20153314 , Mogadishu , Banaadir 
+ 20153315 , Hargeysa , Woqooyi Galbeed 
+ 20153316 , Kismaayo , Jubbada Hoose 
+ 20153317 , Colombo , Western 
+ 20153318 , Dehiwala , Western 
+ 20153319 , Moratuwa , Western 
+ 20153320 , Jaffna , Northern 
+ 20153321 , Kandy , Central 
+ 20153322 , Sri Jayawardenepura Kotte , Western 
+ 20153323 , Negombo , Western 
+ 20153324 , Omdurman , Khartum 
+ 20153325 , Khartum , Khartum 
+ 20153326 , Sharq al-Nil , Khartum 
+ 20153327 , Port Sudan , al-Bahr al-Ahmar 
+ 20153328 , Kassala , Kassala 
+ 20153329 , Obeid , Kurdufan al-Shamaliy 
+ 20153330 , Nyala , Darfur al-Janubiya 
+ 20153331 , Wad Madani , al-Jazira 
+ 20153332 , al-Qadarif , al-Qadarif 
+ 20153333 , Kusti , al-Bahr al-Abyad 
+ 20153334 , al-Fashir , Darfur al-Shamaliya 
+ 20153335 , Juba , Bahr al-Jabal 
+ 20153336 , Helsinki [Helsingfors] , Newmaa 
+ 20153337 , Espoo , Newmaa 
+ 20153338 , Tampere , Pirkanmaa 
+ 20153339 , Vantaa , Newmaa 
+ 20153340 , Turku [Åbo] , Varsinais-Suomi 
+ 20153341 , Oulu , Pohjois-Pohjanmaa 
+ 20153342 , Lahti , Päijät-Häme 
+ 20153343 , Paramaribo , Paramaribo 
+ 20153344 , Mbabane , Hhohho 
+ 20153345 , Zürich , Zürich 
+ 20153346 , Geneve , Geneve 
+ 20153347 , Basel , Basel-Stadt 
+ 20153348 , Bern , Bern 
+ 20153349 , Lausanne , Vaud 
+ 20153350 , Damascus , Damascus 
+ 20153351 , Aleppo , Aleppo 
+ 20153352 , Hims , Hims 
+ 20153353 , Hama , Hama 
+ 20153354 , Latakia , Latakia 
+ 20153355 , al-Qamishliya , al-Hasaka 
+ 20153356 , Dayr al-Zawr , Dayr al-Zawr 
+ 20153357 , Jaramana , Damaskos 
+ 20153358 , Duma , Damaskos 
+ 20153359 , al-Raqqa , al-Raqqa 
+ 20153360 , Idlib , Idlib 
+ 20153361 , Dushanbe , Karotegin 
+ 20153362 , Khujand , Khujand 
+ 20153363 , Taipei , Taipei 
+ 20153364 , Kaohsiung , Kaohsiung 
+ 20153365 , Taichung , Taichung 
+ 20153366 , Tainan , Tainan 
+ 20153367 , Panchiao , Taipei 
+ 20153368 , Chungho , Taipei 
+ 20153369 , Keelung (Chilung) , Keelung 
+ 20153370 , Sanchung , Taipei 
+ 20153371 , Hsinchuang , Taipei 
+ 20153372 , Hsinchu , Hsinchu 
+ 20153373 , Chungli , Taoyuan 
+ 20153374 , Fengshan , Kaohsiung 
+ 20153375 , Taoyuan , Taoyuan 
+ 20153376 , Chiayi , Chiayi 
+ 20153377 , Hsintien , Taipei 
+ 20153378 , Changhwa , Changhwa 
+ 20153379 , Yungho , Taipei 
+ 20153380 , Tucheng , Taipei 
+ 20153381 , Pingtung , Pingtung 
+ 20153382 , Yungkang , Tainan 
+ 20153383 , Pingchen , Taoyuan 
+ 20153384 , Tali , Taichung 
+ 20153385 , Taiping ,
+ 20153386 , Pate , Taoyuan 
+ 20153387 , Fengyuan , Taichung 
+ 20153388 , Luchou , Taipei 
+ 20153389 , Hsichuh , Taipei 
+ 20153390 , Shulin , Taipei 
+ 20153391 , Yuanlin , Changhwa 
+ 20153392 , Yangmei , Taoyuan 
+ 20153393 , Taliao ,
+ 20153394 , Kueishan ,
+ 20153395 , Tanshui , Taipei 
+ 20153396 , Taitung , Taitung 
+ 20153397 , Hualien , Hualien 
+ 20153398 , Nantou , Nantou 
+ 20153399 , Lungtan , Taipei 
+ 20153400 , Touliu , Yünlin 
+ 20153401 , Tsaotun , Nantou 
+ 20153402 , Kangshan , Kaohsiung 
+ 20153403 , Ilan , Ilan 
+ 20153404 , Miaoli , Miaoli 
+ 20153405 , Dar es Salaam , Dar es Salaam 
+ 20153406 , Dodoma , Dodoma 
+ 20153407 , Mwanza , Mwanza 
+ 20153408 , Zanzibar , Zanzibar West 
+ 20153409 , Tanga , Tanga 
+ 20153410 , Mbeya , Mbeya 
+ 20153411 , Morogoro , Morogoro 
+ 20153412 , Arusha , Arusha 
+ 20153413 , Moshi , Kilimanjaro 
+ 20153414 , Tabora , Tabora 
+ 20153415 , København , København 
+ 20153416 , Århus , Århus 
+ 20153417 , Odense , Fyn 
+ 20153418 , Aalborg , Nordjylland 
+ 20153419 , Frederiksberg , Frederiksberg 
+ 20153420 , Bangkok , Bangkok 
+ 20153421 , Nonthaburi , Nonthaburi 
+ 20153422 , Nakhon Ratchasima , Nakhon Ratchasima 
+ 20153423 , Chiang Mai , Chiang Mai 
+ 20153424 , Udon Thani , Udon Thani 
+ 20153425 , Hat Yai , Songkhla 
+ 20153426 , Khon Kaen , Khon Kaen 
+ 20153427 , Pak Kret , Nonthaburi 
+ 20153428 , Nakhon Sawan , Nakhon Sawan 
+ 20153429 , Ubon Ratchathani , Ubon Ratchathani 
+ 20153430 , Songkhla , Songkhla 
+ 20153431 , Nakhon Pathom , Nakhon Pathom 
+ 20153432 , Lomé , Maritime 
+ 20153433 , Fakaofo , Fakaofo 
+ 20153434 , Nuku´alofa , Tongatapu 
+ 20153435 , Chaguanas , Caroni 
+ 20153436 , Port-of-Spain , Port-of-Spain 
+ 20153437 , N´Djaména , Chari-Baguirmi 
+ 20153438 , Moundou , Logone Occidental 
+ 20153439 , Praha , Hlavní mesto Praha 
+ 20153440 , Brno , Jizní Morava 
+ 20153441 , Ostrava , Severní Morava 
+ 20153442 , Plzen , Zapadní Cechy 
+ 20153443 , Olomouc , Severní Morava 
+ 20153444 , Liberec , Severní Cechy 
+ 20153445 , Ceské Budejovice , Jizní Cechy 
+ 20153446 , Hradec Králové , Východní Cechy 
+ 20153447 , Ústí nad Labem , Severní Cechy 
+ 20153448 , Pardubice , Východní Cechy 
+ 20153449 , Tunis , Tunis 
+ 20153450 , Sfax , Sfax 
+ 20153451 , Ariana , Ariana 
+ 20153452 , Ettadhamen , Ariana 
+ 20153453 , Sousse , Sousse 
+ 20153454 , Kairouan , Kairouan 
+ 20153455 , Biserta , Biserta 
+ 20153456 , Gabès , Gabès 
+ 20153457 , Istanbul , Istanbul 
+ 20153458 , Ankara , Ankara 
+ 20153459 , Izmir , Izmir 
+ 20153460 , Adana , Adana 
+ 20153461 , Bursa , Bursa 
+ 20153462 , Gaziantep , Gaziantep 
+ 20153463 , Konya , Konya 
+ 20153464 , Mersin (Içel) , Içel 
+ 20153465 , Antalya , Antalya 
+ 20153466 , Diyarbakir , Diyarbakir 
+ 20153467 , Kayseri , Kayseri 
+ 20153468 , Eskisehir , Eskisehir 
+ 20153469 , Sanliurfa , Sanliurfa 
+ 20153470 , Samsun , Samsun 
+ 20153471 , Malatya , Malatya 
+ 20153472 , Gebze , Kocaeli 
+ 20153473 , Denizli , Denizli 
+ 20153474 , Sivas , Sivas 
+ 20153475 , Erzurum , Erzurum 
+ 20153476 , Tarsus , Adana 
+ 20153477 , Kahramanmaras , Kahramanmaras 
+ 20153478 , Elâzig , Elâzig 
+ 20153479 , Van , Van 
+ 20153480 , Sultanbeyli , Istanbul 
+ 20153481 , Izmit (Kocaeli) , Kocaeli 
+ 20153482 , Manisa , Manisa 
+ 20153483 , Batman , Batman 
+ 20153484 , Balikesir , Balikesir 
+ 20153485 , Sakarya (Adapazari) , Sakarya 
+ 20153486 , Iskenderun , Hatay 
+ 20153487 , Osmaniye , Osmaniye 
+ 20153488 , Çorum , Çorum 
+ 20153489 , Kütahya , Kütahya 
+ 20153490 , Hatay (Antakya) , Hatay 
+ 20153491 , Kirikkale , Kirikkale 
+ 20153492 , Adiyaman , Adiyaman 
+ 20153493 , Trabzon , Trabzon 
+ 20153494 , Ordu , Ordu 
+ 20153495 , Aydin , Aydin 
+ 20153496 , Usak , Usak 
+ 20153497 , Edirne , Edirne 
+ 20153498 , Çorlu , Tekirdag 
+ 20153499 , Isparta , Isparta 
+ 20153500 , Karabük , Karabük 
+ 20153501 , Kilis , Kilis 
+ 20153502 , Alanya , Antalya 
+ 20153503 , Kiziltepe , Mardin 
+ 20153504 , Zonguldak , Zonguldak 
+ 20153505 , Siirt , Siirt 
+ 20153506 , Viransehir , Sanliurfa 
+ 20153507 , Tekirdag , Tekirdag 
+ 20153508 , Karaman , Karaman 
+ 20153509 , Afyon , Afyon 
+ 20153510 , Aksaray , Aksaray 
+ 20153511 , Ceyhan , Adana 
+ 20153512 , Erzincan , Erzincan 
+ 20153513 , Bismil , Diyarbakir 
+ 20153514 , Nazilli , Aydin 
+ 20153515 , Tokat , Tokat 
+ 20153516 , Kars , Kars 
+ 20153517 , Inegöl , Bursa 
+ 20153518 , Bandirma , Balikesir 
+ 20153519 , Ashgabat , Ahal 
+ 20153520 , Chärjew , Lebap 
+ 20153521 , Dashhowuz , Dashhowuz 
+ 20153522 , Mary , Mary 
+ 20153523 , Cockburn Town , Grand Turk 
+ 20153524 , Funafuti , Funafuti 
+ 20153525 , Kampala , Central 
+ 20153526 , Kyiv , Kiova 
+ 20153527 , Harkova [Harkiv] , Harkova 
+ 20153528 , Dnipropetrovsk , Dnipropetrovsk 
+ 20153529 , Donetsk , Donetsk 
+ 20153530 , Odesa , Odesa 
+ 20153531 , Zaporizzja , Zaporizzja 
+ 20153532 , Lviv , Lviv 
+ 20153533 , Kryvyi Rig , Dnipropetrovsk 
+ 20153534 , Mykolajiv , Mykolajiv 
+ 20153535 , Mariupol , Donetsk 
+ 20153536 , Lugansk , Lugansk 
+ 20153537 , Vinnytsja , Vinnytsja 
+ 20153538 , Makijivka , Donetsk 
+ 20153539 , Herson , Herson 
+ 20153540 , Sevastopol , Krim 
+ 20153541 , Simferopol , Krim 
+ 20153542 , Pultava [Poltava] , Pultava 
+ 20153543 , Tšernigiv , Tšernigiv 
+ 20153544 , Tšerkasy , Tšerkasy 
+ 20153545 , Gorlivka , Donetsk 
+ 20153546 , Zytomyr , Zytomyr 
+ 20153547 , Sumy , Sumy 
+ 20153548 , Dniprodzerzynsk , Dnipropetrovsk 
+ 20153549 , Kirovograd , Kirovograd 
+ 20153550 , Hmelnytskyi , Hmelnytskyi 
+ 20153551 , Tšernivtsi , Tšernivtsi 
+ 20153552 , Rivne , Rivne 
+ 20153553 , Krementšuk , Pultava 
+ 20153554 , Ivano-Frankivsk , Ivano-Frankivsk 
+ 20153555 , Ternopil , Ternopil 
+ 20153556 , Lutsk , Volynia 
+ 20153557 , Bila Tserkva , Kiova 
+ 20153558 , Kramatorsk , Donetsk 
+ 20153559 , Melitopol , Zaporizzja 
+ 20153560 , Kertš , Krim 
+ 20153561 , Nikopol , Dnipropetrovsk 
+ 20153562 , Berdjansk , Zaporizzja 
+ 20153563 , Pavlograd , Dnipropetrovsk 
+ 20153564 , Sjeverodonetsk , Lugansk 
+ 20153565 , Slovjansk , Donetsk 
+ 20153566 , Uzgorod , Taka-Karpatia 
+ 20153567 , Altševsk , Lugansk 
+ 20153568 , Lysytšansk , Lugansk 
+ 20153569 , Jevpatorija , Krim 
+ 20153570 , Kamjanets-Podilskyi , Hmelnytskyi 
+ 20153571 , Jenakijeve , Donetsk 
+ 20153572 , Krasnyi Lutš , Lugansk 
+ 20153573 , Stahanov , Lugansk 
+ 20153574 , Oleksandrija , Kirovograd 
+ 20153575 , Konotop , Sumy 
+ 20153576 , Kostjantynivka , Donetsk 
+ 20153577 , Berdytšiv , Zytomyr 
+ 20153578 , Izmajil , Odesa 
+ 20153579 , Šostka , Sumy 
+ 20153580 , Uman , Tšerkasy 
+ 20153581 , Brovary , Kiova 
+ 20153582 , Mukatševe , Taka-Karpatia 
+ 20153583 , Budapest , Budapest 
+ 20153584 , Debrecen , Hajdú-Bihar 
+ 20153585 , Miskolc , Borsod-Abaúj-Zemplén 
+ 20153586 , Szeged , Csongrád 
+ 20153587 , Pécs , Baranya 
+ 20153588 , Györ , Györ-Moson-Sopron 
+ 20153589 , Nyiregyháza , Szabolcs-Szatmár-Ber 
+ 20153590 , Kecskemét , Bács-Kiskun 
+ 20153591 , Székesfehérvár , Fejér 
+ 20153592 , Montevideo , Montevideo 
+ 20153593 , Nouméa , – 
+ 20153594 , Auckland , Auckland 
+ 20153595 , Christchurch , Canterbury 
+ 20153596 , Manukau , Auckland 
+ 20153597 , North Shore , Auckland 
+ 20153598 , Waitakere , Auckland 
+ 20153599 , Wellington , Wellington 
+ 20153600 , Dunedin , Dunedin 
+ 20153601 , Hamilton , Hamilton 
+ 20153602 , Lower Hutt , Wellington 
+ 20153603 , Toskent , Toskent Shahri 
+ 20153604 , Namangan , Namangan 
+ 20153605 , Samarkand , Samarkand 
+ 20153606 , Andijon , Andijon 
+ 20153607 , Buhoro , Buhoro 
+ 20153608 , Karsi , Qashqadaryo 
+ 20153609 , Nukus , Karakalpakistan 
+ 20153610 , Kükon , Fargona 
+ 20153611 , Fargona , Fargona 
+ 20153612 , Circik , Toskent 
+ 20153613 , Margilon , Fargona 
+ 20153614 , Ürgenc , Khorazm 
+ 20153615 , Angren , Toskent 
+ 20153616 , Cizah , Cizah 
+ 20153617 , Navoi , Navoi 
+ 20153618 , Olmalik , Toskent 
+ 20153619 , Termiz , Surkhondaryo 
+ 20153620 , Minsk , Horad Minsk 
+ 20153621 , Gomel , Gomel 
+ 20153622 , Mogiljov , Mogiljov 
+ 20153623 , Vitebsk , Vitebsk 
+ 20153624 , Grodno , Grodno 
+ 20153625 , Brest , Brest 
+ 20153626 , Bobruisk , Mogiljov 
+ 20153627 , Baranovitši , Brest 
+ 20153628 , Borisov , Minsk 
+ 20153629 , Pinsk , Brest 
+ 20153630 , Orša , Vitebsk 
+ 20153631 , Mozyr , Gomel 
+ 20153632 , Novopolotsk , Vitebsk 
+ 20153633 , Lida , Grodno 
+ 20153634 , Soligorsk , Minsk 
+ 20153635 , Molodetšno , Minsk 
+ 20153636 , Mata-Utu , Wallis 
+ 20153637 , Port-Vila , Shefa 
+ 20153638 , Città del Vaticano , – 
+ 20153639 , Caracas , Distrito Federal 
+ 20153640 , Maracaíbo , Zulia 
+ 20153641 , Barquisimeto , Lara 
+ 20153642 , Valencia , Carabobo 
+ 20153643 , Ciudad Guayana , Bolívar 
+ 20153644 , Petare , Miranda 
+ 20153645 , Maracay , Aragua 
+ 20153646 , Barcelona , Anzoátegui 
+ 20153647 , Maturín , Monagas 
+ 20153648 , San Cristóbal , Táchira 
+ 20153649 , Ciudad Bolívar , Bolívar 
+ 20153650 , Cumaná , Sucre 
+ 20153651 , Mérida , Mérida 
+ 20153652 , Cabimas , Zulia 
+ 20153653 , Barinas , Barinas 
+ 20153654 , Turmero , Aragua 
+ 20153655 , Baruta , Miranda 
+ 20153656 , Puerto Cabello , Carabobo 
+ 20153657 , Santa Ana de Coro , Falcón 
+ 20153658 , Los Teques , Miranda 
+ 20153659 , Punto Fijo , Falcón 
+ 20153660 , Guarenas , Miranda 
+ 20153661 , Acarigua , Portuguesa 
+ 20153662 , Puerto La Cruz , Anzoátegui 
+ 20153663 , Ciudad Losada ,
+ 20153664 , Guacara , Carabobo 
+ 20153665 , Valera , Trujillo 
+ 20153666 , Guanare , Portuguesa 
+ 20153667 , Carúpano , Sucre 
+ 20153668 , Catia La Mar , Distrito Federal 
+ 20153669 , El Tigre , Anzoátegui 
+ 20153670 , Guatire , Miranda 
+ 20153671 , Calabozo , Guárico 
+ 20153672 , Pozuelos , Anzoátegui 
+ 20153673 , Ciudad Ojeda , Zulia 
+ 20153674 , Ocumare del Tuy , Miranda 
+ 20153675 , Valle de la Pascua , Guárico 
+ 20153676 , Araure , Portuguesa 
+ 20153677 , San Fernando de Apure , Apure 
+ 20153678 , San Felipe , Yaracuy 
+ 20153679 , El Limón , Aragua 
+ 20153680 , Moscow , Moscow (City) 
+ 20153681 , St Petersburg , Pietari 
+ 20153682 , Novosibirsk , Novosibirsk 
+ 20153683 , Nizni Novgorod , Nizni Novgorod 
+ 20153684 , Jekaterinburg , Sverdlovsk 
+ 20153685 , Samara , Samara 
+ 20153686 , Omsk , Omsk 
+ 20153687 , Kazan , Tatarstan 
+ 20153688 , Ufa , Baškortostan 
+ 20153689 , Tšeljabinsk , Tšeljabinsk 
+ 20153690 , Rostov-na-Donu , Rostov-na-Donu 
+ 20153691 , Perm , Perm 
+ 20153692 , Volgograd , Volgograd 
+ 20153693 , Voronez , Voronez 
+ 20153694 , Krasnojarsk , Krasnojarsk 
+ 20153695 , Saratov , Saratov 
+ 20153696 , Toljatti , Samara 
+ 20153697 , Uljanovsk , Uljanovsk 
+ 20153698 , Izevsk , Udmurtia 
+ 20153699 , Krasnodar , Krasnodar 
+ 20153700 , Jaroslavl , Jaroslavl 
+ 20153701 , Habarovsk , Habarovsk 
+ 20153702 , Vladivostok , Primorje 
+ 20153703 , Irkutsk , Irkutsk 
+ 20153704 , Barnaul , Altai 
+ 20153705 , Novokuznetsk , Kemerovo 
+ 20153706 , Penza , Penza 
+ 20153707 , Rjazan , Rjazan 
+ 20153708 , Orenburg , Orenburg 
+ 20153709 , Lipetsk , Lipetsk 
+ 20153710 , Nabereznyje Tšelny , Tatarstan 
+ 20153711 , Tula , Tula 
+ 20153712 , Tjumen , Tjumen 
+ 20153713 , Kemerovo , Kemerovo 
+ 20153714 , Astrahan , Astrahan 
+ 20153715 , Tomsk , Tomsk 
+ 20153716 , Kirov , Kirov 
+ 20153717 , Ivanovo , Ivanovo 
+ 20153718 , Tšeboksary , Tšuvassia 
+ 20153719 , Brjansk , Brjansk 
+ 20153720 , Tver , Tver 
+ 20153721 , Kursk , Kursk 
+ 20153722 , Magnitogorsk , Tšeljabinsk 
+ 20153723 , Kaliningrad , Kaliningrad 
+ 20153724 , Nizni Tagil , Sverdlovsk 
+ 20153725 , Murmansk , Murmansk 
+ 20153726 , Ulan-Ude , Burjatia 
+ 20153727 , Kurgan , Kurgan 
+ 20153728 , Arkangeli , Arkangeli 
+ 20153729 , Sotši , Krasnodar 
+ 20153730 , Smolensk , Smolensk 
+ 20153731 , Orjol , Orjol 
+ 20153732 , Stavropol , Stavropol 
+ 20153733 , Belgorod , Belgorod 
+ 20153734 , Kaluga , Kaluga 
+ 20153735 , Vladimir , Vladimir 
+ 20153736 , Mahatškala , Dagestan 
+ 20153737 , Tšerepovets , Vologda 
+ 20153738 , Saransk , Mordva 
+ 20153739 , Tambov , Tambov 
+ 20153740 , Vladikavkaz , North Ossetia-Alania 
+ 20153741 , Tšita , Tšita 
+ 20153742 , Vologda , Vologda 
+ 20153743 , Veliki Novgorod , Novgorod 
+ 20153744 , Komsomolsk-na-Amure , Habarovsk 
+ 20153745 , Kostroma , Kostroma 
+ 20153746 , Volzski , Volgograd 
+ 20153747 , Taganrog , Rostov-na-Donu 
+ 20153748 , Petroskoi , Karjala 
+ 20153749 , Bratsk , Irkutsk 
+ 20153750 , Dzerzinsk , Nizni Novgorod 
+ 20153751 , Surgut , Hanti-Mansia 
+ 20153752 , Orsk , Orenburg 
+ 20153753 , Sterlitamak , Baškortostan 
+ 20153754 , Angarsk , Irkutsk 
+ 20153755 , Joškar-Ola , Marinmaa 
+ 20153756 , Rybinsk , Jaroslavl 
+ 20153757 , Prokopjevsk , Kemerovo 
+ 20153758 , Niznevartovsk , Hanti-Mansia 
+ 20153759 , Naltšik , Kabardi-Balkaria 
+ 20153760 , Syktyvkar , Komi 
+ 20153761 , Severodvinsk , Arkangeli 
+ 20153762 , Bijsk , Altai 
+ 20153763 , Niznekamsk , Tatarstan 
+ 20153764 , Blagoveštšensk , Amur 
+ 20153765 , Šahty , Rostov-na-Donu 
+ 20153766 , Staryi Oskol , Belgorod 
+ 20153767 , Zelenograd , Moscow (City) 
+ 20153768 , Balakovo , Saratov 
+ 20153769 , Novorossijsk , Krasnodar 
+ 20153770 , Pihkova , Pihkova 
+ 20153771 , Zlatoust , Tšeljabinsk 
+ 20153772 , Jakutsk , Saha (Jakutia) 
+ 20153773 , Podolsk , Moskova 
+ 20153774 , Petropavlovsk-Kamtšatski , Kamtšatka 
+ 20153775 , Kamensk-Uralski , Sverdlovsk 
+ 20153776 , Engels , Saratov 
+ 20153777 , Syzran , Samara 
+ 20153778 , Grozny , Tšetšenia 
+ 20153779 , Novotšerkassk , Rostov-na-Donu 
+ 20153780 , Berezniki , Perm 
+ 20153781 , Juzno-Sahalinsk , Sahalin 
+ 20153782 , Volgodonsk , Rostov-na-Donu 
+ 20153783 , Abakan , Hakassia 
+ 20153784 , Maikop , Adygea 
+ 20153785 , Miass , Tšeljabinsk 
+ 20153786 , Armavir , Krasnodar 
+ 20153787 , Ljubertsy , Moskova 
+ 20153788 , Rubtsovsk , Altai 
+ 20153789 , Kovrov , Vladimir 
+ 20153790 , Nahodka , Primorje 
+ 20153791 , Ussurijsk , Primorje 
+ 20153792 , Salavat , Baškortostan 
+ 20153793 , Mytištši , Moskova 
+ 20153794 , Kolomna , Moskova 
+ 20153795 , Elektrostal , Moskova 
+ 20153796 , Murom , Vladimir 
+ 20153797 , Kolpino , Pietari 
+ 20153798 , Norilsk , Krasnojarsk 
+ 20153799 , Almetjevsk , Tatarstan 
+ 20153800 , Novomoskovsk , Tula 
+ 20153801 , Dimitrovgrad , Uljanovsk 
+ 20153802 , Pervouralsk , Sverdlovsk 
+ 20153803 , Himki , Moskova 
+ 20153804 , Balašiha , Moskova 
+ 20153805 , Nevinnomyssk , Stavropol 
+ 20153806 , Pjatigorsk , Stavropol 
+ 20153807 , Korolev , Moskova 
+ 20153808 , Serpuhov , Moskova 
+ 20153809 , Odintsovo , Moskova 
+ 20153810 , Orehovo-Zujevo , Moskova 
+ 20153811 , Kamyšin , Volgograd 
+ 20153812 , Novotšeboksarsk , Tšuvassia 
+ 20153813 , Tšerkessk , Karatšai-Tšerkessia 
+ 20153814 , Atšinsk , Krasnojarsk 
+ 20153815 , Magadan , Magadan 
+ 20153816 , Mitšurinsk , Tambov 
+ 20153817 , Kislovodsk , Stavropol 
+ 20153818 , Jelets , Lipetsk 
+ 20153819 , Seversk , Tomsk 
+ 20153820 , Noginsk , Moskova 
+ 20153821 , Velikije Luki , Pihkova 
+ 20153822 , Novokuibyševsk , Samara 
+ 20153823 , Neftekamsk , Baškortostan 
+ 20153824 , Leninsk-Kuznetski , Kemerovo 
+ 20153825 , Oktjabrski , Baškortostan 
+ 20153826 , Sergijev Posad , Moskova 
+ 20153827 , Arzamas , Nizni Novgorod 
+ 20153828 , Kiseljovsk , Kemerovo 
+ 20153829 , Novotroitsk , Orenburg 
+ 20153830 , Obninsk , Kaluga 
+ 20153831 , Kansk , Krasnojarsk 
+ 20153832 , Glazov , Udmurtia 
+ 20153833 , Solikamsk , Perm 
+ 20153834 , Sarapul , Udmurtia 
+ 20153835 , Ust-Ilimsk , Irkutsk 
+ 20153836 , Štšolkovo , Moskova 
+ 20153837 , Mezduretšensk , Kemerovo 
+ 20153838 , Usolje-Sibirskoje , Irkutsk 
+ 20153839 , Elista , Kalmykia 
+ 20153840 , Novošahtinsk , Rostov-na-Donu 
+ 20153841 , Votkinsk , Udmurtia 
+ 20153842 , Kyzyl , Tyva 
+ 20153843 , Serov , Sverdlovsk 
+ 20153844 , Zelenodolsk , Tatarstan 
+ 20153845 , Zeleznodoroznyi , Moskova 
+ 20153846 , Kinešma , Ivanovo 
+ 20153847 , Kuznetsk , Penza 
+ 20153848 , Uhta , Komi 
+ 20153849 , Jessentuki , Stavropol 
+ 20153850 , Tobolsk , Tjumen 
+ 20153851 , Neftejugansk , Hanti-Mansia 
+ 20153852 , Bataisk , Rostov-na-Donu 
+ 20153853 , Nojabrsk , Yamalin Nenetsia 
+ 20153854 , Balašov , Saratov 
+ 20153855 , Zeleznogorsk , Kursk 
+ 20153856 , Zukovski , Moskova 
+ 20153857 , Anzero-Sudzensk , Kemerovo 
+ 20153858 , Bugulma , Tatarstan 
+ 20153859 , Zeleznogorsk , Krasnojarsk 
+ 20153860 , Novouralsk , Sverdlovsk 
+ 20153861 , Puškin , Pietari 
+ 20153862 , Vorkuta , Komi 
+ 20153863 , Derbent , Dagestan 
+ 20153864 , Kirovo-Tšepetsk , Kirov 
+ 20153865 , Krasnogorsk , Moskova 
+ 20153866 , Klin , Moskova 
+ 20153867 , Tšaikovski , Perm 
+ 20153868 , Novyi Urengoi , Yamalin Nenetsia 
+ 20153869 , Ho Chi Minh City , Ho Chi Minh City 
+ 20153870 , Hanoi , Hanoi 
+ 20153871 , Haiphong , Haiphong 
+ 20153872 , Da Nang , Quang Nam-Da Nang 
+ 20153873 , Biên Hoa , Dong Nai 
+ 20153874 , Nha Trang , Khanh Hoa 
+ 20153875 , Hue , Thua Thien-Hue 
+ 20153876 , Can Tho , Can Tho 
+ 20153877 , Cam Pha , Quang Binh 
+ 20153878 , Nam Dinh , Nam Ha 
+ 20153879 , Quy Nhon , Binh Dinh 
+ 20153880 , Vung Tau , Ba Ria-Vung Tau 
+ 20153881 , Rach Gia , Kien Giang 
+ 20153882 , Long Xuyen , An Giang 
+ 20153883 , Thai Nguyen , Bac Thai 
+ 20153884 , Hong Gai , Quang Ninh 
+ 20153885 , Phan Thiêt , Binh Thuan 
+ 20153886 , Cam Ranh , Khanh Hoa 
+ 20153887 , Vinh , Nghe An 
+ 20153888 , My Tho , Tien Giang 
+ 20153889 , Da Lat , Lam Dong 
+ 20153890 , Buon Ma Thuot , Dac Lac 
+ 20153891 , Tallinn , Harjumaa 
+ 20153892 , Tartu , Tartumaa 
+ 20153893 , New York , New York 
+ 20153894 , Los Angeles , California 
+ 20153895 , Chicago , Illinois 
+ 20153896 , Houston , Texas 
+ 20153897 , Philadelphia , Pennsylvania 
+ 20153898 , Phoenix , Arizona 
+ 20153899 , San Diego , California 
+ 20153900 , Dallas , Texas 
+ 20153901 , San Antonio , Texas 
+ 20153902 , Detroit , Michigan 
+ 20153903 , San Jose , California 
+ 20153904 , Indianapolis , Indiana 
+ 20153905 , San Francisco , California 
+ 20153906 , Jacksonville , Florida 
+ 20153907 , Columbus , Ohio 
+ 20153908 , Austin , Texas 
+ 20153909 , Baltimore , Maryland 
+ 20153910 , Memphis , Tennessee 
+ 20153911 , Milwaukee , Wisconsin 
+ 20153912 , Boston , Massachusetts 
+ 20153913 , Washington , District of Columbia 
+ 20153914 , Nashville-Davidson , Tennessee 
+ 20153915 , El Paso , Texas 
+ 20153916 , Seattle , Washington 
+ 20153917 , Denver , Colorado 
+ 20153918 , Charlotte , North Carolina 
+ 20153919 , Fort Worth , Texas 
+ 20153920 , Portland , Oregon 
+ 20153921 , Oklahoma City , Oklahoma 
+ 20153922 , Tucson , Arizona 
+ 20153923 , New Orleans , Louisiana 
+ 20153924 , Las Vegas , Nevada 
+ 20153925 , Cleveland , Ohio 
+ 20153926 , Long Beach , California 
+ 20153927 , Albuquerque , New Mexico 
+ 20153928 , Kansas City , Missouri 
+ 20153929 , Fresno , California 
+ 20153930 , Virginia Beach , Virginia 
+ 20153931 , Atlanta , Georgia 
+ 20153932 , Sacramento , California 
+ 20153933 , Oakland , California 
+ 20153934 , Mesa , Arizona 
+ 20153935 , Tulsa , Oklahoma 
+ 20153936 , Omaha , Nebraska 
+ 20153937 , Minneapolis , Minnesota 
+ 20153938 , Honolulu , Hawaii 
+ 20153939 , Miami , Florida 
+ 20153940 , Colorado Springs , Colorado 
+ 20153941 , Saint Louis , Missouri 
+ 20153942 , Wichita , Kansas 
+ 20153943 , Santa Ana , California 
+ 20153944 , Pittsburgh , Pennsylvania 
+ 20153945 , Arlington , Texas 
+ 20153946 , Cincinnati , Ohio 
+ 20153947 , Anaheim , California 
+ 20153948 , Toledo , Ohio 
+ 20153949 , Tampa , Florida 
+ 20153950 , Buffalo , New York 
+ 20153951 , Saint Paul , Minnesota 
+ 20153952 , Corpus Christi , Texas 
+ 20153953 , Aurora , Colorado 
+ 20153954 , Raleigh , North Carolina 
+ 20153955 , Newark , New Jersey 
+ 20153956 , Lexington-Fayette , Kentucky 
+ 20153957 , Anchorage , Alaska 
+ 20153958 , Louisville , Kentucky 
+ 20153959 , Riverside , California 
+ 20153960 , Saint Petersburg , Florida 
+ 20153961 , Bakersfield , California 
+ 20153962 , Stockton , California 
+ 20153963 , Birmingham , Alabama 
+ 20153964 , Jersey City , New Jersey 
+ 20153965 , Norfolk , Virginia 
+ 20153966 , Baton Rouge , Louisiana 
+ 20153967 , Hialeah , Florida 
+ 20153968 , Lincoln , Nebraska 
+ 20153969 , Greensboro , North Carolina 
+ 20153970 , Plano , Texas 
+ 20153971 , Rochester , New York 
+ 20153972 , Glendale , Arizona 
+ 20153973 , Akron , Ohio 
+ 20153974 , Garland , Texas 
+ 20153975 , Madison , Wisconsin 
+ 20153976 , Fort Wayne , Indiana 
+ 20153977 , Fremont , California 
+ 20153978 , Scottsdale , Arizona 
+ 20153979 , Montgomery , Alabama 
+ 20153980 , Shreveport , Louisiana 
+ 20153981 , Augusta-Richmond County , Georgia 
+ 20153982 , Lubbock , Texas 
+ 20153983 , Chesapeake , Virginia 
+ 20153984 , Mobile , Alabama 
+ 20153985 , Des Moines , Iowa 
+ 20153986 , Grand Rapids , Michigan 
+ 20153987 , Richmond , Virginia 
+ 20153988 , Yonkers , New York 
+ 20153989 , Spokane , Washington 
+ 20153990 , Glendale , California 
+ 20153991 , Tacoma , Washington 
+ 20153992 , Irving , Texas 
+ 20153993 , Huntington Beach , California 
+ 20153994 , Modesto , California 
+ 20153995 , Durham , North Carolina 
+ 20153996 , Columbus , Georgia 
+ 20153997 , Orlando , Florida 
+ 20153998 , Boise City , Idaho 
+ 20153999 , Winston-Salem , North Carolina 
+ 20154000 , San Bernardino , California 
+ 20154001 , Jackson , Mississippi 
+ 20154002 , Little Rock , Arkansas 
+ 20154003 , Salt Lake City , Utah 
+ 20154004 , Reno , Nevada 
+ 20154005 , Newport News , Virginia 
+ 20154006 , Chandler , Arizona 
+ 20154007 , Laredo , Texas 
+ 20154008 , Henderson , Nevada 
+ 20154009 , Arlington , Virginia 
+ 20154010 , Knoxville , Tennessee 
+ 20154011 , Amarillo , Texas 
+ 20154012 , Providence , Rhode Island 
+ 20154013 , Chula Vista , California 
+ 20154014 , Worcester , Massachusetts 
+ 20154015 , Oxnard , California 
+ 20154016 , Dayton , Ohio 
+ 20154017 , Garden Grove , California 
+ 20154018 , Oceanside , California 
+ 20154019 , Tempe , Arizona 
+ 20154020 , Huntsville , Alabama 
+ 20154021 , Ontario , California 
+ 20154022 , Chattanooga , Tennessee 
+ 20154023 , Fort Lauderdale , Florida 
+ 20154024 , Springfield , Massachusetts 
+ 20154025 , Springfield , Missouri 
+ 20154026 , Santa Clarita , California 
+ 20154027 , Salinas , California 
+ 20154028 , Tallahassee , Florida 
+ 20154029 , Rockford , Illinois 
+ 20154030 , Pomona , California 
+ 20154031 , Metairie , Louisiana 
+ 20154032 , Paterson , New Jersey 
+ 20154033 , Overland Park , Kansas 
+ 20154034 , Santa Rosa , California 
+ 20154035 , Syracuse , New York 
+ 20154036 , Kansas City , Kansas 
+ 20154037 , Hampton , Virginia 
+ 20154038 , Lakewood , Colorado 
+ 20154039 , Vancouver , Washington 
+ 20154040 , Irvine , California 
+ 20154041 , Aurora , Illinois 
+ 20154042 , Moreno Valley , California 
+ 20154043 , Pasadena , California 
+ 20154044 , Hayward , California 
+ 20154045 , Brownsville , Texas 
+ 20154046 , Bridgeport , Connecticut 
+ 20154047 , Hollywood , Florida 
+ 20154048 , Warren , Michigan 
+ 20154049 , Torrance , California 
+ 20154050 , Eugene , Oregon 
+ 20154051 , Pembroke Pines , Florida 
+ 20154052 , Salem , Oregon 
+ 20154053 , Pasadena , Texas 
+ 20154054 , Escondido , California 
+ 20154055 , Sunnyvale , California 
+ 20154056 , Savannah , Georgia 
+ 20154057 , Fontana , California 
+ 20154058 , Orange , California 
+ 20154059 , Naperville , Illinois 
+ 20154060 , Alexandria , Virginia 
+ 20154061 , Rancho Cucamonga , California 
+ 20154062 , Grand Prairie , Texas 
+ 20154063 , East Los Angeles , California 
+ 20154064 , Fullerton , California 
+ 20154065 , Corona , California 
+ 20154066 , Flint , Michigan 
+ 20154067 , Paradise , Nevada 
+ 20154068 , Mesquite , Texas 
+ 20154069 , Sterling Heights , Michigan 
+ 20154070 , Sioux Falls , South Dakota 
+ 20154071 , New Haven , Connecticut 
+ 20154072 , Topeka , Kansas 
+ 20154073 , Concord , California 
+ 20154074 , Evansville , Indiana 
+ 20154075 , Hartford , Connecticut 
+ 20154076 , Fayetteville , North Carolina 
+ 20154077 , Cedar Rapids , Iowa 
+ 20154078 , Elizabeth , New Jersey 
+ 20154079 , Lansing , Michigan 
+ 20154080 , Lancaster , California 
+ 20154081 , Fort Collins , Colorado 
+ 20154082 , Coral Springs , Florida 
+ 20154083 , Stamford , Connecticut 
+ 20154084 , Thousand Oaks , California 
+ 20154085 , Vallejo , California 
+ 20154086 , Palmdale , California 
+ 20154087 , Columbia , South Carolina 
+ 20154088 , El Monte , California 
+ 20154089 , Abilene , Texas 
+ 20154090 , North Las Vegas , Nevada 
+ 20154091 , Ann Arbor , Michigan 
+ 20154092 , Beaumont , Texas 
+ 20154093 , Waco , Texas 
+ 20154094 , Macon , Georgia 
+ 20154095 , Independence , Missouri 
+ 20154096 , Peoria , Illinois 
+ 20154097 , Inglewood , California 
+ 20154098 , Springfield , Illinois 
+ 20154099 , Simi Valley , California 
+ 20154100 , Lafayette , Louisiana 
+ 20154101 , Gilbert , Arizona 
+ 20154102 , Carrollton , Texas 
+ 20154103 , Bellevue , Washington 
+ 20154104 , West Valley City , Utah 
+ 20154105 , Clarksville , Tennessee 
+ 20154106 , Costa Mesa , California 
+ 20154107 , Peoria , Arizona 
+ 20154108 , South Bend , Indiana 
+ 20154109 , Downey , California 
+ 20154110 , Waterbury , Connecticut 
+ 20154111 , Manchester , New Hampshire 
+ 20154112 , Allentown , Pennsylvania 
+ 20154113 , McAllen , Texas 
+ 20154114 , Joliet , Illinois 
+ 20154115 , Lowell , Massachusetts 
+ 20154116 , Provo , Utah 
+ 20154117 , West Covina , California 
+ 20154118 , Wichita Falls , Texas 
+ 20154119 , Erie , Pennsylvania 
+ 20154120 , Daly City , California 
+ 20154121 , Citrus Heights , California 
+ 20154122 , Norwalk , California 
+ 20154123 , Gary , Indiana 
+ 20154124 , Berkeley , California 
+ 20154125 , Santa Clara , California 
+ 20154126 , Green Bay , Wisconsin 
+ 20154127 , Cape Coral , Florida 
+ 20154128 , Arvada , Colorado 
+ 20154129 , Pueblo , Colorado 
+ 20154130 , Sandy , Utah 
+ 20154131 , Athens-Clarke County , Georgia 
+ 20154132 , Cambridge , Massachusetts 
+ 20154133 , Westminster , Colorado 
+ 20154134 , San Buenaventura , California 
+ 20154135 , Portsmouth , Virginia 
+ 20154136 , Livonia , Michigan 
+ 20154137 , Burbank , California 
+ 20154138 , Clearwater , Florida 
+ 20154139 , Midland , Texas 
+ 20154140 , Davenport , Iowa 
+ 20154141 , Mission Viejo , California 
+ 20154142 , Miami Beach , Florida 
+ 20154143 , Sunrise Manor , Nevada 
+ 20154144 , New Bedford , Massachusetts 
+ 20154145 , El Cajon , California 
+ 20154146 , Norman , Oklahoma 
+ 20154147 , Richmond , California 
+ 20154148 , Albany , New York 
+ 20154149 , Brockton , Massachusetts 
+ 20154150 , Roanoke , Virginia 
+ 20154151 , Billings , Montana 
+ 20154152 , Compton , California 
+ 20154153 , Gainesville , Florida 
+ 20154154 , Fairfield , California 
+ 20154155 , Arden-Arcade , California 
+ 20154156 , San Mateo , California 
+ 20154157 , Visalia , California 
+ 20154158 , Boulder , Colorado 
+ 20154159 , Cary , North Carolina 
+ 20154160 , Santa Monica , California 
+ 20154161 , Fall River , Massachusetts 
+ 20154162 , Kenosha , Wisconsin 
+ 20154163 , Elgin , Illinois 
+ 20154164 , Odessa , Texas 
+ 20154165 , Carson , California 
+ 20154166 , Charleston , South Carolina 
+ 20154167 , Charlotte Amalie , St Thomas 
+ 20154168 , Harare , Harare 
+ 20154169 , Bulawayo , Bulawayo 
+ 20154170 , Chitungwiza , Harare 
+ 20154171 , Mount Darwin , Harare 
+ 20154172 , Mutare , Manicaland 
+ 20154173 , Gweru , Midlands 
+ 20154174 , Gaza , Gaza 
+ 20154175 , Khan Yunis , Khan Yunis 
+ 20154176 , Hebron , Hebron 
+ 20154177 , Jabaliya , North Gaza 
+ 20154178 , Nablus , Nablus 
+ 20154179 , Rafah , Rafah
