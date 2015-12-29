@@ -1,0 +1,11 @@
+{
+  "public": {
+
+  },
+  "private": {
+    "MAIL_URL": "smtp://postmaster@sandboxc4ec60af7d674057be10e7472b841b85.mailgun.org:93fffec29bd6b085de7945d95436901e@smtp.mailgun.org:587",
+    "domain": "localhost:3000",
+    "subDomain": "@admin.com",
+    "defaultPassword" : "password"
+  }
+}
