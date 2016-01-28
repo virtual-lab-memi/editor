@@ -1,18 +1,18 @@
-const publicRedirect = function()  {
-    if ( Meteor.userId() ) {
-        FlowRouter.go( 'IndexView' );
-    }
-};
-
 const publicRoutes = FlowRouter.group({
-    name: 'public',
-    triggersEnter: [ publicRedirect ]
+    name: 'public'
 });
 
 publicRoutes.route( '/login', {
     name: 'login',
     action: function() {
         BlazeLayout.render( 'Default', { yield: 'Login' } );
+    }
+});
+
+publicRoutes.route( '/signup', {
+    name: 'signup',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Signup' } );
     }
 });
 

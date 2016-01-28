@@ -45,7 +45,7 @@ _handleLogin = function( template ) {
     if ( error ) {
       console.log('Error', error);
     } else {
-      console.log('Successful login!!')
+      console.log('Successful login!!');
     }
   });
 };
