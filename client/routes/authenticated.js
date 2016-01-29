@@ -1,6 +1,22 @@
+Accounts.onLogin(function() {
+    var redirect = Session.get('redirectAfterLogin');
+    if (redirect && redirect !== 'login') {
+        FlowRouter.go(redirect);
+    } else {
+        FlowRouter.go('tasks');
+    }
+});
+
 const authenticatedRedirect = function() {
+
     if (!Meteor.loggingIn() && !Meteor.userId()) {
-      FlowRouter.go('login');
+        var route = FlowRouter.current();
+
+        if (route.route.name !== 'login') {
+            Session.set('redirectAfterLogin', route.path);
+        }
+
+        FlowRouter.go('login');
     }
 };
 
