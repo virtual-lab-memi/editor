@@ -7,6 +7,7 @@ Meteor.publish('aProject', function(id) {
     //TODO: filter tasks by user whe authentication is implemented.
     return [
         Projects.find({_id: id}),
-        Files.find({parent: id})
+        Files.find({parent: id}),
+        TaskExecutions.find({parent: id})
     ]
 });

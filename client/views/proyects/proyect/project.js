@@ -7,6 +7,10 @@ Template.Project.helpers({
     project: function() {
         return Projects.findOne();
     },
+    taskExecution: function() {
+        var project = Projects.findOne();
+        return TaskExecutions.findOne({_id: project.lastRun});
+    },
     projectFiles: function() {
         return Files.find();
     },
@@ -61,12 +65,18 @@ Template.Project.events({
 
     'click #compile': function (event, template) {
         event.preventDefault();
-        console.log('compile');
+        var projectId = FlowRouter.getParam('id');
+        Meteor.call('compile', projectId, function() {
+            console.log(arguments);
+        });
     },
 
     'click #run': function (event, template) {
         event.preventDefault();
-        console.log('run');
+        var projectId = FlowRouter.getParam('id');
+        Meteor.call('run', projectId, function() {
+            console.log(arguments);
+        });
     }
 
 });
