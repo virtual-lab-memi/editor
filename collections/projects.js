@@ -20,6 +20,12 @@ const ProjectSchema = new SimpleSchema({
     parent: {
         //Task ID
         type: String
+    },
+    owner: {
+        type: String,
+        autoValue: function (doc) {
+            return this.userId;
+        }
     }
 });
 

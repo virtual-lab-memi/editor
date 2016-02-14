@@ -3,9 +3,8 @@ const TaskExecutionSchema = new SimpleSchema({
     type: String,
     defaultValue: 'C++'
   },
-  source: {
-    type: String,
-    optional: true
+  isCompilation: {
+    type: Boolean
   },
   date: {
     type: Date,
@@ -19,7 +18,11 @@ const TaskExecutionSchema = new SimpleSchema({
       }
     }
   },
-  parent: {
+  project: {
+    //ProjectID
+    type: String
+  },
+  task: {
     //ProjectID
     type: String
   },

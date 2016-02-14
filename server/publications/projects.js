@@ -8,6 +8,6 @@ Meteor.publish('aProject', function(id) {
     return [
         Projects.find({_id: id}),
         Files.find({parent: id}),
-        TaskExecutions.find({parent: id})
+        TaskExecutions.find({project: id})
     ]
 });

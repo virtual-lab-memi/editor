@@ -1,10 +1,10 @@
 if (Meteor.isServer) {
 
     Meteor.methods({
-        compile: function (projectId) {
+        compile: function (projectId, taskId) {
             var request = Meteor.npmRequire('request');
-
-            var taskExecutionId = TaskExecutions.insert({parent: projectId});
+            console.log(projectId, taskId);
+            var taskExecutionId = TaskExecutions.insert({project: projectId, task: taskId, isCompilation: true});
             Projects.update({_id: projectId}, {$set: {lastRun: taskExecutionId}});
 
             var r = request.post('http://localhost:8888/api/compile', Meteor.bindEnvironment(function (err, httpResponse, body) {
