@@ -2,9 +2,9 @@ Accounts.onLogin(function() {
     var redirect = Session.get('redirectAfterLogin');
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
-    } else {
+    } /*else {
         FlowRouter.go('tasks');
-    }
+    }*/
 });
 
 const authenticatedRedirect = function() {
