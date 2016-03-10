@@ -67,10 +67,17 @@ authenticatedRoutes.route('/projects', {
     }
 });
 
-authenticatedRoutes.route('/project/:id/:currentFile?', {
+authenticatedRoutes.route('/project/:id', {
     name: 'project',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Project'});
+    }
+});
+
+authenticatedRoutes.route('/project/:id/changes', {
+    name: 'projectChanges',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'ProjectChanges'});
     }
 });
 

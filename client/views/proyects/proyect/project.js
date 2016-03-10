@@ -123,7 +123,7 @@ function saveFiles(template) {
         var levenstainDiff = getEditDistance(originalFile.source, content);
 
         if (levenstainDiff) {
-            DiffTracker.insert({source: originalFile.source, levenstain: levenstainDiff, parent: fileId});
+            DiffTracker.insert({date: new Date(), source: originalFile.source || '', levenstain: levenstainDiff, parent: fileId});
             Files.update(fileId, {$set: {source: content}});
         }
     });

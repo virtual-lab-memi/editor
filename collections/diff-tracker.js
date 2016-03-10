@@ -2,6 +2,9 @@ const DiffTrackerSchema = new SimpleSchema({
     levenstain: {
         type: Number
     },
+    date: {
+        type: Date
+    },
     source: {
         type: String
     },
