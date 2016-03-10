@@ -40,6 +40,7 @@ Template.Settings.onRendered(function() {
 
 Template.Settings.onCreated(function() {
   Template.instance().subscribe('settings');
+  Template.instance().subscribe('recentCriteria');
 });
 
 Template.Settings.helpers({
@@ -54,6 +55,9 @@ Template.Settings.helpers({
     }
 
     return settings;
+  },
+  recentCriteria: function() {
+    return Criteria.find();
   }
 });
 

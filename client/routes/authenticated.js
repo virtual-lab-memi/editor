@@ -32,6 +32,13 @@ authenticatedRoutes.route('/settings', {
     }
 });
 
+authenticatedRoutes.route('/create-criteria', {
+    name: 'createCriteria',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'CreateCriteria'});
+    }
+});
+
 authenticatedRoutes.route('/tasks', {
     name: 'tasks',
     action: function() {

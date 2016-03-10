@@ -17,6 +17,28 @@
         </div>
       </form>
       {{/with}}
+
+      <h4 class="page-header">Criterios de Evaluacion</h4>
+
+      <div class="btn-group">
+        <a href="{{pathFor 'createCriteria'}}" class="btn btn-warning">Anadir Criterio</a>
+      </div>
+
+      <h5>Los creados criterios mas recientes son:</h5>
+
+      {{#unless recentCriteria.count}}
+        <p>No existen criterios recientes.</p>
+      {{/unless}}
+      <ul>
+        {{#each recentCriteria}}
+          <li class="list-group-item">{{title}} - #{{tag}}</li>
+        {{/each}}
+        <li class="list-group-item">
+          <a href="{{pathFor 'criterias'}}">
+            Ver Todos...
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
