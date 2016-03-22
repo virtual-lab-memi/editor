@@ -1,4 +1,4 @@
-const CriteriaSchema = new SimpleSchema({
+CriteriaSchema = new SimpleSchema({
   title: {
     type: String
   },
@@ -29,3 +29,9 @@ const CriteriaSchema = new SimpleSchema({
 
 Criteria = new Mongo.Collection('criteria');
 Criteria.attachSchema(CriteriaSchema);
+
+CriteriaIndex = new EasySearch.Index({
+  collection: Criteria,
+  fields: ['title', 'tag'],
+  engine: new EasySearch.MongoDB()
+});

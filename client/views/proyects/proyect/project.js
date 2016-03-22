@@ -1,13 +1,24 @@
 Template.Project.onCreated(function() {
+    var instance = this;
     var projectID = FlowRouter.getParam('id');
-    Template.instance().subscribe('aProject', projectID);
-    var template = this;
-    this.keystrokesCount = 0;
+    instance.subscribe('aProject', projectID);
+    var settingsSub = instance.subscribe('settings');
 
-    Meteor.setInterval(function() {
-        console.log('timeout saving!');
-        saveFiles(template);
-    }, 300000);
+    instance.autorun(function() {
+        console.log('asdasdasdasdasdasd==============');
+
+        if (settingsSub.ready()) {
+            console.log('asdasdasdasdasdasd=============*********=');
+            var settings = Settings.findOne();
+            instance.keystrokesCount = 0;
+            instance.defaultKeystrokesCount = settings.keystrokes;
+
+            Meteor.setInterval(function () {
+                console.log('timeout saving!');
+                saveFiles();
+            }, settings.saveTimeout * 60000);
+        }
+    });
 });
 
 Template.Project.helpers({
@@ -16,7 +27,6 @@ Template.Project.helpers({
     },
     taskExecution: function() {
         var project = Projects.findOne();
-        console.log(TaskExecutions.findOne({_id: project.lastRun}));
         return TaskExecutions.findOne({_id: project.lastRun});
     },
     projectFiles: function() {
@@ -65,8 +75,7 @@ Template.Project.events({
 
     'keydown .tab-pane': function(event, template) {
         template.keystrokesCount = template.keystrokesCount + 1;
-
-        if (template.keystrokesCount === 20) {
+        if (template.keystrokesCount === template.defaultKeystrokesCount) {
             template.keystrokesCount = 0;
             saveFiles();
         }
@@ -112,8 +121,8 @@ Template.CreateFile.events({
     }
 });
 
-function saveFiles(template) {
-    console.log(template);
+function saveFiles() {
+    console.log('saving!');
     var project = Projects.findOne();
     var files = project.files;
 

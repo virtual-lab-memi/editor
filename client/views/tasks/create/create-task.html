@@ -1,35 +1,40 @@
 <template name="CreateTask">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-4">
-            <h4 class="page-header">Crear Tarea</h4>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h4 class="page-header">Crear Tarea</h4>
 
-            <form id="create-task-form">
+      <form id="create-task-form">
 
-                <div class="form-group">
-                    <label for="title">Nombre</label>
-                    <input type="title" name="title" class="form-control">
-                </div>
-
-                <div class="form-group">
-                    <label for="description">Descripcion</label>
-                    <input type="description" name="description" class="form-control">
-                </div>
-
-                <div class="form-group">
-                    <div>
-                        <label>Enfoque del Ejercicio</label>
-                    </div>
-                    <label class="radio-inline"><input type="radio" name="type" value="FOR">Ciclos FOR</label>
-                    <label class="radio-inline"><input type="radio" name="type" value="WHILE">Ciclos WHILE</label>
-                    <label class="radio-inline"><input type="radio" name="type" value="RECURSIVE">Recursividad</label>
-                    <label class="radio-inline"><input type="radio" name="type" value="NONE">Ninguno</label>
-                </div>
-
-                <div class="btn-group">
-                  <input type="submit" value="Crear Tarea" class="btn btn-primary"/>
-                  <button value="Cancel" class="btn btn-danger">Cancel</button>
-                </div>
-            </form>
+        <div class="form-group">
+          <label for="title">Nombre</label>
+          <input type="input" name="title" class="form-control">
         </div>
+
+        <div class="form-group">
+          <label for="description">Descripcion</label>
+          <input type="input" name="description" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Seleccione el criterio de evaluacion</label>
+          <input type="input" name="type" class="form-control" readonly="readonly" value={{selectedCriteria.title}}>
+
+          <p>Criterios de mas usados:</p>
+          <div class="form-group">
+            {{> EasySearch.Input index=criteriaIndex attributes=inputAttribs}}
+          </div>
+          <ul class="list-group">
+            {{#EasySearch.Each index=criteriaIndex}}
+              <li id="{{_id}}" class="list-group-item"><a href="">{{title}}</a></li>
+            {{/EasySearch.Each}}
+          </ul>
+        </div>
+
+        <div class="btn-group">
+          <input type="submit" value="Crear Tarea" class="btn btn-primary"/>
+          <a href="{{pathFor 'tasks'}}" class="btn btn-danger">Cancel</a>
+        </div>
+      </form>
     </div>
+  </div>
 </template>

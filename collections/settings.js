@@ -9,5 +9,5 @@ const SettingsSchema = new SimpleSchema({
     }
 });
 
-Settings = new Mongo.Collection('Settings');
+Settings = new Mongo.Collection('settings');
 Settings.attachSchema(SettingsSchema);
