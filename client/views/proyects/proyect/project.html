@@ -39,8 +39,23 @@
             <div id="output" class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
                 <button id="compile" class="btn btn-primary btn-block" type="button">Compilar</button>
                 <button id="run" class="btn btn-primary btn-block" type="button">Ejecutar</button>
-                <h4>Resultados:</h4>
-                <textarea class="form-control" rows="6"></textarea>
+                {{#with taskExecution}}
+                  <h4>Resultados de ultima ejecucion:</h4>
+                  {{#if error}}
+                    Error:
+                    <textarea class="form-control" rows="6">{{error}}</textarea>
+                  {{else}}
+                    {{#if isCompilation}}
+                      <p>Compilacion existosa!</p>
+                    {{else}}
+                      <p>Ejecucion existosa!</p>
+                    {{/if}}
+                  {{/if}}
+                  <p>Estado: {{status}}</p>
+                  <p>Resultado: {{grade}}</p>
+                  <p>Tiempo: {{time}} [Ms]</p>
+                  <p>Memoria: {{memory}} [MB]</p>
+                {{/with}}
             </div>
         {{/with}}
     </div>

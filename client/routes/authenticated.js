@@ -2,9 +2,9 @@ Accounts.onLogin(function() {
     var redirect = Session.get('redirectAfterLogin');
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
-    } else {
+    } /*else {
         FlowRouter.go('tasks');
-    }
+    }*/
 });
 
 const authenticatedRedirect = function() {
@@ -29,6 +29,13 @@ authenticatedRoutes.route('/settings', {
     name: 'settings',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Settings'});
+    }
+});
+
+authenticatedRoutes.route('/create-criteria', {
+    name: 'createCriteria',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'CreateCriteria'});
     }
 });
 
@@ -67,10 +74,17 @@ authenticatedRoutes.route('/projects', {
     }
 });
 
-authenticatedRoutes.route('/project/:id/:currentFile?', {
+authenticatedRoutes.route('/project/:id', {
     name: 'project',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Project'});
+    }
+});
+
+authenticatedRoutes.route('/project/:id/changes', {
+    name: 'projectChanges',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'ProjectChanges'});
     }
 });
 

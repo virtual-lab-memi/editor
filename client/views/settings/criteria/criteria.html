@@ -1,0 +1,45 @@
+<template name="CreateCriteria">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h4 class="page-header">Crear Criterio</h4>
+
+      <form id="create-criteria-form">
+
+        <div class="form-group">
+          <label for="title">Titulo</label>
+          <input type="title" name="title" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="tag">Tag</label>
+          <input type="tag" name="tag" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="regex">Regex or Patron</label>
+          <input type="regex" name="regex" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="tutorial">Tutorial</label>
+          <input type="tutorial" name="tutorial" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="syntaxFeed">Retroalimentacion Sintactica</label>
+          <input type="syntaxFeed" name="syntaxFeed" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="semanticFeed">Retroalimentacion Semantica</label>
+          <input type="semanticFeed" name="semanticFeed" class="form-control">
+        </div>
+
+        <div class="btn-group">
+          <input type="submit" value="Crear Criterio" class="btn btn-primary"/>
+          <a href="{{pathFor 'settings'}}" class="btn btn-danger">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>

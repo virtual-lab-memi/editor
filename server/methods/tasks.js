@@ -1,13 +1,5 @@
 Meteor.methods({
-    addTestCase: function(taskId, testCase, input, output) {
-        var task = Tasks.findOne(taskId);
-        Uploads.insert(input, function(error, inputID) {
-            Uploads.insert(output, function(error, outputID) {
-                testCase.input = inputID;
-                testCase.output = outputID;
-
-                Tasks.update(taskId, {$push: {testCases: testCase}});
-            });
-        });
+    addTestCase: function(taskId, testCase) {
+        Tasks.update(taskId, {$push: {testCases: testCase}});
     }
 });

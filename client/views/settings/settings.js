@@ -40,20 +40,17 @@ Template.Settings.onRendered(function() {
 
 Template.Settings.onCreated(function() {
   Template.instance().subscribe('settings');
+  Template.instance().subscribe('recentCriteria');
 });
 
 Template.Settings.helpers({
   settings: function() {
     var settings = Settings.findOne();
 
-    if (!settings) {
-      return {
-        keystrokes: 20,
-        saveTimeout: 5
-      }
-    }
-
     return settings;
+  },
+  recentCriteria: function() {
+    return Criteria.find();
   }
 });
 
