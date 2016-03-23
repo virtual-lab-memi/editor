@@ -1,4 +1,13 @@
+jQuery.validator.addMethod("isDescriptionPresent", function(value, element) {
+  var description = $('#summernote').summernote('code');
+  return description !== '<p><br></p>';
+}, "Por favor, ingrese una descripcion");
+
 Template.CreateTask.onRendered(function() {
+  $(document).ready(function() {
+    $('#summernote').summernote();
+  });
+
   $( '#create-task-form' ).validate({
     ignore: ":disabled",
     rules: {
@@ -6,27 +15,18 @@ Template.CreateTask.onRendered(function() {
         required: true
       },
       description: {
-        required: true
-      },
-      type: {
-        required: true
+        isDescriptionPresent: true
       }
     },
     messages: {
       title: {
         required: 'Por favor, ingrese un nombre'
-      },
-      description: {
-        required: 'Por favor, ingrese una descripcion'
-      },
-      type: {
-        required: 'Por favor, ingrese un criterio de evaluacion'
       }
     },
     submitHandler: function() {
       var title    = $( '[name="title"]' ).val(),
-        description = $('[name="description"]').val();
-      type = $('[name="type"]').val();
+        description = $('#summernote').summernote('code'),
+        type = $('[name="type"]').val();
 
       Tasks.insert({
         title: title,
@@ -71,7 +71,6 @@ Template.CreateTask.helpers({
     }
   },
   selectedCriteria: function() {
-    console.log(Template.instance().selectedCriteria.get());
     return Template.instance().selectedCriteria.get();
   }
 });

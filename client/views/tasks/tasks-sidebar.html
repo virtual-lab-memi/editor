@@ -1,16 +1,25 @@
 <template name="TasksSidebar">
     <div id="sidebar" class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
-        <h4>Tareas Disponibles</h4>
-        <a class="btn btn-primary btn-block" href="{{pathFor 'createTask'}}">Crear</a>
+        <h4>Tareas Recientes</h4>
+        <a class="btn btn-primary btn-block" href="{{pathFor 'createTask'}}">Crear nueva tarea</a>
+        <div class="form-group">
+          {{> EasySearch.Input index=taskIndex attributes=inputAttribs}}
+        </div>
         <ul class="list-group">
-            {{#each tasks}}
-                <li class="list-group-item">
-                    {{title}}
-                    <a href="{{pathFor 'task' id=_id}}" class="pull-right">
-                        <span class="glyphicon glyphicon-play"></span>
-                    </a>
-                </li>
-            {{/each}}
+          {{#EasySearch.Each index=taskIndex}}
+            <li class="list-group-item">
+                {{title}}
+                <a href="{{pathFor 'task' id=__originalId}}" class="pull-right">
+                    <span class="glyphicon glyphicon-play"></span>
+                </a>
+            </li>
+          {{/EasySearch.Each}}
         </ul>
+        {{#EasySearch.IfNoResults index=taskIndex}}
+          {{#EasySearch.IfInputEmpty index=taskIndex}}
+            <p>No existen tareas creadas.</p>
+          {{/EasySearch.IfInputEmpty}}
+          <p>La busqueda no devolvio ninguna tarea.</p>
+        {{/EasySearch.IfNoResults}}
     </div>
 </template>
