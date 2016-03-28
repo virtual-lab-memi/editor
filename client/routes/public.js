@@ -9,16 +9,17 @@ publicRoutes.route( '/login', {
     }
 });
 
-publicRoutes.route( '/signup', {
-    name: 'signup',
-    action: function() {
-        BlazeLayout.render( 'Default', { yield: 'Signup' } );
-    }
-});
-
 publicRoutes.route( '/invite/:token', {
     name: 'inviteRegistration',
     action: function() {
         BlazeLayout.render( 'Default', { yield: 'InviteRegistration' } );
     }
 });
+
+publicRoutes.route( '/', {
+    name: 'index',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Welcome' } );
+    }
+});
+

@@ -7,21 +7,23 @@ Meteor.publish("directory", function () {
   });
 });
 
+
+
 Meteor.publish( 'Users.users', function() {
   var isAdmin = Roles.userIsInRole( this.userId, 'admin' );
 
   if ( isAdmin ) {
-    return Meteor.users.find( {}, { fields: { "emails.address": 1, "roles": 1} } );
+    return Meteor.users.find( {}, { fields: { "emails.address": 1, "roles": 1, "profile.date": 1, "profile.disabled" : 1, "username": 1 } } );
   } else {
-    return [];
+    return null;
   }
 });
 
-Meteor.publish( 'Users.invites', function() {
+Meteor.publish( 'invites', function() {
   var isAdmin = Roles.userIsInRole( this.userId, 'admin' );
 
   if ( isAdmin ) {
-    return Invitations.find( {}, { fields: { "username": 1,"email": 1, "role": 1, "date": 1, "profile": 1 } } );
+    return Invitations.find( {}, { fields: { "firstname": 1, "lastname": 1, "email": 1, "role": 1, "date": 1, "profile": 1 } } );
   } else {
     return null;
   }

@@ -1,29 +1,34 @@
 <template name="Users">
-    {{#if isInRole 'admin'}}
 
         <h4 class="page-header">Users</h4>
         <table class="table table-bordered">
             <thead>
             <tr>
-                <th>Email Address</th>
+                <th> Email Address </th>
+                <th> Username </th>
                 <th class="text-center">Role</th>
+                <th> Register </th>
+                <th> Status </th>
             </tr>
             </thead>
             <tbody>
+
             {{#each users}}
                 <tr>
-                    <td class="text-left text-middle">{{#if isCurrentUser _id}}<label
-                            class="label label-success">You!</label>{{/if}} {{emails.[0].address}}</td>
+                    <td class="text-left text-middle">{{#if isCurrentUser _id}}<label class="label label-success">You!</label>{{/if}} {{emails.[0].address}}</td>
+                    <td> {{username}}</td>
                     <td>
+
                         <select {{disableIfAdmin _id}} name="userRole" class="form-control">
                             <option selected="{{selected roles.[0] 'admin'}}" value="admin">Admin</option>
                             <option selected="{{selected roles.[0] 'teacher'}}" value="employee">Teacher</option>
                             <option selected="{{selected roles.[0] 'student'}}" value="manager">Student</option>
                         </select>
                     </td>
+                    <td> {{profile.date}} </td>
+                    <td> {{profile.disabled}} </td>
                 </tr>
             {{/each}}
             </tbody>
         </table>
-    {{/if}}
 </template>

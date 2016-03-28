@@ -14,8 +14,8 @@ Template.CreateUserFile.events({
 
     Papa.parse( event.target.files[0], {
       header: true,
+      skipEmptyLines: true,
       complete: function( results, file ) {
-
         Meteor.call( 'parseUpload', results.data, function( error, response ) {
           if ( error ) {
             console.log( error.reason );
@@ -25,7 +25,7 @@ Template.CreateUserFile.events({
           }
         });
       },
-      skipEmptyLines: true
+
     });
   }
 });

@@ -24,13 +24,13 @@ var validation = function( template ) {
     },
     messages: {
       emailAddress: {
-        required: 'Inserte su correo electronico.'
+        required: 'Ingrese correo electronico.'
       },
       firstname: {
-        required: 'Insert su nombres'
+        required: 'Ingrese nombres'
       },
       lastname: {
-        required: 'Inserter su apellidos'
+        required: 'Ingrese apellidos'
       },
       roles: {
         required: 'Seleccione un rol por defecto.'
@@ -57,9 +57,9 @@ var _handleInvite = function(template) {
       role: role
     }, function( error, response ) {
       if ( error ) {
-        console.log(error);
+        Bert.alert( error.reason, "warning" );
       } else {
-        console.log('Invitation sent!');
+        Bert.alert( "Invitation sent!", "success" );
       }
     });
   } else {

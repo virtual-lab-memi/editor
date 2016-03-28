@@ -4,6 +4,6 @@ Template.TasksSidebar.onCreated(function() {
 
 Template.TasksSidebar.helpers({
     tasks: function() {
-        return Tasks.find();
+        return Tasks.find({owner: Meteor.userId()});
     }
 });

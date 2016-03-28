@@ -25,7 +25,8 @@ Template.CreateTask.onRendered(function() {
                 title: title,
                 description: description,
                 initialFileContent: 'public class Main() {}',
-                type: type
+                type: type,
+                owner: Meteor.userId()
             }, function(error, taskId) {
                 console.log(arguments);
                 if(error) {

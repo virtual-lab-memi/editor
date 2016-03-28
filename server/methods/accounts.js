@@ -3,37 +3,100 @@ Meteor.methods({
         check(data, Array);
         for (var i = 0; i < data.length; i++) {
             var user = data[i];
-
-            var exists = Meteor.users.findOne({'profile.sisId': user.sisId});
+            var flagEmail = false;
+            var exists = Meteor.users.findOne({'profile.codId': user.codId});
 
             if (!exists) {
-                var nombres = data[i].Nombres.trim();
-                var apellidos = data[i].Apellidos.trim();
-                var username = (nombres + apellidos).toLowerCase();
-                var sisId = data[i].sisId.trim();
+                var firstname = data[i].firstname;
+                var lastname = data[i].lastname;
+                var codId = data[i].codId;
+                var email = data[i].email;
+                var username = data[i].username;
+                var password = Random.hexString(16);
 
-                var userExist = Meteor.users.findOne({username: username});
+                if (email === "null" || email === null || email === " " || typeof email === "undefined" || typeof email === undefined || email === ' ') {
+                    flagEmail = true;
+                    if (username != "null" || username != null || username != "" || typeof username != "undefined" || typeof username != undefined) {
+                        username = firstname + lastname;
+                    }
+                    email = username + '@admin.com';
+
+
+                }
+                else {
+                    flagEmail = true;
+                    if (username === "null" || username === null || username === " " || typeof username === "undefined" || typeof username === undefined || username === ' ') {
+                        var lenghtUsername = email.indexOf("@");
+                        username = email.substring(0, lenghtUsername);
+                    } else {
+                        username = firstname + lastname;
+                    }
+
+                }
+
+                var userExist = Meteor.users.findOne({'emails.address': email});
 
                 if (!userExist) {
 
-                    var userId = Accounts.createUser({
-                        email: username + Meteor.settings.private.subDomain,
-                        username: username,
-                        password: Meteor.settings.private.defaultPassword,
-                        profile: {
-                            name: {
-                                first: nombres,
-                                last: apellidos
-                            },
-                            disabled: true,
-                            sisId: sisId,
-                        },
+                    if (flagEmail == true) {
+                        token = Random.hexString(32);
 
-                    });
+                        var userId = Accounts.createUser({
+                            email: email,
+                            username: username,
+                            password: password,
+                            profile: {
+                                name: {
+                                    first: firstname,
+                                    last: lastname
+                                },
+                                disabled: Meteor.settings.private.availableStateUser,
+                                codId: codId,
+                                date: (new Date() ).toISOString(),
+                            },
+
+                        });
+                    }else{
+                        var userId = Accounts.createUser({
+                            email: email,
+                            username: username,
+                            password: password,
+                            profile: {
+                                name: {
+                                    first: firstname,
+                                    last: lastname
+                                },
+                                disabled: Meteor.settings.public.availableStateUser,
+                                codId: codId,
+                                date: (new Date() ).toISOString(),
+                            },
+
+                        });
+
+                    }
+
+
+
                     Roles.setUserRoles(userId, 'student');
+                    try {
+                        if (flagEmail == true) {
+                            TMModules.server.sendInvitationCSV({
+                                email: email,
+                                password: password,
+                                firstname: firstname,
+                                lastname: lastname,
+                            });
+                        }
+                        flagEmail = false;
+
+                    } catch (exception) {
+                        console.log('ex:', exception);
+                        return {error: exception};
+                    }
                 } else {
                     console.warn('username already exist');
                 }
+
             } else {
                 console.warn('Reject. This item already exists.');
             }
