@@ -24,7 +24,7 @@ Template.Task.helpers({
 Template.Task.events({
     'click #startProject': function(event, template) {
         var taskId = FlowRouter.getParam('id');
-        console.log('asdasdsa')
+
         Meteor.call('createProject', taskId, function(error, newProjectId) {
             if (error) {
                 //TODO: Add bert alert

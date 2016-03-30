@@ -5,20 +5,12 @@
 
             <div class="form-group">
                 <label for="input">Entrada</label>
-                {{#if input}}
-                    Already uploaded: {{input}}
-                {{else}}
-                    {{> upload_bootstrap callbacks=inputCallback}}
-                {{/if}}
+                {{> upload_bootstrap autoStart=true formData=taskInput}}
             </div>
 
             <div class="form-group">
                 <label for="output">Salida</label>
-                {{#if output}}
-                    Already uploaded: {{output}}
-                {{else}}
-                    {{> upload_bootstrap callbacks=outputCallback}}
-                {{/if}}
+                {{> upload_bootstrap autoStart=true formData=taskOutput}}
             </div>
 
             <form id="test-case-form">

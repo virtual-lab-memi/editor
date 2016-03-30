@@ -12,9 +12,20 @@ const ProjectSchema = new SimpleSchema({
     openedFiles: {
         type: [String]
     },
+    lastRun: {
+        //Task Execution ID
+        type: String,
+        optional: true
+    },
     parent: {
         //Task ID
         type: String
+    },
+    owner: {
+        type: String,
+        autoValue: function (doc) {
+            return this.userId;
+        }
     }
 });
 

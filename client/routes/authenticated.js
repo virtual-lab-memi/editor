@@ -1,4 +1,4 @@
-Accounts.onLogin(function () {
+Accounts.onLogin(function() {
     var redirect = Session.get('redirectAfterLogin');
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
@@ -12,7 +12,7 @@ Accounts.onLogin(function () {
     }
 });
 
-const authenticatedRedirect = function () {
+const authenticatedRedirect = function() {
 
     if (!Meteor.loggingIn() && !Meteor.userId()) {
         var route = FlowRouter.current();
@@ -20,14 +20,8 @@ const authenticatedRedirect = function () {
         if (route.route.name !== 'login') {
             Session.set('redirectAfterLogin', route.path);
         }
-        FlowRouter.go('login');
-    }
-    var user = Meteor.user();
-    if (user.profile.disabled === 0) {
-         Bert.alert( "Profile Pendient../");
-    }else {
-        Bert.alert("Profile Success");
 
+        FlowRouter.go('login');
     }
 };
 
@@ -38,63 +32,63 @@ const authenticatedRoutes = FlowRouter.group({
 
 authenticatedRoutes.route('/settings', {
     name: 'settings',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'Settings'});
     }
 });
 
 authenticatedRoutes.route('/tasks', {
     name: 'tasks',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'Tasks'});
     }
 });
 
 authenticatedRoutes.route('/create-task', {
     name: 'createTask',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'CreateTask'});
     }
 });
 
 authenticatedRoutes.route('/tasks/:id', {
     name: 'task',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'Task'});
     }
 });
 
 authenticatedRoutes.route('/create-test-case/:taskId', {
     name: 'createTestCase',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'CreateTestCase'});
     }
 });
 
 authenticatedRoutes.route('/projects', {
     name: 'projects',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'Projects'});
     }
 });
 
 authenticatedRoutes.route('/project/:id/:currentFile?', {
     name: 'project',
-    action: function () {
+    action: function() {
         BlazeLayout.render('Default', {yield: 'Project'});
     }
 });
 
-authenticatedRoutes.route('/users', {
+authenticatedRoutes.route( '/users', {
     name: 'users',
-    action: function () {
-        BlazeLayout.render('Default', {yield: 'Users'});
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Users' } );
     }
 });
 
-authenticatedRoutes.route('/invites', {
+authenticatedRoutes.route( '/invites', {
     name: 'invites',
-    action: function () {
-        BlazeLayout.render('Default', {yield: 'Invites'});
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'Invites' } );
     }
 });
