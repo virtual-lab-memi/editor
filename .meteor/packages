@@ -37,6 +37,8 @@ alanning:roles
 harrison:papa-parse
 fortawesome:fontawesome
 digilord:faker          #Used for generating fake data.
-check
+check                   # Allows for checking the structure and types of arguments passed to Meteor methods and publications.
 random
 easy:search
+summernote:summernote
+templating

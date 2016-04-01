@@ -12,11 +12,12 @@
 
         <div class="form-group">
           <label for="description">Descripcion</label>
-          <input type="input" name="description" class="form-control">
+          <div id="summernote"></div>
+          <input type="input" name="description" class="form-control" style="display: none;">
         </div>
 
         <div class="form-group">
-          <label>Seleccione el criterio de evaluacion</label>
+          <label>Seleccione el criterio de evaluacion (Opcional)</label>
           <input type="input" name="type" class="form-control" readonly="readonly" value={{selectedCriteria.title}}>
 
           <p>Criterios de mas usados:</p>
@@ -30,10 +31,8 @@
           </ul>
         </div>
 
-        <div class="btn-group">
-          <input type="submit" value="Crear Tarea" class="btn btn-primary"/>
-          <a href="{{pathFor 'tasks'}}" class="btn btn-danger">Cancel</a>
-        </div>
+        <input type="submit" value="Crear" class="btn btn-primary"/>
+        <a href="{{pathFor 'tasks'}}" class="btn btn-danger">Cancelar</a>
       </form>
     </div>
   </div>

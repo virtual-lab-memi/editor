@@ -28,7 +28,8 @@ const TaskSchema = new SimpleSchema({
         optional: true
     },
     type: {
-        type: String
+        type: String,
+        optional: true
     },
     projects: {
         type: [String],
@@ -41,3 +42,9 @@ const TaskSchema = new SimpleSchema({
 
 Tasks = new Mongo.Collection('tasks');
 Tasks.attachSchema(TaskSchema);
+
+TaskIndex = new EasySearch.Index({
+  collection: Tasks,
+  fields: ['title'],
+  engine: new EasySearch.MongoDB()
+});
