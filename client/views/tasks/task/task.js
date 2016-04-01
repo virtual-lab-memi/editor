@@ -23,6 +23,7 @@ Template.Task.helpers({
 });
 Template.Task.events({
     'click #startProject': function(event, template) {
+        document.getElementById('startProject').disabled = true;
         var taskId = FlowRouter.getParam('id');
 
         Meteor.call('createProject', taskId, function(error, newProjectId) {
@@ -37,4 +38,3 @@ Template.Task.events({
         });
     }
 });
-
