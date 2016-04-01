@@ -23,3 +23,16 @@ publicRoutes.route( '/', {
     }
 });
 
+publicRoutes.route( '/recover-password', {
+    name: 'recover-password',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'RecoverPassword' } );
+    }
+});
+
+publicRoutes.route( '/reset-password/:token', {
+    name: 'reset-password',
+    action: function() {
+        BlazeLayout.render( 'Default', { yield: 'ResetPassword' } );
+    }
+});
