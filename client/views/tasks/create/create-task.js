@@ -16,20 +16,11 @@ Template.CreateTask.onRendered(function() {
       },
       description: {
         isDescriptionPresent: true
-      },
-      type: {
-        required: true
       }
     },
     messages: {
       title: {
         required: 'Por favor, ingrese un nombre'
-      },
-      description: {
-        required: 'Por favor, ingrese una descripcion'
-      },
-      type: {
-        required: 'Por favor, ingrese un criterio de evaluacion'
       }
     },
     submitHandler: function() {
