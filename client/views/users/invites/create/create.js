@@ -24,13 +24,13 @@ var validation = function( template ) {
     },
     messages: {
       emailAddress: {
-        required: 'Ingrese correo electronico.'
+        required: 'Inserte su correo electronico.'
       },
       firstname: {
-        required: 'Ingrese nombres'
+        required: 'Insert su nombres'
       },
       lastname: {
-        required: 'Ingrese apellidos'
+        required: 'Inserter su apellidos'
       },
       roles: {
         required: 'Seleccione un rol por defecto.'

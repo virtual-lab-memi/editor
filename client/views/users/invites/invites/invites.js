@@ -7,7 +7,6 @@ Template.Invites.helpers({
         var invitations = Invitations.find();
 
         if ( invitations ) {
-            console.log(invitations);
             return invitations;
         }
     }
