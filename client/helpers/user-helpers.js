@@ -1,4 +1,3 @@
-/*
 UI.registerHelper("isStudent", function(){
   var loggedInUser = Meteor.user();
   return Roles.userIsInRole(loggedInUser, 'student');
@@ -25,7 +24,7 @@ UI.registerHelper('userFullname', function(userId) {
 
   return user ? user.profile.name.first + ' ' + user.profile.name.last : 'NA';
 });
-*/
+
 
 Template.registerHelper( 'isCurrentUser', function( currentUser ) {
   return currentUser === Meteor.userId() ? true : false;

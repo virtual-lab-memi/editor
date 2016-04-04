@@ -15,7 +15,7 @@ Meteor.publish( 'Users.users', function() {
   if ( isAdmin ) {
     return Meteor.users.find( {}, { fields: { "emails.address": 1, "roles": 1, "profile.date": 1, "profile.disabled" : 1, "username": 1 } } );
   } else {
-    return null;
+    return [];
   }
 });
 

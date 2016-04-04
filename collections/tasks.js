@@ -34,9 +34,6 @@ const TaskSchema = new SimpleSchema({
     projects: {
         type: [String],
         optional: true
-    },
-    owner:{
-        type: String
     }
 });
 

@@ -41,5 +41,4 @@ check                   # Allows for checking the structure and types of argumen
 random
 easy:search
 summernote:summernote
-templating
 ecmascript

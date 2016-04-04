@@ -1,5 +1,5 @@
 <template name="Users">
-
+    {{#if isInRole 'admin'}}
         <h4 class="page-header">Users</h4>
         <table class="table table-bordered">
             <thead>
@@ -31,4 +31,5 @@
             {{/each}}
             </tbody>
         </table>
+    {{/if}}
 </template>

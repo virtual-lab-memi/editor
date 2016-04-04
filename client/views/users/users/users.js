@@ -19,9 +19,6 @@ Template.Users.helpers({
     if ( invitations ) {
       return invitations;
     }
-  },
-  disabledtoString: function () {
-    return this.profile.disabled.toString();
   }
 
 });

@@ -11,6 +11,7 @@
     "availableStateUser" : "habilitado",
     "neverRespondedStateUser" : "noRespondio",
     "applicationName": "Virtual Lab MEMI",
-    "accountAdmin": "oma378501@gmail.com"
+    "accountAdmin": "admin@admin.com",
+    "accountSupport": "support@admin.com"
   }
 }
