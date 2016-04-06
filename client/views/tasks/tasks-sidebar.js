@@ -1,11 +1,11 @@
 Template.TasksSidebar.helpers({
     taskIndex: function() {
-      return TaskIndex;
+        return TaskIndex;
     },
     inputAttribs: function() {
-      return {
-        class: "form-control",
-        placeholder: "Buscar tareas..."
-      }
+        return {
+            class: "form-control",
+            placeholder: "Buscar tareas..."
+        }
     }
 });

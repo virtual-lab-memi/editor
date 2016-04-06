@@ -25,8 +25,8 @@ Template.CreateTask.onRendered(function() {
     },
     submitHandler: function() {
       var title    = $( '[name="title"]' ).val(),
-        description = $('#summernote').summernote('code'),
-        type = $('[name="type"]').val();
+          description = $('#summernote').summernote('code'),
+          type = $('[name="type"]').val();
 
       Tasks.insert({
         title: title,

@@ -57,9 +57,9 @@ var _handleInvite = function(template) {
       role: role
     }, function( error, response ) {
       if ( error ) {
-        console.log(error);
+        Bert.alert( error.reason, "warning" );
       } else {
-        console.log('Invitation sent!');
+        Bert.alert( "Invitation sent!", "success" );
       }
     });
   } else {

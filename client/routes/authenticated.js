@@ -2,9 +2,16 @@ Accounts.onLogin(function() {
     var redirect = Session.get('redirectAfterLogin');
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
-    } /*else {
+    } else {
         FlowRouter.go('tasks');
-    }*/
+
+        if(Roles.userIsInRole( Meteor.userId(), 'teacher' )){
+            FlowRouter.go('tasks');
+        }else{
+            FlowRouter.go("/");
+        }
+
+    }
 });
 
 const authenticatedRedirect = function() {

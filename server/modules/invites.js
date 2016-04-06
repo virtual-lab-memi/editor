@@ -18,7 +18,8 @@ var _createUser = function( options ) {
                 first: options.firstname,
                 last: options.lastname
             },
-            disabled: false
+            disabled: Meteor.settings.private.availableStateUser,
+            date:  (new Date() ).toISOString(),
         }
     });
 
@@ -72,6 +73,26 @@ var _sendInvitation = function( email, content ) {
     });
 };
 
+var invitationCSV = function( options ) {
+    _insertInvitation( options );
+    var email = _prepareEmailCSV(options.password);
+    _sendInvitation( options.email, email );
+};
+
+
+var _prepareEmailCSV = function(password) {
+    var domain = Meteor.settings.private.domain;
+    var url    = 'http://' + domain + '/login';
+
+    SSR.compileTemplate( 'invitation', Assets.getText( 'email/templates/invitationCSV.html' ) );
+    var html = SSR.render( 'invitation', { url: url, password: password } );
+
+    return html;
+};
+
 TMModules.server.sendInvitation = invitation;
 
 TMModules.server.acceptInvitation = accept;
+
+
+TMModules.server.sendInvitationCSV = invitationCSV;

@@ -1,11 +1,10 @@
 Template.Users.onCreated( function() {
-  Template.instance().subscribe( 'users' );
+  Template.instance().subscribe( 'Users.users' );
 });
 
 Template.Users.helpers({
   users: function() {
     var users = Meteor.users.find();
-
     if ( users ) {
       return users;
     }
@@ -21,6 +20,7 @@ Template.Users.helpers({
       return invitations;
     }
   }
+
 });
 
 Template.Users.events({
