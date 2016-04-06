@@ -25,6 +25,7 @@ UI.registerHelper('userFullname', function(userId) {
   return user ? user.profile.name.first + ' ' + user.profile.name.last : 'NA';
 });
 
+
 Template.registerHelper( 'isCurrentUser', function( currentUser ) {
   return currentUser === Meteor.userId() ? true : false;
 });
@@ -38,3 +39,7 @@ Template.registerHelper( 'disableIfAdmin', function( userId ) {
 Template.registerHelper( 'selected', function( v1, v2 ) {
   return v1 === v2 ? true : false;
 });
+
+Accounts.ResetPassword.text = function(user, url) {
+  return "Click this link to reset your password: /reset-password/" + myId;
+}

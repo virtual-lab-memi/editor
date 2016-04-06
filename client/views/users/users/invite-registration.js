@@ -40,8 +40,8 @@ Template.InviteRegistration.events({
         console.log(error);
         Bert.alert( error.reason, 'warning' );
       } else {
-        FlowRouter.go('Login');
         Meteor.loginWithPassword( user.email, password );
+        FlowRouter.go('/');
       }
     });
   }
