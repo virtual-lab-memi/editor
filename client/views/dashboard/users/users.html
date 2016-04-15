@@ -1,0 +1,27 @@
+<template name="UserDashboard">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h4 class="page-header">{{userToReview.profile.name.first}} {{userToReview.profile.name.last}}</h4>
+      <div class="form-group">
+        <label>Seleccione la tarea que desea revisar o busquela por nombre:</label>
+        {{> EasySearch.Input index=projectsByUserIndex attributes=inputAttribs}}
+      </div>
+      <ul class="list-group">
+        {{#EasySearch.Each index=projectsByUserIndex}}
+          <li class="list-group-item">
+            {{title}}
+            <a href="{{pathFor 'projectDashboard' id=userToReview._id projectId=_id}}" class="pull-right">
+              <span class="glyphicon glyphicon-play"></span>
+            </a>
+          </li>
+        {{/EasySearch.Each}}
+      </ul>
+      {{#EasySearch.IfNoResults index=projectsByUserIndex}}
+        {{#EasySearch.IfInputEmpty index=projectsByUserIndex}}
+          <p>No existen tareas iniciadas por este usuario.</p>
+        {{/EasySearch.IfInputEmpty}}
+        <p>La busqueda no devolvio ninguna tarea.</p>
+      {{/EasySearch.IfNoResults}}
+    </div>
+  </div>
+</template>

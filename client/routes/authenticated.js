@@ -3,14 +3,14 @@ Accounts.onLogin(function() {
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
     } else {
-        FlowRouter.go('tasks');
+        /*FlowRouter.go('tasks');
 
         if(Roles.userIsInRole( Meteor.userId(), 'teacher' )){
             FlowRouter.go('tasks');
         }else{
             FlowRouter.go("/");
         }
-
+*/
     }
 });
 
@@ -85,6 +85,27 @@ authenticatedRoutes.route('/project/:id', {
     name: 'project',
     action: function() {
         BlazeLayout.render('Default', {yield: 'Project'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard', {
+    name: 'dashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Dashboard'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard/:id', {
+    name: 'userDashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'UserDashboard'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard/:id/project/:projectId', {
+    name: 'projectDashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'ProjectDashboard'});
     }
 });
 
