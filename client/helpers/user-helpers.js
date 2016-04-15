@@ -39,7 +39,3 @@ Template.registerHelper( 'disableIfAdmin', function( userId ) {
 Template.registerHelper( 'selected', function( v1, v2 ) {
   return v1 === v2 ? true : false;
 });
-
-Accounts.ResetPassword.text = function(user, url) {
-  return "Click this link to reset your password: /reset-password/" + myId;
-}
