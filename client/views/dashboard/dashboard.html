@@ -1,0 +1,28 @@
+<template name="Dashboard">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-6">
+      <h4 class="page-header">Dashboard de Monitoreo</h4>
+      <div class="form-group">
+        <label>Seleccione al estudiante que desea monitorear o busquelo por nombre:</label>
+        {{> EasySearch.Input index=usersIndex attributes=inputAttribs}}
+      </div>
+      <ul class="list-group">
+        {{#EasySearch.Each index=usersIndex}}
+          <li class="list-group-item">
+            {{profile.name.first}} {{profile.name.last}}
+            <a href="{{pathFor 'userDashboard' id=__originalId}}" class="pull-right">
+              <span class="badge">{{emails.[0].address}}</span>
+              <span class="glyphicon glyphicon-play"></span>
+            </a>
+          </li>
+        {{/EasySearch.Each}}
+      </ul>
+      {{#EasySearch.IfNoResults index=usersIndex}}
+        {{#EasySearch.IfInputEmpty index=usersIndex}}
+          <p>No existen usuarios registrados</p>
+        {{/EasySearch.IfInputEmpty}}
+        <p>La busqueda no devolvio ningun usuario</p>
+      {{/EasySearch.IfNoResults}}
+    </div>
+  </div>
+</template>

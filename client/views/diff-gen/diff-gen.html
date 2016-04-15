@@ -1,0 +1,24 @@
+<template name="DiffGen">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h4>Diferencias entre cambios</h4>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <textarea rows="10" style="width: 100%" disabled>{{diff1}}</textarea>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <textarea rows="10" style="width: 100%" disabled>{{diff2}}</textarea>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <button id="diffGen" type="button" class="btn btn-primary btn-lg btn-block">Generar diff</button>
+
+      <div id="diffoutput" class="jumbotron" style="overflow-y:scroll;"></div>
+    </div>
+  </div>
+
+</template>

@@ -16,3 +16,18 @@ Meteor.publish('aProjectFiles', function(id) {
     //TODO: filter tasks by user whe authentication is implemented.
     return Files.find({parent: id});
 });
+
+Meteor.publish('projectsByOwner', function(owner) {
+    return Projects.find({owner: owner});
+});
+
+Meteor.publish('aProjectByUser', function(owner, project) {
+    return [
+        Meteor.users.find({_id: owner}),
+        Projects.find({_id: project, owner: owner})
+    ];
+});
+
+Meteor.publish('executionsByProject', function(project) {
+    return TaskExecutions.find({project: project}, {sort: {date: -1}});
+});

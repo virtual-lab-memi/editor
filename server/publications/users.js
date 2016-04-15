@@ -7,7 +7,9 @@ Meteor.publish("directory", function () {
   });
 });
 
-
+Meteor.publish("aUser", function (userToReview) {
+  return Meteor.users.find({_id: userToReview});
+});
 
 Meteor.publish( 'Users.users', function() {
   var isAdmin = Roles.userIsInRole( this.userId, 'admin' );
@@ -33,4 +35,3 @@ Meteor.publish('invite', function(token) {
   check(token, String);
   return Invitations.find({ "token": token });
 });
-

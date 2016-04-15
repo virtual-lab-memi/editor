@@ -8,7 +8,7 @@ var administrators = [
 ];
 
 var generateAccounts = function() {
-  var fakeUserCount = 0,
+  var fakeUserCount = 20,
       usersExist    = _checkIfAccountsExist( administrators.length + fakeUserCount );
 
   if ( !usersExist ) {

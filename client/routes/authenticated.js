@@ -3,14 +3,14 @@ Accounts.onLogin(function() {
     if (redirect && redirect !== 'login') {
         FlowRouter.go(redirect);
     } else {
-        FlowRouter.go('tasks');
+        /*FlowRouter.go('tasks');
 
         if(Roles.userIsInRole( Meteor.userId(), 'teacher' )){
             FlowRouter.go('tasks');
         }else{
             FlowRouter.go("/");
         }
-
+*/
     }
 });
 
@@ -88,10 +88,38 @@ authenticatedRoutes.route('/project/:id', {
     }
 });
 
-authenticatedRoutes.route('/project/:id/changes', {
+authenticatedRoutes.route('/dashboard', {
+    name: 'dashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'Dashboard'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard/:id', {
+    name: 'userDashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'UserDashboard'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard/:id/project/:projectId', {
+    name: 'projectDashboard',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'ProjectDashboard'});
+    }
+});
+
+authenticatedRoutes.route('/dashboard/:id/project/:projectId/changes/:fileId', {
     name: 'projectChanges',
     action: function() {
         BlazeLayout.render('Default', {yield: 'ProjectChanges'});
+    }
+});
+
+authenticatedRoutes.route('/diff/:diff1/and/:diff2', {
+    name: 'diffGen',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'DiffGen'});
     }
 });
 

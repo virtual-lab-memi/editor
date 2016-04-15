@@ -31,3 +31,9 @@ const ProjectSchema = new SimpleSchema({
 
 Projects = new Mongo.Collection('projects');
 Projects.attachSchema(ProjectSchema);
+
+ProjectsByUserIndex = new EasySearch.Index({
+    collection: Projects,
+    fields: ['title'],
+    engine: new EasySearch.Minimongo()
+});
