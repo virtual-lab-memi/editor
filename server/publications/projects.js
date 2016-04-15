@@ -29,5 +29,5 @@ Meteor.publish('aProjectByUser', function(owner, project) {
 });
 
 Meteor.publish('executionsByProject', function(project) {
-    return TaskExecutions.find({project: project});
+    return TaskExecutions.find({project: project}, {sort: {date: -1}});
 });

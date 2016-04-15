@@ -109,10 +109,17 @@ authenticatedRoutes.route('/dashboard/:id/project/:projectId', {
     }
 });
 
-authenticatedRoutes.route('/project/:id/changes', {
+authenticatedRoutes.route('/dashboard/:id/project/:projectId/changes/:fileId', {
     name: 'projectChanges',
     action: function() {
         BlazeLayout.render('Default', {yield: 'ProjectChanges'});
+    }
+});
+
+authenticatedRoutes.route('/diff/:diff1/and/:diff2', {
+    name: 'diffGen',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'DiffGen'});
     }
 });
 
