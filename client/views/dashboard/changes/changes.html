@@ -1,0 +1,39 @@
+<template name="ProjectChanges">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h4>{{file.name}}: Cambios Producidos</h4>
+      Seleccione 2 cambios para obtener los cambios entre ellos:
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <table class="table table-striped">
+        <thead>
+        <tr>
+          <th></th>
+          <th>Diferencias (Levenstain)</th>
+          <th>Fecha</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each diffTracks}}
+          <tr>
+            <td>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" class="diff-check" value="{{_id}}">
+                </label>
+              </div>
+            </td>
+            <td>{{levenstain}}</td>
+            <td>{{humanDateTime date}}</td>
+          </tr>
+        {{/each}}
+        </tbody>
+      </table>
+      <button id="diff-gen" class="btn btn-primary btn-lg btn-block">Ver diferencias en cambios</button>
+    </div>
+  </div>
+
+</template>

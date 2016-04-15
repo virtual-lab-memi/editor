@@ -1,0 +1,34 @@
+<template name="ProjectDashboard">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h4 class="page-header">{{userToReview.profile.name.first}} {{userToReview.profile.name.last}} - {{project.title}}</h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
+      <h4 class="page-header">Archivos Creados</h4>
+      <ul class="list-group">
+        {{#each files}}
+          <li class="list-group-item">
+            {{name}}
+            <a  href="{{pathFor 'projectChanges' id=userToReview._id projectId=project._id fileId=_id}}" class="pull-right">
+              <span class="badge">Ver Cambios</span>
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="col-xs-12 col-sm-9 col-md-8 col-lg-8">
+      <h4 class="page-header">Ultimas ejecuciones</h4>
+        <ul class="list-group">
+          {{#each executions}}
+            <li class="list-group-item {{#unless status}}list-group-item-success{{else}}list-group-item-danger{{/unless}}">
+              {{humanDateTime date}}
+                <span class="badge">{{#if isCompilation}}Compilacion{{else}}Ejecucion{{/if}}</span>
+                {{#unless isCompilation}}{{#if status}}<span class="badge">{{status}}</span>{{/if}}{{/unless}}
+            </li>
+          {{/each}}
+        </ul>
+    </div>
+  </div>
+</template>

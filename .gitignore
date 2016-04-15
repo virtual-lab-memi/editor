@@ -2,3 +2,4 @@
 .meteor/meteorite
 .idea
 .uploads
+node_modules
