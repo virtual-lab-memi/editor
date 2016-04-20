@@ -38,46 +38,33 @@ Meteor.methods({
 
                 if (!userExist) {
 
+                    var disabled;
+
                     if (flagEmail == true) {
-                        token = Random.hexString(32);
-
-                        var userId = Accounts.createUser({
-                            email: email,
-                            username: username,
-                            password: password,
-                            profile: {
-                                name: {
-                                    first: firstname,
-                                    last: lastname
-                                },
-                                disabled: Meteor.settings.private.availableStateUser,
-                                codId: codId,
-                                date: (new Date() ).toISOString(),
-                            },
-
-                        });
-                    }else{
-                        var userId = Accounts.createUser({
-                            email: email,
-                            username: username,
-                            password: password,
-                            profile: {
-                                name: {
-                                    first: firstname,
-                                    last: lastname
-                                },
-                                disabled: Meteor.settings.public.availableStateUser,
-                                codId: codId,
-                                date: (new Date() ).toISOString(),
-                            },
-
-                        });
-
+                        disabled = Meteor.settings.private.availableStateUser;
+                    } else {
+                        disabled = Meteor.settings.public.availableStateUser;
                     }
 
+                    var userId = Accounts.createUser({
+                        email: email,
+                        username: username,
+                        password: password,
+                        profile: {
+                            name: {
+                                first: firstname,
+                                last: lastname
+                            },
+                            disabled: disabled,
+                            codId: codId,
+                            date: (new Date() ).toISOString(),
+                        },
+
+                    });
 
 
                     Roles.setUserRoles(userId, 'student');
+
                     try {
                         if (flagEmail == true) {
                             TMModules.server.sendInvitationCSV({
