@@ -23,5 +23,12 @@ Template.ProjectDashboard.helpers({
   executions: function() {
     var project = FlowRouter.getParam('projectId');
     return TaskExecutions.find({project: project})
+  },
+  successStatus: function() {
+    if (!this.status || this.status === 'SUCCESS') {
+      return true;
+    }
+
+    return false;
   }
 });

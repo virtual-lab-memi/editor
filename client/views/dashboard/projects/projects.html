@@ -22,7 +22,7 @@
       <h4 class="page-header">Ultimas ejecuciones</h4>
         <ul class="list-group">
           {{#each executions}}
-            <li class="list-group-item {{#unless status}}list-group-item-success{{else}}list-group-item-danger{{/unless}}">
+            <li class="list-group-item {{#if successStatus}}list-group-item-success{{else}}list-group-item-danger{{/if}}">
               {{humanDateTime date}}
                 <span class="badge">{{#if isCompilation}}Compilacion{{else}}Ejecucion{{/if}}</span>
                 {{#unless isCompilation}}{{#if status}}<span class="badge">{{status}}</span>{{/if}}{{/unless}}
