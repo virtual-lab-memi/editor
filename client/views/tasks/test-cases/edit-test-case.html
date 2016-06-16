@@ -1,0 +1,31 @@
+<template name="EditTestCase">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4">
+      <h4 class="page-header">Añadir Caso de Prueba</h4>
+
+      <div class="form-group">
+        <label for="input">Subir nueva entrada</label>
+        <h6>ID Archivo de entrada actual: <small>{{selectedTestCase.input}}</small></h6>
+        {{> upload_bootstrap autoStart=true formData=taskInput}}
+      </div>
+
+      <div class="form-group">
+        <label for="output">Subir nueva salida</label>
+        <h6>ID Archivo de salida actual: <small> {{selectedTestCase.output}}</small></h6>
+        {{> upload_bootstrap autoStart=true formData=taskOutput}}
+      </div>
+
+      <form id="test-case-form">
+        <div class="form-group">
+          <label for="feedback">Descripcion</label>
+          <input type="text" name="feedback" class="form-control" value="{{selectedTestCase.feedback}}">
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Actualizar" class="btn btn-primary"/>
+          <a href="{{pathFor 'task' id=taskID}}" class="btn btn-danger">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</template>

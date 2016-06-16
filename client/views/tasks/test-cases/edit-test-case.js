@@ -1,4 +1,11 @@
-Template.CreateTestCase.onRendered(function() {
+Template.EditTestCase.onCreated(function() {
+    var taskId = FlowRouter.getParam('taskId');
+    Template.instance().subscribe('aTask', taskId);
+    this.inputID = Uploads.insert({type: 'TASK'});
+    this.outputID = Uploads.insert({type: 'TASK'});
+});
+
+Template.EditTestCase.onRendered(function() {
     var me = this;
     me.saveNow = false;
 
@@ -15,42 +22,54 @@ Template.CreateTestCase.onRendered(function() {
         },
         submitHandler: function() {
             var taskId = FlowRouter.getParam('taskId');
+            var testID = FlowRouter.getParam('index');
             var feedback    = $( '[name="feedback"]' ).val(),
                 input = me.inputID,
                 output = me.outputID;
-
+            var testID = FlowRouter.getParam('index');
+            var task = Tasks.findOne();
+            var test = task.testCases.find(function (testCase) {
+                return testCase.id === testID;
+            });
+            console.log(test);
             var fileLabels = $('.progress-label');
             var inputLabel = fileLabels[0];
             var outputLabel = fileLabels[1];
 
-            if (inputLabel.innerText === '' || outputLabel.innerText === '') {
-                Bert.alert('Necesita subir sus archivos de prueba.', 'warning');
-                return;
+            if (inputLabel.innerText !== '') {
+                test.input = me.inputID;
             }
+            if (outputLabel.innerText !== '') {
+                test.output = me.outputID;
+            }
+            test.feedback = feedback;
 
-            Meteor.call('addTestCase', taskId, {
-                feedback: feedback,
-                input: input,
-                output:output
-            }, function(error) {
+            console.log(test);
+            Meteor.call('updateTestCase', taskId, testID, test, function(error) {
                 if(error) {
-                    Bert.alert('El caso de prueba no pudo ser añadido, intente otra vez.', 'warning');
+                    Bert.alert('El caso de prueba no pudo ser actualizado, intente otra vez.', 'warning');
                     return;
                 }
 
-                Bert.alert('El caso de prueba se añadio exitosamente!', 'success');
+                Bert.alert('El caso de prueba se actualizo exitosamente!', 'success');
                 FlowRouter.go('task', {id: taskId});
             });
         }
     });
 });
 
-Template.CreateTestCase.onCreated(function() {
-    this.inputID = Uploads.insert({type: 'TASK'});
-    this.outputID = Uploads.insert({type: 'TASK'});
-});
-
-Template.CreateTestCase.helpers({
+Template.EditTestCase.helpers({
+    selectedTestCase: function() {
+        var testID = FlowRouter.getParam('index');
+        var task = Tasks.findOne();
+        if (task) {
+            return task.testCases.find(function (testCase) {
+                return testCase.id === testID;
+            });
+        } else {
+            return null;
+        }
+    },
     taskInput: function() {
         var taskId = FlowRouter.getParam('taskId');
         return {
@@ -72,10 +91,9 @@ Template.CreateTestCase.helpers({
     taskID: function() {
         return FlowRouter.getParam('taskId');
     }
-
 });
 
-Template.CreateTestCase.events({
+Template.EditTestCase.events({
     'submit form': function(event) {
         event.preventDefault();
     }

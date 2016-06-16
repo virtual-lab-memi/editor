@@ -74,6 +74,13 @@ authenticatedRoutes.route('/create-test-case/:taskId', {
     }
 });
 
+authenticatedRoutes.route('/edit-test-case/:taskId/:index', {
+    name: 'editTestCase',
+    action: function() {
+        BlazeLayout.render('Default', {yield: 'EditTestCase'});
+    }
+});
+
 authenticatedRoutes.route('/projects', {
     name: 'projects',
     action: function() {
