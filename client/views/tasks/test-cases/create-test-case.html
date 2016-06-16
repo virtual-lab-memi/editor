@@ -15,17 +15,13 @@
 
             <form id="test-case-form">
                 <div class="form-group">
-                    <label for="feedback">Retroalimentacion en error</label>
+                    <label for="feedback">Descripcion</label>
                     <input type="text" name="feedback" class="form-control">
                 </div>
 
                 <div class="form-group">
-                    <label for="tag">Tag</label>
-                    <input type="tag" name="tag" class="form-control">
-                </div>
-
-                <div class="form-group">
                     <input type="submit" value="Añadir" class="btn btn-primary"/>
+                    <a href="{{pathFor 'task' id=taskID}}" class="btn btn-danger">Cancelar</a>
                 </div>
             </form>
         </div>

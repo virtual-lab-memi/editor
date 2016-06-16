@@ -1,4 +1,10 @@
 const TestCasesSchema = new SimpleSchema({
+    id: {
+        type: String,
+        autoValue: function() {
+            return Meteor.uuid();
+        }
+    },
     input: {
         type: String
     },
@@ -6,9 +12,6 @@ const TestCasesSchema = new SimpleSchema({
         type: String
     },
     feedback: {
-        type: String
-    },
-    tag: {
         type: String
     }
 });
